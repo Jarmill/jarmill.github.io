@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Convex Optimization, Nonlinear Systems, Control Theory, (Semi) Algebraic Geometry
+subtitle: Convex Optimization, Nonlinear Systems, Control Theory, (Semi) Algebraic Geometry 
 profile:
   align: right
   image: prof_pic.jpg
