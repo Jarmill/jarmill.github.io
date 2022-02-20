@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /cv/
+title: cv
+description: 
+nav: false
+---
+  <article>
+    <ul>
+  <li> CV is in progress </li>	
+  <li><a href="/home/assets/pdf/jared_miller_resume.pdf">Download Resume </a></li>
+  <li><a href="/home/assets/pdf/Publications_by_Jared_Miller.pdf">Download Publications</a></li>
+</ul>
+<!-- {{ entry.pdf | prepend: '/assets/pdf/' | relative_url }} -->
+<p><br /></p>
+
+Put an iframe here with a link to my CV.
+
+<!--Replace with a link to my own cv<iframe src="https://drive.google.com/file/d/1adiSFK4NkFyDmMPDF3REhVIkQP5Wt_Gy/preview" style="width:100%; height:800px; border:0;" scrolling="no"></iframe>-->
+
