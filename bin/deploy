@@ -81,14 +81,14 @@ fi
 #then
     git checkout $SRC_BRANCH
 #else
-    git checkout -b $SRC_BRANCH
+#    git checkout -b $SRC_BRANCH
 #fi
 
 # Checkout DEPLOY_BRANCH branch
-if [ `git branch | grep $DEPLOY_BRANCH` ]
-then
-  git branch -D $DEPLOY_BRANCH
-fi
+#if [ `git branch | grep $DEPLOY_BRANCH` ]
+#then
+#  git branch -D $DEPLOY_BRANCH
+#fi
 git checkout -b $DEPLOY_BRANCH
 
 # Build site
