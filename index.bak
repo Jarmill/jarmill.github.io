@@ -143,22 +143,35 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">May 20, 2022</th>
+                  <td>
+                    <a class="news-title" href="/news/ann_7_eeci_sparsity/">I assisted Mario Sznaier in teaching the Sparsity course at EECI  between May 16-20.</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Apr 20, 2022</th>
+                  <td>
+                    Our paper “Facial Input Decompositions for Robust Peak Estimation under Polyhedral Uncertainty” <a href="https://arxiv.org/abs/2112.14838" target="_blank" rel="noopener noreferrer">(extended arxiv)</a> has been accepted for presentation at <a href="https://rocond21.ee.t.kyoto-u.ac.jp/" target="_blank" rel="noopener noreferrer">ROCOND 2022</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Apr 17, 2022</th>
+                  <td>
+                    <a class="news-title" href="/news/ann_5_mfo/">I participated in a workshop at MFO about Conic Linear Optimization and gave a presentation about Distance Estimation.</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Mar 14, 2022</th>
+                  <td>
+                    I will be giving a seminar about Distance Estimation at the <a href="https://indico.math.cnrs.fr/event/6564/page/434-accueil" target="_blank" rel="noopener noreferrer">SMAI-MODE Days of Optimization</a> in Limoges on June 3, 2022.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Jan 10, 2022</th>
                   <td>
-                    <a class="news-title" href="/news/announcement_3/">I am visiting LAAS-CNRS in Toulouse from Jan. 10 to Jul. 12, 2022.</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Dec 17, 2021</th>
-                  <td>
-                    <a class="news-title" href="/news/announcement_2/">I received an Outstanding Student Paper Award at the 60th CDC</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Apr 28, 2020</th>
-                  <td>
-                    I was selected for a STEM <a href="https://www.chateaubriand-fellowship.org/" target="_blank" rel="noopener noreferrer">Chateaubriand Fellowship</a> to work with and visit the <a href="https://www.laas.fr/public/en/mac" target="_blank" rel="noopener noreferrer">MAC</a> team at <a href="https://www.laas.fr/public/en" target="_blank" rel="noopener noreferrer">LAAS-CNRS</a>, Toulouse, France.
- 
+                    <a class="news-title" href="/news/ann_3_chateaubriand_start/">I am visiting LAAS-CNRS in Toulouse from Jan. 10 to Jul. 12, 2022.</a> 
                   </td>
                 </tr> 
               </table>
@@ -261,6 +274,63 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2021distance" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Bounding the Distance to Unsafe Sets with Convex Optimization</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2110.14047" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/distance_presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This work proposes an algorithm to bound the minimum distance between points on trajectories of a dynamical system and points on an unsafe set. Prior work on certifying safety of trajectories includes barrier and density methods, which do not provide a margin of proximity to the unsafe set in terms of distance. The distance estimation problem is relaxed to a Monge-Kantorovich type optimal transport problem based on existing occupation-measure methods of peak estimation. Specialized programs may be developed for polyhedral norm distances (e.g. L1 and Linfinity) and for scenarios where a shape is traveling along trajectories (e.g. rigid body motion). The distance estimation problem will be correlatively sparse when the distance objective is separable.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2021distance</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Distance to Unsafe Sets with Convex Optimization}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{distance_presentation.pdf}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
