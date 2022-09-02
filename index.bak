@@ -143,6 +143,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Sep 2, 2022</th>
+                  <td>
+                    <a class="news-title" href="/news/ann_11_rocond_yaa_2022/">I received a Young Author Award at ROCOND 2022</a> 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Jul 16, 2022</th>
                   <td>
                     <a class="news-title" href="/news/ann_10_cdc_2022/">3 papers were accepted to the 61st IEEE CDC</a> 
@@ -155,7 +161,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jul 1, 2022</th>
+                  <th scope="row">Jun 30, 2022</th>
                   <td>
                     I will be delivering a <a href="https://mecc2022.a2c2.org/events.html" target="_blank" rel="noopener noreferrer">DCSD Rising Stars</a> talk about Distance Estimation at the 2nd <a href="https://mecc2022.a2c2.org/index.html" target="_blank" rel="noopener noreferrer">Modeling, Estimation, and Control Conference</a>.
  
@@ -165,13 +171,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">May 20, 2022</th>
                   <td>
                     <a class="news-title" href="/news/ann_7_eeci_sparsity/">I assisted Mario Sznaier in teaching the Sparsity course at EECI  between May 16-20.</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Apr 20, 2022</th>
-                  <td>
-                    Our paper “Facial Input Decompositions for Robust Peak Estimation under Polyhedral Uncertainty” <a href="https://arxiv.org/abs/2112.14838" target="_blank" rel="noopener noreferrer">(extended arxiv)</a> has been accepted for presentation at <a href="https://rocond21.ee.t.kyoto-u.ac.jp/" target="_blank" rel="noopener noreferrer">ROCOND 2022</a>.
- 
                   </td>
                 </tr> 
               </table>
