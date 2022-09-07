@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Chateaubriand Fellowship being hosted at LAAS-CNRS has concluded.
+title: My Chateaubriand Fellowship hosted at LAAS-CNRS has concluded.
 date: 2022-07-12 15:59:00-0400
 inline: false
 ---
