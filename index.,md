@@ -140,9 +140,24 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- News -->          
           <div class="news">
-            <h2>news</h2>
+            <h2><a href="news/">news</a></h2>
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
+                <tr>
+                  <th scope="row">Sep 7, 2022</th>
+                  <td>
+                    I am serving as a Teaching Assistant for Machine Learning and Pattern Recognition (EECE 5644, Fall 2022) taught by Prof. David Brady.
+
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Sep 6, 2022</th>
+                  <td>
+                    I have joined the IEEE Control Systems Society Technical Committee on Robust and Complex Systems <a href="http://ieeecss.org/technical-committee/robust-complex-systems" target="_blank" rel="noopener noreferrer">(TCRoCS)</a>.
+ 
+                  </td>
+                </tr> 
                 <tr>
                   <th scope="row">Sep 2, 2022</th>
                   <td>
@@ -158,20 +173,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 <tr>
                   <th scope="row">Jul 12, 2022</th>
                   <td>
-                    <a class="news-title" href="/news/ann_9_chateaubriand_conclude/">My Chateaubriand Fellowship being hosted at LAAS-CNRS has concluded.</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jun 30, 2022</th>
-                  <td>
-                    I will be delivering a <a href="https://mecc2022.a2c2.org/events.html" target="_blank" rel="noopener noreferrer">DCSD Rising Stars</a> talk about Distance Estimation at the 2nd <a href="https://mecc2022.a2c2.org/index.html" target="_blank" rel="noopener noreferrer">Modeling, Estimation, and Control Conference</a>.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">May 20, 2022</th>
-                  <td>
-                    <a class="news-title" href="/news/ann_7_eeci_sparsity/">I assisted Mario Sznaier in teaching the Sparsity course at EECI  between May 16-20.</a> 
+                    <a class="news-title" href="/news/ann_9_chateaubriand_conclude/">My Chateaubriand Fellowship hosted at LAAS-CNRS has concluded.</a> 
                   </td>
                 </tr> 
               </table>
