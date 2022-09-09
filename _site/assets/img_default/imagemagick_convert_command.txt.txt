@@ -1,5 +1,0 @@
-jekyll-imagemagick does not work on my system, likely due to a windows issue in calling the files and the magick convert utility
-
-al-folio looks for images with the formats .jpg, .jpeg, .png, .tiff. (look at _config.yml)
-
-It then converts those images into webp images with widths [480, 800, 1400]
