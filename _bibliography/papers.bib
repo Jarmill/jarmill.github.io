@@ -116,6 +116,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   bibtex_show={true}
   }
   
+  
 @preprint{miller2021distance,
       title={{Bounding the Distance to Unsafe Sets with Convex Optimization}}, 
       author={Miller, Jared and Sznaier, Mario},
@@ -166,6 +167,21 @@ abbr={CDC},
 year={2022},
 abstract={This paper proposes a method to find super-stabilizing controllers for discrete-time linear systems that are
 consistent with a set of corrupted observations. The L-infinity bounded measurement noise introduces a bilinearity between the unknown plant parameters and noise terms. A super-stabilizing controller may be found by solving a feasibility problem involving a set of polynomial nonnegativity constraints in terms of the unknown plant parameters and noise terms. A sequence of sum-of-squares (SOS) programs in rising degree will yield a super-stabilizing controller if such a controller exists. Unfortunately, these SOS programs  exhibit very poor scaling as the degree increases. A theorem of alternatives is employed to yield equivalent, convergent (under mild conditions), and more computationally tractable SOS programs. }
+}
+
+@preprint{miller2022lpvqmi,
+      title={{Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalitie}}, 
+      author={Miller, Jared and Sznaier, Mario},
+      year={2022},
+      eprint={2209.06251},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      note={arXiv: 2209.06251},
+	  url={https://arxiv.org/abs/2209.06251},
+	  abstract={This paper synthesizes a gain-scheduled controller to stabilize all possible Linear Parameter-Varying (LPV) plants that are consistent with measured input/state data records. Inspired by prior work in data informativity and LTI stabilization, a set of Quadratic Matrix Inequalities is developed to represent the noise set, the class of consistent LPV plants, and the class of stabilizable plants. The bilinearity between unknown plants and `for all' parameters is avoided by vertex enumeration of the parameter set. Effectiveness and computational tractability of this method is demonstrated on example systems.},
+	  code={https://github.com/Jarmill/lpv_qmi},	  
+	  arxiv={2209.06251},
+	  selected={false}
 }
 
 @preprint{miller2021facial,
