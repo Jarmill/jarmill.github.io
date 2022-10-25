@@ -116,6 +116,22 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   bibtex_show={true}
   }
   
+  @preprint{miller2022eiv,
+      title={Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables}, 
+      author={Jared Miller and Tianyu Dai and Mario Sznaier},
+      year={2022},
+      eprint={2210.13430},
+	  arxiv={2210.13430},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+	  note={arXiv: 2210.13430},
+	  abstract={This work presents a sum-of-squares (SOS) based framework to perform data-driven stabilization and robust control tasks on discrete-time linear systems where the full-state observations are corrupted by L-infinity bounded measurement noise (error in variable setting). Certificates of state-feedback superstability or quadratic stability of all plants in a consistency set are provided by solving a feasibility program formed by polynomial nonnegativity constraints. Under mild compactness and data-collection assumptions, SOS tightenings in rising degree will converge to recover the true superstabilizing controller, with slight conservatism introduced for quadratic stabilizability. The performance of this SOS method is improved through the application of a theorem of alternatives while retaining tightness, in which the unknown noise variables are eliminated from the consistency set description. This SOS feasibility method is extended to provide worst-case-optimal robust controllers under H2 control costs. The consistency set description may be broadened to include cases where the data and process are affected by a combination of L-infinity bounded measurement, process, and input noise. Further generalizations include varying noise sets, non-uniform sampling, and switched systems stabilization.},
+	  bibtex_show={true},
+	  code={https://github.com/jarmill/error_in_variables},
+	  pdf={Noise_in_Variable__Journal_Arxiv.pdf},
+	  selected={true}
+}
+  
   
 @preprint{miller2021distance,
       title={{Bounding the Distance to Unsafe Sets with Convex Optimization}}, 
@@ -130,7 +146,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 	  abstract={This work proposes an algorithm to bound the minimum distance between points on trajectories of a dynamical system and points on an unsafe set. Prior work on certifying safety of trajectories includes barrier and density methods, which do not provide a margin of proximity to the unsafe set in terms of distance. The distance estimation problem is relaxed to a Monge-Kantorovich type optimal transport problem based on existing occupation-measure methods of peak estimation. Specialized programs may be developed for polyhedral norm distances (e.g. L1 and Linfinity) and for scenarios where a shape is traveling along trajectories (e.g. rigid body motion). The distance estimation problem will be correlatively sparse when the distance objective is separable.},
 	  code={https://github.com/Jarmill/distance},
 	  bibtex_show={true},
-	  slides={distance_presentation.pdf},
+	  slides={Distance_MECC_Presentation.pdf},
 	  arxiv={2110.14047},
 	  selected={true}
 }
