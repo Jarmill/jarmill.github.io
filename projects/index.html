@@ -110,7 +110,7 @@
             <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
-  <h2 class="category">current</h2>
+  <h2 class="category">active</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
     <!-- _includes/projects.html -->
@@ -120,19 +120,74 @@
 <figure>
 
   <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/12-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/12-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/12-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/12.jpg" alt="project thumbnail">
+   <!--  -->
+	 <source srcset="/assets/img/12.webp"></source> 
 
+    <!-- Fallback to the original file -->
+	<img src="/assets/img/12.jpg">
+	
+	   <!--  
+	<img  src="/assets/img/12.webp"    />
+
+    
+    <img  src="/assets/img/12.jpg"    />
+-->
   </picture>
 
 </figure>
-
+<!-- alt="project thumbnail"  -->
           <div class="card-body">
             <h2 class="card-title text-lowercase">Peak Estimation</h2>
             <p class="card-text">Bound extreme values of state functions using occupation measure techniques</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/ddc_project/">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Data-Driven Control</h2>
+            <p class="card-text">Find controllers for all plants that are consistent with the observed data.</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <h2 class="category">inactive</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/ribosome_project/">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+   <!--  -->
+	 <source srcset="/assets/img/3.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img src="/assets/img/3.jpg">
+	
+	   <!--  
+	<img  src="/assets/img/3.webp"    />
+
+    
+    <img  src="/assets/img/3.jpg"    />
+-->
+  </picture>
+
+</figure>
+<!-- alt="project thumbnail"  -->
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Ribosome Competition</h2>
+            <p class="card-text">Reduce competition for ribosomes in RNA translation by splitting pools (orthogonal ribosomes)</p>
             <div class="row ml-1 mr-1 p-0">
             </div>
           </div>
@@ -146,16 +201,22 @@
 <figure>
 
   <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" alt="project thumbnail">
+   <!--  -->
+	 <source srcset="/assets/img/3.webp"></source> 
 
+    <!-- Fallback to the original file -->
+	<img src="/assets/img/3.jpg">
+	
+	   <!--  
+	<img  src="/assets/img/3.webp"    />
+
+    
+    <img  src="/assets/img/3.jpg"    />
+-->
   </picture>
 
 </figure>
-
+<!-- alt="project thumbnail"  -->
           <div class="card-body">
             <h2 class="card-title text-lowercase">Sparsity</h2>
             <p class="card-text">Leverage sparse structure in order to render large-scale semidefinite programs tractable</p>
@@ -165,36 +226,6 @@
         </div>
       </a>
     </div>
-    <!-- _includes/projects.html -->
-    <div class="grid-item">
-      <a href="/projects/ribosome_project/">
-        <div class="card hoverable">
-<figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" alt="project thumbnail">
-
-  </picture>
-
-</figure>
-
-          <div class="card-body">
-            <h2 class="card-title text-lowercase">Ribosome Competition</h2>
-            <p class="card-text">Reduce competition for ribosomes in RNA translation by splitting pools (orthogonal ribosomes)</p>
-            <div class="row ml-1 mr-1 p-0">
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-  <h2 class="category">completed</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
     <!-- _includes/projects.html -->
     <div class="grid-item">
       <a href="/projects/mimo_project/">
