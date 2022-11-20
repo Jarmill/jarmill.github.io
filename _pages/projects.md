@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A collection of projects (in progress)
 nav: false
-display_categories: [current, completed]
+display_categories: [active, inactive]
 horizontal: false
 ---
 

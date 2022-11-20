@@ -18,3 +18,5 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
+
+gem "jekyll-webp", "~> 1.0"

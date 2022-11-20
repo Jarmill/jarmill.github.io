@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sparsity
-description: Leverage sparse structure in order to render large-scale semidefinite programs tractable
-img: assets/img/3.jpg
+title: Data-Driven Control
+description: Find controllers for all plants that are consistent with the observed data.
+img:
 importance: 2
-category: inactive
+category: active
 ---
 
 In progress (default text below)

@@ -4,7 +4,7 @@ title: MIMO Identification
 description: System identification of multi-input multi-output (MIMO) linear system through the use of active set methods
 img:
 importance: 3
-category: completed
+category: inactive
 ---
 
 In progress (default text below)

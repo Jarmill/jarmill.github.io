@@ -4,7 +4,7 @@ title: Peak Estimation
 description: Bound extreme values of state functions using occupation measure techniques
 img: assets/img/12.jpg
 importance: 1
-category: current
+category: active
 ---
 
 In progress (default text below)

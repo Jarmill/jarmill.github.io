@@ -4,7 +4,7 @@ title: Ribosome Competition
 description: Reduce competition for ribosomes in RNA translation by splitting pools (orthogonal ribosomes)
 img: assets/img/3.jpg
 importance: 2
-category: current
+category: inactive
 ---
 
 In progress (default text below)
