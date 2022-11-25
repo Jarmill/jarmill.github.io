@@ -238,6 +238,7 @@ scholar:
   sort_by: type, year
   order: ascending, descending
   group_by: type
+  type_names: { preprint: Preprints }
   
   
   # sort_by: year

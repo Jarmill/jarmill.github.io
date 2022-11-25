@@ -42,6 +42,23 @@
   - firstname: ["Tianyu"]
     url: https://scholar.google.com/citations?user=FcJDJI8AAAAJ&hl=en&oi=sra
 
+"Inyang-Udoh":
+  - firstname: ["Uduak"]   
+    url: https://scholar.google.com/citations?user=TeEpcZcAAAAJ&hl=en
+
+"Taskazan":
+  - firstname: ["Beg\"{u}m"]
+    url: https://scholar.google.com/citations?user=FF4ftHEAAAAJ& hl=en
+
+"Shafai":
+  - firstname: [Bahram]
+    url: https://coe.northeastern.edu/people/shafai-bahram/
+
+
+"Chang":
+  - firstname: ["Yale", "Y.", "Y"]
+    url: https://yalechang.github.io/
+
 "Papachristodoulou":
   - firstname: ["Antonis"]
     url: https://eng.ox.ac.uk/people/antonis-papachristodoulou/
