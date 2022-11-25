@@ -80,3 +80,8 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+<div class="publications">
+	<h1>Relevant Publications:</h1>
+	{% bibliography -f papers -q @*[tag=mimo]* %}
+  </div>

@@ -225,6 +225,25 @@ scholar:
   details_link: Details
 
   query: "@*"
+  
+    # type_order: [misc, preprint, techreport, inproceedings, article, thesis, inbook, book]
+  type_order: [thesis, book, inbook, article, inproceedings, techreport, preprint, misc]
+  # sort_by: type, year
+  # group_by: type, year
+  # order: ascending
+  # sort_by: type
+  # group_by: type
+  # order: ascending
+  
+  sort_by: type, year
+  order: ascending, descending
+  group_by: type
+  
+  
+  # sort_by: year
+  # group_by: year, type
+  # order: ascending,ascending
+  
 
 
 # -----------------------------------------------------------------------------

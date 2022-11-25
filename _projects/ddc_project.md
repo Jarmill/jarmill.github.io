@@ -3,7 +3,8 @@ layout: page
 title: Data-Driven Control
 description: Find controllers for all plants that are consistent with the observed data.
 img:
-importance: 2
+importance: 2 
+tag: ddc
 category: active
 ---
 
@@ -80,3 +81,8 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+<div class="publications">
+	<h1>Relevant Publications:</h1>
+	{% bibliography -f papers -q @*[tag=ddc]* %}
+  </div>
