@@ -150,6 +150,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Nov 27, 2022</th>
+                  <td>
+                    The paper <a href="https://arxiv.org/abs/2209.06251" target="_blank" rel="noopener noreferrer">“Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalities”</a> with M. Sznaier was accepted to the <a href="http://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters (L-CSS)</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Oct 4, 2022</th>
                   <td>
                     I have delivered a <a href="https://mecc2022.a2c2.org/events.html" target="_blank" rel="noopener noreferrer">DSCD Rising Stars</a> talk about <a href="/assets/pdf/Distance_MECC_presentation.pdf">Distance Estimation</a> at the 2nd <a href="https://mecc2022.a2c2.org/index.html" target="_blank" rel="noopener noreferrer">Modeling, Estimation, and Control Conference</a>.
@@ -178,13 +185,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
  
                   </td>
                 </tr> 
-                <tr>
-                  <th scope="row">Sep 6, 2022</th>
-                  <td>
-                    I have joined the IEEE Control Systems Society Technical Committee on Robust and Complex Systems <a href="http://ieeecss.org/technical-committee/robust-complex-systems" target="_blank" rel="noopener noreferrer">(TCRoCS)</a>.
- 
-                  </td>
-                </tr> 
               </table>
             </div> 
           </div>
@@ -192,8 +192,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Selected papers -->
           <div class="publications">
             <h2>selected publications</h2>
-            <ol class="bibliography">
-<li>
+            <h2 class="bibliography">Journal Articles</h2>
+<ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">AUT</abbr></div>
@@ -230,8 +230,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           </div>
         </div>
       </div>
-</li>
-<li>
+</li></ol>
+<h2 class="bibliography">Conference Articles</h2>
+<ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">CDC</abbr></div>
@@ -275,6 +276,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{3222-3228}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/CDC45484.2021.9683778}</span><span class="p">,</span>
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{CDC_uncertain.pdf}</span><span class="p">,</span>
@@ -285,6 +287,63 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+<h2 class="bibliography">Preprints</h2>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2022eiv" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://scholar.google.com/citations?user=FcJDJI8AAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Dai, Tianyu</a>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2210.13430" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/Noise_in_Variable__Journal_Arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/jarmill/error_in_variables" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This work presents a sum-of-squares (SOS) based framework to perform data-driven stabilization and robust control tasks on discrete-time linear systems where the full-state observations are corrupted by L-infinity bounded measurement noise (error in variable setting). Certificates of state-feedback superstability or quadratic stability of all plants in a consistency set are provided by solving a feasibility program formed by polynomial nonnegativity constraints. Under mild compactness and data-collection assumptions, SOS tightenings in rising degree will converge to recover the true superstabilizing controller, with slight conservatism introduced for quadratic stabilizability. The performance of this SOS method is improved through the application of a theorem of alternatives while retaining tightness, in which the unknown noise variables are eliminated from the consistency set description. This SOS feasibility method is extended to provide worst-case-optimal robust controllers under H2 control costs. The consistency set description may be broadened to include cases where the data and process are affected by a combination of L-infinity bounded measurement, process, and input noise. Further generalizations include varying noise sets, non-uniform sampling, and switched systems stabilization.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2022eiv</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Dai, Tianyu and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2210.13430}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2210.13430}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{ddc}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2210.13430}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/error_in_variables}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Noise_in_Variable__Journal_Arxiv.pdf}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -334,6 +393,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
   <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
@@ -341,60 +401,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_MECC_Presentation.pdf}</span><span class="p">,</span>
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2022eiv" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, <a href="https://scholar.google.com/citations?user=FcJDJI8AAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Dai, Tianyu</a>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2210.13430" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="/assets/pdf/Noise_in_Variable__Journal_Arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/jarmill/error_in_variables" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>This work presents a sum-of-squares (SOS) based framework to perform data-driven stabilization and robust control tasks on discrete-time linear systems where the full-state observations are corrupted by L-infinity bounded measurement noise (error in variable setting). Certificates of state-feedback superstability or quadratic stability of all plants in a consistency set are provided by solving a feasibility program formed by polynomial nonnegativity constraints. Under mild compactness and data-collection assumptions, SOS tightenings in rising degree will converge to recover the true superstabilizing controller, with slight conservatism introduced for quadratic stabilizability. The performance of this SOS method is improved through the application of a theorem of alternatives while retaining tightness, in which the unknown noise variables are eliminated from the consistency set description. This SOS feasibility method is extended to provide worst-case-optimal robust controllers under H2 control costs. The consistency set description may be broadened to include cases where the data and process are affected by a combination of L-infinity bounded measurement, process, and input noise. Further generalizations include varying noise sets, non-uniform sampling, and switched systems stabilization.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2022eiv</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Dai, Tianyu and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2210.13430}</span><span class="p">,</span>
-  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2210.13430}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2210.13430}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/error_in_variables}</span><span class="p">,</span>
-  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Noise_in_Variable__Journal_Arxiv.pdf}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
