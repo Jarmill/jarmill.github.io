@@ -9,7 +9,7 @@ category: active
 
 Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, height of an aircraft, voltage in a power line, etc. Peak estimation may be used to quantify the safety of trajectories. This project extends the occupation measure framework developed for optimal control and peak estimation. The moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.
 
-My first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) {% cite miller2020recovery %}. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) {% cite miller2021uncertain %}.
+Our first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) {% cite miller2020recovery %}. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) {% cite miller2021uncertain %}.
 An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set {% cite miller2021distance %}.
 
 <div class="row">

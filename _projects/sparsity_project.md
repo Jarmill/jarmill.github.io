@@ -2,10 +2,44 @@
 layout: page
 title: Sparsity
 description: Leverage sparse structure in order to render large-scale semidefinite programs tractable
-img: assets/img/3.jpg
+img: 
 importance: 2
 category: inactive
 ---
+
+
+Interior-point methods for Semidefinite Programming (SDP) scale in a polynomial manner with the size of the largest Positive Semidefinite (PSD) block and the number of affine constraints (when solving up to epsilon-optimality). This complexity may be reduced if the problem instance contains structure, such as symmetry or sparsity.
+
+### Decomposed Structured Subsets
+
+### Rank Minimization
+
+Our work in {% cite miller2019rank %} aimed to solve SDP that contained rank-constraints. Rank-constraints and rank-minimization problems are NP-hard, but there exist convex heuristics that attempt to approximate the optimal solution. On their own, rank-constrained SDPs scale in an exponential manner with the size of the largest rank-constrained PSD block. After utilizing a minimum-rank completion, the complexity now scales in an exponential manner with the size of the largest rank-constrained clique. This phenomenon may be used to construct regularizers (reweighted trace heuristic) based on the sum of clique matrices. An application of this method is in Subspace Clustering, which is a highly sparse polynomial optimization problem that classifies noisy points into subspaces. We developed a more efficient chordal extension to reduce the complexity of subspace clustering, and applied it to solve clustering and system identification problems.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SSC_successful-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SSC-sparsity.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: An instance of Subspace Clustering. Right: Chordal extensions associated with the Subspace Clustering problem. Our scheme scales exponentially with dimension and jointly linearly with the number of points and clusters.
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SSC_rank-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    All rank-relevant submatrices must be rank-1 in order to have a valid subspace clustering (rank-1-ness = ratio of largest eigenvalue to sum of eigenvalues).
+</div>
+
+
+
 
 In progress (default text below)
 
