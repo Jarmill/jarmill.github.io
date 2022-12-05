@@ -12,6 +12,19 @@ Interior-point methods for Semidefinite Programming (SDP) scale in a polynomial 
 
 ### Decomposed Structured Subsets
 
+Structured subset approximations are cones that inner/outer approximate the PSD cone to generate upper/lower bounds on the SDP optimum. An example of a structured subset for a minimization objective is the cone of diagonally dominant matrices (inner/upper bound) or its dual (outer/lower bound). Our observation in [] is twofold: imposition of a structured subset destroys sparse structure in an SDP, and requiring clique-submatrices are in a structured subset yields a broader set of solutions (more accurate bounds) as compared to requiring the original matrix is in thr subset. 
+
+
+[images]
+
+This scheme allows for mixing cones: intractably large blocks can be approximated while small PSD blocks remain PSD. 
+
+[cone mix image] 
+
+Multiple kinds of structure can be combined together. For a system with simultaneous symmetry and sparsity properties, applying the symmetric then sparse decomposition before approximating yields the tightest bounds to the SDP. 
+
+[symmetry image]
+
 ### Rank Minimization
 
 Our work in {% cite miller2019rank %} aimed to solve SDP that contained rank-constraints. Rank-constraints and rank-minimization problems are NP-hard, but there exist convex heuristics that attempt to approximate the optimal solution. On their own, rank-constrained SDPs scale in an exponential manner with the size of the largest rank-constrained PSD block. After utilizing a minimum-rank completion, the complexity now scales in an exponential manner with the size of the largest rank-constrained clique. This phenomenon may be used to construct regularizers (reweighted trace heuristic) based on the sum of clique matrices. An application of this method is in Subspace Clustering, which is a highly sparse polynomial optimization problem that classifies noisy points into subspaces. We developed a more efficient chordal extension to reduce the complexity of subspace clustering, and applied it to solve clustering and system identification problems.
