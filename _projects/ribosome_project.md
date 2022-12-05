@@ -82,12 +82,11 @@ We also consider a self-inhibiting feedback controller that ensures orthogonal r
 </div>
 
 The ORFM model assumes a perfect rejection: host ribosomes will never translate circuit genes (and vice versa). The cross-talk RFM model allows for a varying-but-nonzero initiation rate between ribosomal species. Empirically the crosstalk ORFM model appears stable, but proving its stability remains an open question.
-
-<!-- <div class="row"> -->
+ <div class="row">
     <div class="col-sm mt-1 mt-md-0">
         {% include figure.html path="assets/img/cross_rfm_network.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-<!-- </div> -->
+ </div>
 <div class="caption">
    mRNA strands access both types of ribosomes.
 </div>
