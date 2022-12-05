@@ -15,7 +15,7 @@ This project involved modeling the heave motion of an air cushioned vehicle (ACV
     </div>
 </div>
 <div class="caption">
-    The pod has four bagged air-skates (red fabric components)
+    The pod has four bagged air-skates (red fabric components).
 </div>
 
 
@@ -27,7 +27,7 @@ There exists gaps between the track plates, and the plates them selves drift in 
     </div>
 </div>
 <div class="caption">
-    Track profile when the pod moves at 60 mph
+    Track profile when the pod moves at 60 mph.
 </div>
 
 <div class="row">
@@ -36,7 +36,7 @@ There exists gaps between the track plates, and the plates them selves drift in 
     </div>
 </div>
 <div class="caption">
-    Track profile when the pod moves at 400 mph
+    Track profile when the pod moves at 400 mph.
 </div>
 
 We developed a nonlinear model based on a Forchheimer porosity approximation for the heave motion of the bagged ACV. The model matches experimental findings of the pod dynamics: the pod is stable at atmospheric pressure and tends to oscillate (approaching instability) at tube (near-vacuum) pressure. We developed a control strategy and certified stability using a sum-of-squares verified Lyapunov function. The controlled pod rejects the track height disturbance and results in a smooth ride.
