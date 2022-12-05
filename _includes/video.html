@@ -1,0 +1,13 @@
+{%- assign path = include.path -%}
+<div class="video_container">
+
+  <video width="100%"  loop muted="muted" controls="controls" class="d-block rounded-bottom-2 width-fit" allowfullscreen="allowfullscreen">
+
+	 <source {% if include.class %}class="{{ include.class }}"{% endif %} srcset="{{path}}" type="video/mp4/">
+  
+  Your browser does not support HTML video.
+	
+  </video>
+  
+
+</div>

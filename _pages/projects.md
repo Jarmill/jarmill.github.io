@@ -2,8 +2,8 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of projects (in progress)
-nav: false
+description: A collection of projects
+nav: true
 display_categories: [active, inactive]
 horizontal: false
 ---
