@@ -437,7 +437,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/Distance_MECC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -459,7 +459,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_MECC_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>

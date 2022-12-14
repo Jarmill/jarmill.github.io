@@ -240,6 +240,9 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/Distance__CDC_Final.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -273,7 +276,9 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/Projection_onto_Global_Minimizers__CDC.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/Jarmill/inverse_optimal" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/CDC_2022_Projection_onto_Global_Minimizers.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -309,7 +314,9 @@ Discrete-Time Linear Systems</div>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/Noise_in_Variable__CDC.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/jarmill/error_in_variables" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/EIV_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -742,7 +749,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/Distance_MECC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -764,7 +771,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_MECC_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
