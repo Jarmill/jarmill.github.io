@@ -396,6 +396,61 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
+        <div id="imtiaz2022saif" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">SAIF: Sparse Adversarial and Interpretable Attack Framework</div>
+          <!-- Author -->
+          <div class="author">Imtiaz, Tooba, Kohler, Morgan, 
+                  <em>Miller, Jared</em>, Wang, Zifeng, <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>, <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Camps, Octavia</a>, and <a href="https://coe.northeastern.edu/people/dy-jennifer/" target="_blank" rel="noopener noreferrer">Dy, Jennifer</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2212.07495" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/SAIF_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Adversarial attacks hamper the decision-making ability of neural networks by perturbing the input signal. The addition of calculated small distortion to images, for instance, can deceive a well-trained image classification network. In this work, we propose a novel attack technique called Sparse Adversarial and Interpretable Attack Framework (SAIF). Specifically, we design imperceptible attacks that contain low-magnitude perturbations at a small number of pixels and leverage these sparse attacks to reveal the vulnerability of classifiers. We use the Frank-Wolfe (conditional gradient) algorithm to simultaneously optimize the attack perturbations for bounded magnitude and sparsity with O(1/sqrt(T)) convergence. Empirical results show that SAIF computes highly imperceptible and interpretable adversarial examples, and outperforms state-of-the-art sparse attack methods on the ImageNet dataset.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">imtiaz2022saif</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.48550/ARXIV.2212.07495}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2212.07495}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2212.07495}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2212.07495}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.CV}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Imtiaz, Tooba and Kohler, Morgan and Miller, Jared and Wang, Zifeng and Sznaier, Mario and Camps, Octavia and Dy, Jennifer}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{SAIF_arxiv.pdf}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{SAIF: Sparse Adversarial and Interpretable Attack Framework}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">copyright</span> <span class="p">=</span> <span class="s">{arXiv.org perpetual, non-exclusive license}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
         <div id="miller2022eiv" class="col-sm-8">
         
           <!-- Title -->
