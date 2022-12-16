@@ -43,6 +43,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 }
 
 
+
 @ARTICLE{miller2020recovery,
   author={Miller, Jared and Henrion, Didier and Sznaier, Mario},
   journal={IEEE Control Systems Letters}, 
@@ -185,6 +186,25 @@ code={https://github.com/jarmill/error_in_variables},
 abstract={This paper proposes a method to find super-stabilizing controllers for discrete-time linear systems that are
 consistent with a set of corrupted observations. The L-infinity bounded measurement noise introduces a bilinearity between the unknown plant parameters and noise terms. A super-stabilizing controller may be found by solving a feasibility problem involving a set of polynomial nonnegativity constraints in terms of the unknown plant parameters and noise terms. A sequence of sum-of-squares (SOS) programs in rising degree will yield a super-stabilizing controller if such a controller exists. Unfortunately, these SOS programs  exhibit very poor scaling as the degree increases. A theorem of alternatives is employed to yield equivalent, convergent (under mild conditions), and more computationally tractable SOS programs. }
 }
+
+@preprint{imtiaz2022saif,
+  doi = {10.48550/ARXIV.2212.07495},
+  url = {https://arxiv.org/abs/2212.07495},
+  arxiv={2212.07495},
+  note={arXiv: 2212.07495},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  abstract={Adversarial attacks hamper the decision-making ability of neural networks by perturbing the input signal. The addition of calculated small distortion to images, for instance, can deceive a well-trained image classification network. In this work, we propose a novel attack technique called Sparse Adversarial and Interpretable Attack Framework (SAIF). Specifically, we design imperceptible attacks that contain low-magnitude perturbations at a small number of pixels and leverage these sparse attacks to reveal the vulnerability of classifiers. We use the Frank-Wolfe (conditional gradient) algorithm to simultaneously optimize the attack perturbations for bounded magnitude and sparsity with O(1/sqrt(T)) convergence. Empirical results show that SAIF computes highly imperceptible and interpretable adversarial examples, and outperforms state-of-the-art sparse attack methods on the ImageNet dataset.},
+  author = {Imtiaz, Tooba and Kohler, Morgan and Miller, Jared and Wang, Zifeng and Sznaier, Mario and Camps, Octavia and Dy, Jennifer},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  pdf={SAIF_arxiv.pdf},
+  title = {SAIF: Sparse Adversarial and Interpretable Attack Framework},
+  bibtex_show={true},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
 
   @preprint{miller2022eiv,
       title={Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables}, 
