@@ -153,6 +153,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Dec 19, 2022</th>
+                  <td>
+                    My service as a Teaching Assistant for Machine Learning and Pattern Recognition (EECE 5644, Fall 2022 taught by Prof. David Brady) has concluded.
+
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Dec 6, 2022</th>
                   <td>
                     <a class="news-title" href="/news/ann_20_cdc_outstanding_2022/">I received an Outstanding Student Paper Award at the 61st CDC</a> 
@@ -175,13 +183,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Nov 27, 2022</th>
                   <td>
                     The paper <a href="https://arxiv.org/abs/2209.06251" target="_blank" rel="noopener noreferrer">“Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalities”</a> with M. Sznaier was accepted to the <a href="http://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters (L-CSS)</a>.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Oct 4, 2022</th>
-                  <td>
-                    I have delivered a <a href="https://mecc2022.a2c2.org/events.html" target="_blank" rel="noopener noreferrer">DSCD Rising Stars</a> talk about <a href="/assets/pdf/Distance_MECC_presentation.pdf">Distance Estimation</a> at the 2nd <a href="https://mecc2022.a2c2.org/index.html" target="_blank" rel="noopener noreferrer">Modeling, Estimation, and Control Conference</a>.
  
                   </td>
                 </tr> 
@@ -221,6 +222,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <a href="http://arxiv.org/abs/2209.06251" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://ieeexplore.ieee.org/abstract/document/9971732" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="/assets/pdf/LPVQMI_LCSS.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/Jarmill/lpv_qmi" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
 
@@ -235,6 +237,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
   <span class="na">abbr</span> <span class="p">=</span> <span class="s">{LCSS}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{LPVQMI_LCSS.pdf}</span><span class="p">,</span>
   <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2209.06251}</span><span class="p">,</span>
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
