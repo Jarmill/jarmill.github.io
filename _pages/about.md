@@ -14,9 +14,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Research Assistant (5th year PhD student) at the <a href="http://robustsystems.coe.neu.edu/">Robust Systems Laboratory</a> in <a href="https://ece.northeastern.edu/">Northeastern University</a>. I am currently involved in a joint collaboration between Northeastern University and the <a href="https://www.laas.fr/public/en/mac">Methods and Algorithms for Control</a> team of LAAS-CNRS (Toulouse, FR), sponsored by a Chateaubriand Fellowship, where I am jointly supervised by  <a href="http://robustsystems.coe.neu.edu/">Mario Sznaier</a> (Northeastern) and <a href="https://homepages.laas.fr/henrion/">Didier Henrion</a> (LAAS-CNRS). My thesis topic involves peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
-through the use of occupation measures.
-
-<b> I am currently looking for a postdoctoral position.</b> 
+through the use of occupation measures. My other branch of research involves data-driven control, including the setting in which nontrivial input and measurement noise lead to bilinearities (error-in-variables).
 
 I received a Bachelors (EE) and a Masters (EE/CE) degree from Northeastern University in 2018. I have always been interested in applied mathematics and PDEs, and was introduced to control theory and sparsity during my co-op at ASML (Veldhoven, NL) in 2016. I learned about convex optimization as part of Mario Sznaier's course <a href="/assets/pdf/syll_sparsity_2021.pdf">Big Data, Sparsity, and Control</a> in 2017, for which I later became a teaching assistant.
 
