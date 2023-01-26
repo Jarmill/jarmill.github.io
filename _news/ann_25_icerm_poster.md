@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I will be presenting a poster at the ICERM workshop on Discrete Optimization
+title: I will be presenting a poster at an ICERM workshop on Discrete Optimization
 date: 2023-1-25 00:30:00-0500
 inline: false
 ---
