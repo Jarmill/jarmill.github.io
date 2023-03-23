@@ -314,19 +314,69 @@ bibtex_show={true},
 abstract={This work bounds extreme values of state functions for a class of input-affine continuous-time systems that are affected by polyhedral-bounded uncertainty. Instances of these systems may arise in data-driven peak estimation, in which the state function must be bounded for all systems that are consistent with a set of state-derivative data records corrupted under L-infinity bounded noise. Existing occupation measure-based methods form a convergent sequence of outer approximations to the true peak value, given an initial set, by solving a hierarchy of semidefinite programs in increasing size. These techniques scale combinatorially in the number of state variables and uncertain parameters. We present tractable algorithms for peak estimation that scale linearly in the number of faces of the uncertainty-bounding polytope rather than combinatorially in the number of uncertain parameters by leveraging convex duality and a theorem of alternatives (facial decomposition). The sequence of decomposed semidefinite programs will converge to the true peak value under mild assumptions (convergence and smoothness of dynamics).}
 }
 
-@preprint{miller2021facial,
-      title={Facial Input Decompositions for Robust Peak and Reachable Set Estimation under Polyhedral Uncertainty}, 
-      author={Miller, Jared and Sznaier, Mario},
-      year={2021},
-      eprint={2112.14838},
+@preprint{miller2023crash,
+      title={{Quantifying the Safety of Trajectories using Peak-Minimizing Control}}, 
+      author={Jared Miller and Mario Sznaier},
+      year={2023},
+      eprint={2303.11896},
+      archivePrefix={arXiv},
+	  tag={peakddc},
+      primaryClass={math.OC},      
+	  bibtex_show={true},
+	  url={https://arxiv.org/abs/2303.11896},
+	  html={https://arxiv.org/abs/2303.11896},
+	  code={https://github.com/Jarmill/crash-safety},
+	  abstract={This work quantifies the safety of trajectories of a dynamical system by the perturbation intensity required to render a system unsafe (crash into the unsafe set). Computation of this measure of safety is posed as a peak-minimizing optimal control problem. Convergent lower bounds on the minimal peak value of controller effort are computed using polynomial optimization and the moment-Sum-of-Squares hierarchy. The crash-safety framework is extended towards data-driven safety analysis by measuring safety as the maximum amount of data corruption required to crash into the unsafe set.}
+}
+
+@preprint{miller2023ddcpos,
+      title={{Data-Driven Control of Positive Linear Systems using Linear Programming}}, 
+      author={Jared Miller and Tianyu Dai and Mario Sznaier and Bahram Shafai},
+      year={2023},
+      eprint={2303.12242},
       archivePrefix={arXiv},
       primaryClass={math.OC},
-	  tag={peakddc},
-      arxiv={2112.14838},
+      bibtex_show={true},
+	  abstract={This paper presents a linear-programming based algorithm to perform data-driven stabilizing control of linear positive systems. A set of state-input-transition observations is collected up to magnitude-bounded noise. A state feedback controller and dual linear copositive Lyapunov function are created such that the set of all data-consistent plants is contained within the set of all stabilized systems. This containment is certified through the use of the Extended Farkas Lemma and solved via Linear Programming. Sign patterns and sparsity structure for the controller may be imposed using linear constraints. The complexity of this algorithm scales in a polynomial manner with the number of states and inputs. Effectiveness is demonstrated on example systems.},
+	  url={https://arxiv.org/abs/2303.12242},
+	  html={https://arxiv.org/abs/2303.12242},
+	  code={https://github.com/Jarmill/data_driven_pos},
+	  tag={ddc}
+}
+
+
+@preprint{miller2023hybrid,
+      title={{Peak Estimation of Hybrid Systems with Convex Optimization}}, 
+      author={Jared Miller and Mario Sznaier},
+      year={2023},
+      eprint={2303.11490},
+      archivePrefix={arXiv},
+	  url={https://arxiv.org/abs/2303.11490},
+	  html={https://arxiv.org/abs/2303.11490},
+	  tag={peak},
+      primaryClass={math.OC},
+      code={https://github.com/Jarmill/hybrid_peak_est},
 	  bibtex_show={true},
+	  abstract={Peak estimation of hybrid systems aims to upper bound extreme values of a state function along trajectories, where this state function could be different in each subsystem. This finite-dimensional but nonconvex problem may be lifted into an infinite-dimensional linear program (LP) in occupation measures with an equal objective under mild finiteness/compactness and smoothness assumptions. This LP may in turn be approximated by a convergent sequence of upper bounds attained from solutions of Linear Matrix Inequalities (LMIs) using the Moment-Sum-of-Squares hierarchy. The peak estimation problem is extended to problems with uncertainty and safety settings, such as measuring the distance of closest approach between points along hybrid system trajectories and unsafe sets.}
+}
+
+@preprint{miller2023robustcounterpart,
+      title={Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts}, 
+      author={Jared Miller and Mario Sznaier},
+      year={2023},
+      eprint={2112.14838},
+	  url={https://arxiv.org/abs/2112.14838},
+	  html={https://arxiv.org/abs/2112.14838},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+	  archivePrefix={arXiv},
+	   tag={peakddc},
+	    bibtex_show={true},
 	  slides={SIAM_data_driven.pdf},
-	  code={https://github.com/Jarmill/data_driven_occ},	  
-	  abstract={This work bounds extreme values of state functions for a class of input-affine continuous-time systems that are affected by polyhedral-bounded uncertainty. Instances of these systems may arise in data-driven peak estimation, in which the state function must be bounded for all systems that are consistent with a set of state-derivative data records corrupted under L-infinity bounded noise. Existing occupation measure-based methods form a convergent sequence of outer approximations to the true peak value, given an initial set, by solving a hierarchy of semidefinite programs in increasing size. These techniques scale combinatorially in the number of state variables and uncertain parameters. We present tractable algorithms for peak estimation that scale linearly in the number of faces of the uncertainty-bounding polytope rather than combinatorially in the number of uncertain parameters by leveraging convex duality and a theorem of alternatives (facial decomposition). The sequence of decomposed semidefinite programs will converge to the true peak value under mild assumptions (convergence and smoothness of dynamics). }	 
+	  code={https://github.com/Jarmill/data_driven_occ},	
+	  selected={true},  	  
+      abstract={Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise.
+Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. Existing work poses these types of problems as infinite-dimensional linear programs in auxiliary functions with sum-of-squares tightenings. The bottleneck in most of these programs is the Lie derivative nonnegativity constraint posed over the time-state-control set. Decomposition techniques to improve tractability by eliminating the control variables include  vertex decompositions (switching), or  facial decompositions in the case where the polytopic set is a scaled box. This work extends the box-facial decomposition technique to allow for a robust-counterpart decomposition of semidefinite representable sets (e.g. polytopes, ellipsoids, and projections of spectahedra). These robust counterparts are proven to be equivalent to the original Lie constraint under mild compactness and regularity constraints. Efficacy is demonstrated under peak/distance/reachable set data-driven analysis problems and Region of Attraction maximizing control.}
 }
 
 
