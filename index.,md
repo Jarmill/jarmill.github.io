@@ -32,7 +32,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000">
+    <link rel="canonical" href="https://jarmill.github.io">
 <!-- Custom Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
@@ -153,12 +153,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
-                  <th scope="row">Mar 25, 2023</th>
-                  <td>
-                    <a class="news-title" href="/news/ann_29_arxiv_drop/">Several papers about peak estimation have been posted to Arxiv in advance of my Thesis Defense on April 3.</a> 
-                  </td>
-                </tr> 
-                <tr>
                   <th scope="row">Mar 4, 2023</th>
                   <td>
                     I will be giving a seminar about <a href="assets/pdf/EIV_Presentation__Austin.pdf">Data-Driven Control under Input and Measurement Noise</a> at the <a href="https://oden.utexas.edu/" target="_blank" rel="noopener noreferrer">Oden Institute</a> in UT Austin on April 9, 2023.
@@ -183,6 +177,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Jan 25, 2023</th>
                   <td>
                     <a class="news-title" href="/news/ann_25_icerm_poster/">I will be presenting a poster at an ICERM workshop on Discrete Optimization</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jan 19, 2023</th>
+                  <td>
+                    The paper <a href="https://ieeexplore.ieee.org/abstract/document/9971732" target="_blank" rel="noopener noreferrer">“Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalities”</a> with M. Sznaier was accepted to both <a href="https://acc2023.a2c2.org/" target="_blank" rel="noopener noreferrer">ACC 2023</a> and  <a href="http://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters (L-CSS)</a>.
+ 
                   </td>
                 </tr> 
               </table>
@@ -356,62 +357,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 </li></ol>
 <h2 class="bibliography">Preprints</h2>
 <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2023robustcounterpart" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2023
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2112.14838" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/Jarmill/data_driven_occ" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/SIAM_data_driven.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise.
-Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. Existing work poses these types of problems as infinite-dimensional linear programs in auxiliary functions with sum-of-squares tightenings. The bottleneck in most of these programs is the Lie derivative nonnegativity constraint posed over the time-state-control set. Decomposition techniques to improve tractability by eliminating the control variables include  vertex decompositions (switching), or  facial decompositions in the case where the polytopic set is a scaled box. This work extends the box-facial decomposition technique to allow for a robust-counterpart decomposition of semidefinite representable sets (e.g. polytopes, ellipsoids, and projections of spectahedra). These robust counterparts are proven to be equivalent to the original Lie constraint under mild compactness and regularity constraints. Efficacy is demonstrated under peak/distance/reachable set data-driven analysis problems and Region of Attraction maximizing control.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2023robustcounterpart</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2112.14838}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
-  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peakddc}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{SIAM_data_driven.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
