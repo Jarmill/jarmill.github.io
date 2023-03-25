@@ -9,6 +9,11 @@
 "Korda":
   - firstname: ["M", "M.", "Milan"]
     url: https://homepages.laas.fr/mkorda/
+
+"Magron":
+  - firstname: ["V", "V.", "Victor"]
+    url: https://homepages.laas.fr/vmagron/
+   
    
 "Roig-Solvas":
   - firstname: ["B", "B.", "Biel"]   
