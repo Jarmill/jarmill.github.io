@@ -329,6 +329,20 @@ abstract={This work bounds extreme values of state functions for a class of inpu
 	  abstract={This work quantifies the safety of trajectories of a dynamical system by the perturbation intensity required to render a system unsafe (crash into the unsafe set). Computation of this measure of safety is posed as a peak-minimizing optimal control problem. Convergent lower bounds on the minimal peak value of controller effort are computed using polynomial optimization and the moment-Sum-of-Squares hierarchy. The crash-safety framework is extended towards data-driven safety analysis by measuring safety as the maximum amount of data corruption required to crash into the unsafe set.}
 }
 
+@preprint{miller2023chancepeak,
+    title={Peak Value-at-Risk Estimation for Stochastic Differential Equations using Occupation Measures},
+    author={Jared Miller and Matteo Tacchi and Mario Sznaier and Ashkan Jasour},
+    year={2023},
+    eprint={2303.16064},
+    archivePrefix={arXiv},
+	code={https://github.com/Jarmill/chance_peak},
+	show_bibtex={true},
+	html={https://arxiv.org/abs/2303.16064},
+	url={https://arxiv.org/abs/2303.16064},
+    primaryClass={math.OC},
+	abstract={This paper proposes an algorithm to upper-bound maximal quantile statistics of a state function over the course of a Stochastic Differential Equation (SDE) system execution. This chance-peak problem is posed as a nonconvex program aiming to maximize the Value-at-Risk (VaR) of a state function along SDE state distributions. The VaR problem is upper-bounded by an infinite-dimensional Second-Order Cone Program in occupation measures through the use of one-sided Cantelli or Vysochanskii-Petunin inequalities. These upper bounds on the true quantile statistics may be approximated from above by a sequence of Semidefinite Programs in increasing size using the moment-Sum-of-Squares hierarchy when all data is polynomial. Effectiveness of this approach is demonstrated on example stochastic polynomial dynamical systems.}
+}
+
 @preprint{miller2023delay,
       title={Peak Estimation of Time Delay Systems using Occupation Measures}, 
       author={Jared Miller and Milan Korda and Victor Magron and Mario Sznaier},
