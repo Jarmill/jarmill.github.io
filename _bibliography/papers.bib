@@ -329,6 +329,25 @@ abstract={This work bounds extreme values of state functions for a class of inpu
 	  abstract={This work quantifies the safety of trajectories of a dynamical system by the perturbation intensity required to render a system unsafe (crash into the unsafe set). Computation of this measure of safety is posed as a peak-minimizing optimal control problem. Convergent lower bounds on the minimal peak value of controller effort are computed using polynomial optimization and the moment-Sum-of-Squares hierarchy. The crash-safety framework is extended towards data-driven safety analysis by measuring safety as the maximum amount of data corruption required to crash into the unsafe set.}
 }
 
+@phdthesis{miller2023thesis,
+  title={Safety Quantification for Nonlinear and Time-Delay Systems using Occupation Measures},
+  author={Jared Miller},
+  year={2023},
+  school={Northeastern University},
+  month={April},
+  bibtex_show={true},
+  selected={true},
+  abbr={PhD},
+  pdf={Thesis_Final.pdf},
+  slides={Thesis_Presentation.pdf},
+  poster={Safety_Poster__PhD_Expo.pdf},
+  tag={peakddc},
+  abstract={This research extends an occupation measure framework to analyze and quantify the safety of dynamical systems. A motivating application of trajectory analysis is in peak estimation, which finds the extreme values of a state function along trajectories. Examples of peak estimation include finding the maximum height of a wave, voltage on a power line, speed of a vehicle, and infected population in an epidemic. Peak estimation can be applied towards safety quantification, such as by measuring the safety of a trajectory by its distance of closest approach to an unsafe set.
+
+A finite-dimensional but nonconvex peak estimation problem can be converted into an infinite-dimensional linear program (LP) in measures, which is in turn bounded by a convergent sequence of semidefinite programs. The LP is posed in terms of an initial, a terminal, and an occupational measure, where the occupation measure contains all possible information about the dynamical systems’ trajectories. This research applies measure-based methods towards safety quantification (e.g. distance estimation, control effort needed to crash), hybrid systems, bounded-uncertain systems (including for data-driven analysis), stochastic systems, and time-delay systems. The modularity of this measure-based framework allows for multiple problem variations to be applied simultaneously (e.g., distance estimation under time-delays), and for optimization models to be synthesized using MATLAB. Solving these optimization problems results in certifiable guarantees on system performance and behavior.
+}
+}
+
 @preprint{miller2023chancepeak,
     title={Peak Value-at-Risk Estimation for Stochastic Differential Equations using Occupation Measures},
     author={Jared Miller and Matteo Tacchi and Mario Sznaier and Ashkan Jasour},

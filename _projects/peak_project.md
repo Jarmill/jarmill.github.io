@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Peak Estimation
-description: Bound extreme values of state functions using occupation measure techniques
+description: Quantify the safety of trajectories using occupation measure techniques
 img:
 importance: 1
 category: active
 ---
 
-Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, the height of an aircraft, the voltage in a power line, etc. Peak estimation may be used to quantify the safety of trajectories. This project extends the occupation measure framework developed for optimal control and peak estimation. The Moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.
+Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, the height of an aircraft, the voltage in a power line, etc. Peak estimation can be applied towards safety quantification, such as by measuring the safety of a trajectory by its distance of closest approach to an unsafe set. This project extends the occupation measure framework developed for optimal control and peak estimation. The Moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.
+
+This thesis was defended on April 3, 2023. Information is available at <a href="/assets/pdf/Thesis_Final.pdf">[Thesis]</a>, <a href="/assets/pdf/Thesis_Presentation.pdf">[Slides]</a>, <a href="/assets/pdf/Thesis_Bonus.pdf">[Bonus Slides]</a>, <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf">[Poster]</a>.
 
 Our first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) {% cite miller2020recovery %}. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) {% cite miller2021uncertain %}.
 An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set {% cite miller2021distance %}.
