@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jared F. Miller | Peak Estimation</title>
     <meta name="author" content="Jared F. Miller" />
-    <meta name="description" content="Bound extreme values of state functions using occupation measure techniques" />
+    <meta name="description" content="Quantify the safety of trajectories using occupation measure techniques" />
     <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern" />
 
 
@@ -106,11 +106,13 @@
 
           <header class="post-header">
             <h1 class="post-title">Peak Estimation</h1>
-            <p class="post-description">Bound extreme values of state functions using occupation measure techniques</p>
+            <p class="post-description">Quantify the safety of trajectories using occupation measure techniques</p>
           </header>
 
           <article>
-            <p>Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, the height of an aircraft, the voltage in a power line, etc. Peak estimation may be used to quantify the safety of trajectories. This project extends the occupation measure framework developed for optimal control and peak estimation. The Moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.</p>
+            <p>Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, the height of an aircraft, the voltage in a power line, etc. Peak estimation can be applied towards safety quantification, such as by measuring the safety of a trajectory by its distance of closest approach to an unsafe set. This project extends the occupation measure framework developed for optimal control and peak estimation. The Moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.</p>
+
+<p>This thesis was defended on April 3, 2023. Information is available at <a href="/assets/pdf/Thesis_Final.pdf">[Thesis]</a>, <a href="/assets/pdf/Thesis_Presentation.pdf">[Slides]</a>, <a href="/assets/pdf/Thesis_Bonus.pdf">[Bonus Slides]</a>, <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf">[Poster]</a>.</p>
 
 <p>Our first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) <a class="citation" href="#miller2020recovery">(Miller et al., 2021)</a>. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) <a class="citation" href="#miller2021uncertain">(Miller et al., 2021)</a>.
 An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set <a class="citation" href="#miller2021distance">(Miller &amp; Sznaier, 2021)</a>.</p>
@@ -407,7 +409,64 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
 <div class="publications">
 	<h1>Relevant Publications</h1>
-	<h2 class="bibliography">Journal Articles</h2>
+	<h2 class="bibliography">Theses</h2>
+<ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">PhD</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2023thesis" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Safety Quantification for Nonlinear and Time-Delay Systems using Occupation Measures</div>
+          <!-- Author -->
+          <div class="author">
+                <em>Miller, Jared</em>
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            Apr 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/Thesis_Final.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+            <a href="/assets/pdf/Thesis_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This research extends an occupation measure framework to analyze and quantify the safety of dynamical systems. A motivating application of trajectory analysis is in peak estimation, which finds the extreme values of a state function along trajectories. Examples of peak estimation include finding the maximum height of a wave, voltage on a power line, speed of a vehicle, and infected population in an epidemic. Peak estimation can be applied towards safety quantification, such as by measuring the safety of a trajectory by its distance of closest approach to an unsafe set.
+
+A finite-dimensional but nonconvex peak estimation problem can be converted into an infinite-dimensional linear program (LP) in measures, which is in turn bounded by a convergent sequence of semidefinite programs. The LP is posed in terms of an initial, a terminal, and an occupational measure, where the occupation measure contains all possible information about the dynamical systems’ trajectories. This research applies measure-based methods towards safety quantification (e.g. distance estimation, control effort needed to crash), hybrid systems, bounded-uncertain systems (including for data-driven analysis), stochastic systems, and time-delay systems. The modularity of this measure-based framework allows for multiple problem variations to be applied simultaneously (e.g., distance estimation under time-delays), and for optimization models to be synthesized using MATLAB. Solving these optimization problems results in certifiable guarantees on system performance and behavior.
+</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@phdthesis</span><span class="p">{</span><span class="nl">miller2023thesis</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Safety Quantification for Nonlinear and Time-Delay Systems using Occupation Measures}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">school</span> <span class="p">=</span> <span class="s">{Northeastern University}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PhD}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Thesis_Final.pdf}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Thesis_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">poster</span> <span class="p">=</span> <span class="s">{Safety_Poster__PhD_Expo.pdf}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peakddc}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+<h2 class="bibliography">Journal Articles</h2>
 <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -426,7 +485,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>IEEE Control Systems Letters</em> 2021
+            <em>IEEE Control Systems Letters</em> Apr 2021
           </div>
         
           <!-- Links/Buttons -->
@@ -487,7 +546,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 61st IEEE Conference on Decision and Control (CDC)</em> 2022
+            <em>In 61st IEEE Conference on Decision and Control (CDC)</em> Apr 2022
           </div>
         
           <!-- Links/Buttons -->
@@ -524,7 +583,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 10th IFAC Symposium on Robust Control Design (ROCOND)</em> 2022
+            <em>In 10th IFAC Symposium on Robust Control Design (ROCOND)</em> Apr 2022
           </div>
         
           <!-- Links/Buttons -->
@@ -584,7 +643,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 60th IEEE Conference on Decision and Control (CDC)</em> 2021
+            <em>In 60th IEEE Conference on Decision and Control (CDC)</em> Apr 2021
           </div>
         
           <!-- Links/Buttons -->
@@ -647,7 +706,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2023
+            <em>Preprint</em> Apr 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -699,7 +758,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2023
+            <em>Preprint</em> Apr 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -753,7 +812,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2023
+            <em>Preprint</em> Apr 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -809,7 +868,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2023
+            <em>Preprint</em> Apr 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -844,7 +903,7 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2023
+            <em>Preprint</em> Apr 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -900,7 +959,7 @@ Common tasks in system analysis and control include optimal control, peak estima
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>Preprint</em> 2021
+            <em>Preprint</em> Apr 2021
           </div>
         
           <!-- Links/Buttons -->
