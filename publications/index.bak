@@ -478,6 +478,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="/assets/pdf/Noise_in_Variable__Journal_Arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/jarmill/error_in_variables" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/EIV_Presentation__Austin.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -499,7 +500,8 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/error_in_variables}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Noise_in_Variable__Journal_Arxiv.pdf}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{EIV_Presentation__Austin.pdf}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>

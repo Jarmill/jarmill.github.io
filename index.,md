@@ -219,7 +219,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="/assets/pdf/Thesis_Final.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
-            <a href="/assets/pdf/Thesis_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="/assets/pdf/Thesis_Presentation_Merged.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -241,7 +241,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PhD}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Thesis_Final.pdf}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Thesis_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Thesis_Presentation_Merged.pdf}</span><span class="p">,</span>
   <span class="na">poster</span> <span class="p">=</span> <span class="s">{Safety_Poster__PhD_Expo.pdf}</span><span class="p">,</span>
   <span class="na">tag</span> <span class="p">=</span> <span class="s">{peakddc}</span>
 <span class="p">}</span></code></pre></figure>
@@ -497,6 +497,7 @@ Common tasks in system analysis and control include optimal control, peak estima
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="/assets/pdf/Noise_in_Variable__Journal_Arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="https://github.com/jarmill/error_in_variables" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/EIV_Presentation__Austin.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
 
           <!-- Hidden abstract block -->
@@ -518,7 +519,8 @@ Common tasks in system analysis and control include optimal control, peak estima
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/error_in_variables}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Noise_in_Variable__Journal_Arxiv.pdf}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{EIV_Presentation__Austin.pdf}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
