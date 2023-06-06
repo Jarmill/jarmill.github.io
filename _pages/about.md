@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Researcher at the <a href="http://robustsystems.coe.neu.edu/">Robust Systems Laboratory</a> in <a href="https://ece.northeastern.edu/">Northeastern University</a>. My thesis topic involves peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
+I am a Postdoctoral Researcher at the <a href="http://robustsystems.coe.neu.edu/">Robust Systems Laboratory</a> in <a href="https://ece.northeastern.edu/">Northeastern University</a>. My thesis topic involved peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
 through the use of occupation measures. My other branch of research involves data-driven control, including the error-in-variables setting in which nontrivial input and measurement noise lead to bilinearities and difficult control problems.
 
 I received a Bachelors (EE) and a Masters (EE/CE) degree from Northeastern University in 2018, and a PhD (EE) degree from Northeastern University in 2023 (advised by <a href="http://robustsystems.coe.neu.edu/">Mario Sznaier</a>). I have always been interested in applied mathematics and PDEs, and was introduced to control theory and sparsity during my co-op at ASML (Veldhoven, NL) in 2016. I learned about convex optimization as part of Mario Sznaier's course <a href="/assets/pdf/syll_sparsity_2021.pdf">Big Data, Sparsity, and Control</a> in 2017, for which I later became a teaching assistant.
