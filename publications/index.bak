@@ -120,44 +120,6 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">AUT</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2021decomposed" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Decomposed structured subsets for semidefinite and sum-of-squares optimization</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, <a href="https://zhengy09.github.io/" target="_blank" rel="noopener noreferrer">Zheng, Yang</a>, <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>, and <a href="https://eng.ox.ac.uk/people/antonis-papachristodoulou/" target="_blank" rel="noopener noreferrer">Papachristodoulou, Antonis</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Automatica</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/1911.12859" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0005109821006543" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="/assets/pdf/decomposed_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/IPAM_decomposed_poster.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">LCSS</abbr></div>
 
         <!-- Entry bib key -->
@@ -211,6 +173,44 @@
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2209.06251}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">AUT</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2021decomposed" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Decomposed structured subsets for semidefinite and sum-of-squares optimization</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://zhengy09.github.io/" target="_blank" rel="noopener noreferrer">Zheng, Yang</a>, <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>, and <a href="https://eng.ox.ac.uk/people/antonis-papachristodoulou/" target="_blank" rel="noopener noreferrer">Papachristodoulou, Antonis</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Automatica</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/1911.12859" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0005109821006543" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="/assets/pdf/decomposed_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/IPAM_decomposed_poster.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.</p>
           </div>
         </div>
       </div>
@@ -507,38 +507,6 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
         </div>
       </div>
 </li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="epstein2022tfrogs" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Time-Frequency Regularized Overlapping Group Shrinkage</div>
-          <!-- Author -->
-          <div class="author">Epstein, Alexander, Magre, Nimish, and <em>Miller, Jared</em>
-                
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2022
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>In this work, we denoise speech samples using predetermined structural knowledge of decomposable convex optimization problems. To this end, we exploit the grouping/clustering property observed with speech spectrograms to iteratively obtain a sparse clean speech signal using a mixed norm penalty term. We build upon the Overlapping Group Shrinkage (OGS) algorithm and introduce time-frequency weights to the cost function to rid the sparse clean signal of the residual noise. These time-frequency weighting extensions are also empirically shown to effectively handle impulsive noise types. The time-frequency weights may be targeted to suppress specific noise types at desired time slices to further improve the performance of the algorithm.</p>
-          </div>
-        </div>
-      </div>
-</li>
 </ol>
 
   <h2 class="year">2021</h2>
@@ -719,65 +687,6 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li></ol>
-<h2 class="bibliography">Preprints</h2>
-<ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2021distance" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Bounding the Distance to Unsafe Sets with Convex Optimization</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2021
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2110.14047" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>This work proposes an algorithm to bound the minimum distance between points on trajectories of a dynamical system and points on an unsafe set. Prior work on certifying safety of trajectories includes barrier and density methods, which do not provide a margin of proximity to the unsafe set in terms of distance. The distance estimation problem is relaxed to a Monge-Kantorovich type optimal transport problem based on existing occupation-measure methods of peak estimation. Specialized programs may be developed for polyhedral norm distances (e.g. L1 and Linfinity) and for scenarios where a shape is traveling along trajectories (e.g. rigid body motion). The distance estimation problem will be correlatively sparse when the distance objective is separable.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2021distance</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Distance to Unsafe Sets with Convex Optimization}}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
-  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
-  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
-  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>

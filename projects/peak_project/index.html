@@ -115,7 +115,7 @@
 <p>This thesis was defended on April 3, 2023. Information is available at <a href="/assets/pdf/Thesis_Final.pdf">[Thesis]</a>, <a href="/assets/pdf/Thesis_Presentation.pdf">[Slides]</a>, <a href="/assets/pdf/Thesis_Bonus.pdf">[Bonus Slides]</a>, <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf">[Poster]</a>.</p>
 
 <p>Our first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) <a class="citation" href="#miller2020recovery">(Miller et al., 2021)</a>. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) <a class="citation" href="#miller2021uncertain">(Miller et al., 2021)</a>.
-An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set <a class="citation" href="#miller2021distance">(Miller &amp; Sznaier, 2021)</a>.</p>
+An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set (missing reference).</p>
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
@@ -466,7 +466,70 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
       </div>
 </li></ol>
 <h2 class="bibliography">Journal Articles</h2>
-<ol class="bibliography"><li>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TAC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2023distance" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Bounding the Distance to Unsafe Sets with Convex Optimization</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Transactions on Automatic Control</em> 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2110.14047" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This work proposes an algorithm to bound the minimum distance between points on trajectories of a dynamical system and points on an unsafe set. Prior work on certifying safety of trajectories includes barrier and density methods, which do not provide a margin of proximity to the unsafe set in terms of distance. The distance estimation problem is relaxed to a Monge-Kantorovich type optimal transport problem based on existing occupation-measure methods of peak estimation. Specialized programs may be developed for polyhedral norm distances (e.g. L1 and Linfinity) and for scenarios where a shape is traveling along trajectories (e.g. rigid body motion). The distance estimation problem will be correlatively sparse when the distance objective is separable.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">miller2023distance</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Distance to Unsafe Sets with Convex Optimization}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-15}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Automatic Control}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{TAC}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TAC.2023.3285862}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">LCSS</abbr></div>
@@ -524,7 +587,8 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 <h2 class="bibliography">Conference Articles</h2>
 <ol class="bibliography">
 <li>
@@ -934,64 +998,6 @@ Common tasks in system analysis and control include optimal control, peak estima
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{SIAM_data_driven.pdf}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2021distance" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Bounding the Distance to Unsafe Sets with Convex Optimization</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2021
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2110.14047" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="/assets/pdf/distance_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/Jarmill/distance" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/Distance_CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>This work proposes an algorithm to bound the minimum distance between points on trajectories of a dynamical system and points on an unsafe set. Prior work on certifying safety of trajectories includes barrier and density methods, which do not provide a margin of proximity to the unsafe set in terms of distance. The distance estimation problem is relaxed to a Monge-Kantorovich type optimal transport problem based on existing occupation-measure methods of peak estimation. Specialized programs may be developed for polyhedral norm distances (e.g. L1 and Linfinity) and for scenarios where a shape is traveling along trajectories (e.g. rigid body motion). The distance estimation problem will be correlatively sparse when the distance objective is separable.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2021distance</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Distance to Unsafe Sets with Convex Optimization}}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
-  <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
-  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/distance}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
-  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
