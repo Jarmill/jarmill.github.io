@@ -133,8 +133,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
       archivePrefix={arXiv},
       primaryClass={math.OC},
 	  tag={peak},
-      note={arXiv: 2110.14047},
-	  url={https://arxiv.org/abs/2110.14047},
+      note={arXiv: 2110.14047}, url={https://ieeexplore.ieee.org/document/10149398},
 	  pdf={distance_arxiv.pdf},
 pages={1-15},
 journal={IEEE Transactions on Automatic Control},     
@@ -238,7 +237,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
 	  bibtex_show={true}
 }
 
-@preprint{zheng2023robustsafety,
+@ARTICLE{zheng2023robustsafety,
     title={{Robust Data-Driven Safe Control using Density Functions}},
     author={Jian Zheng and Tianyu Dai and Jared Miller and Mario Sznaier},
     year={2023},
@@ -246,10 +245,15 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
 	arxiv={2303.09004},
     archivePrefix={arXiv},
     primaryClass={math.OC},
-    url={https://arxiv.org/abs/2303.09004},
-	html ={https://arxiv.org/abs/2303.09004},
+	url={https://ieeexplore.ieee.org/document/10158326},
+	html ={https://ieeexplore.ieee.org/document/10158326},
 	tag={ddc},
-	selected={false},
+	doi={10.1109/LCSYS.2023.3287801},
+	volume={7},
+  number={},
+  pages={2611-2616},
+  abbr={LCSS},
+	selected={true},
 	bibtex_show={true},
 	abstract={This paper presents a tractable framework for data-driven synthesis of robustly safe control laws. Given noisy experimental data and some priors about the structure of the system, the goal is to synthesize a state feedback law such that the trajectories of the closed loop system are guaranteed to avoid an unsafe set even in the presence of unknown but bounded disturbances (process noise). The main result of the paper shows that for polynomial dynamics, this problem can be reduced to a tractable convex optimization by combining elements from polynomial optimization and the theorem of alternatives. This optimization provides both a rational control law and a density function safety certificate. These results are illustrated with numerical examples.},
 	code={https://github.com/J-mzz/ddc-safety}
@@ -382,7 +386,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 	  abstract={This work proposes a method to compute the maximum value obtained by a state function along trajectories of a Delay Differential Equation (DDE). An example of this task is finding the maximum number of infected people in an epidemic model with a nonzero incubation period. The variables of this peak estimation problem include the stopping time and the original history (restricted to a class of admissible histories). The original nonconvex DDE peak estimation problem is approximated by an infinite-dimensional Linear Program (LP) in occupation measures, inspired by existing measure-based methods in peak estimation and optimal control. This LP is approximated from above by a sequence of Semidefinite Programs (SDPs) through the moment-Sum of Squares (SOS) hierarchy. Effectiveness of this scheme in providing peak estimates for DDEs is demonstrated with provided examples.},
 	  url={https://arxiv.org/abs/2303.12863},
 	  html={https://arxiv.org/abs/2303.12863},
-	  arxiv={https://arxiv.org/abs/2303.12863}
+	  arxiv={2303.12863}
 }
 
 @preprint{miller2023ddcpos,
@@ -395,7 +399,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
       bibtex_show={true},
 	  abstract={This paper presents a linear-programming based algorithm to perform data-driven stabilizing control of linear positive systems. A set of state-input-transition observations is collected up to magnitude-bounded noise. A state feedback controller and dual linear copositive Lyapunov function are created such that the set of all data-consistent plants is contained within the set of all stabilized systems. This containment is certified through the use of the Extended Farkas Lemma and solved via Linear Programming. Sign patterns and sparsity structure for the controller may be imposed using linear constraints. The complexity of this algorithm scales in a polynomial manner with the number of states and inputs. Effectiveness is demonstrated on example systems.},
 	  url={https://arxiv.org/abs/2303.12242},
-	  arxiv={https://arxiv.org/abs/2303.12242},
+	  arxiv={2303.12242},
 	  html={https://arxiv.org/abs/2303.12242},
 	  code={https://github.com/Jarmill/data_driven_pos},
 	  tag={ddc}
@@ -410,7 +414,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
       archivePrefix={arXiv},
 	  url={https://arxiv.org/abs/2303.11490},
 	  html={https://arxiv.org/abs/2303.11490},
-	  arxiv={https://arxiv.org/abs/2303.11490},
+	  arxiv={2303.11490},
 	  tag={peak},
       primaryClass={math.OC},
       code={https://github.com/Jarmill/hybrid_peak_est},
