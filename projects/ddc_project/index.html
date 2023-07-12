@@ -251,7 +251,68 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
       </div>
 </li></ol>
 <h2 class="bibliography">Journal Articles</h2>
-<ol class="bibliography"><li>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">LCSS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="zheng2023robustsafety" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Robust Data-Driven Safe Control using Density Functions</div>
+          <!-- Author -->
+          <div class="author">Zheng, Jian, <a href="https://scholar.google.com/citations?user=FcJDJI8AAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Dai, Tianyu</a>, 
+                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em></em> 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2303.09004" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ieeexplore.ieee.org/document/10158326" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://github.com/J-mzz/ddc-safety" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper presents a tractable framework for data-driven synthesis of robustly safe control laws. Given noisy experimental data and some priors about the structure of the system, the goal is to synthesize a state feedback law such that the trajectories of the closed loop system are guaranteed to avoid an unsafe set even in the presence of unknown but bounded disturbances (process noise). The main result of the paper shows that for polynomial dynamics, this problem can be reduced to a tractable convex optimization by combining elements from polynomial optimization and the theorem of alternatives. This optimization provides both a rational control law and a density function safety certificate. These results are illustrated with numerical examples.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">zheng2023robustsafety</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Robust Data-Driven Safe Control using Density Functions}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zheng, Jian and Dai, Tianyu and Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/10158326}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/10158326}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{ddc}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/LCSYS.2023.3287801}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{7}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2611-2616}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{LCSS}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/J-mzz/ddc-safety}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">LCSS</abbr></div>
@@ -310,7 +371,8 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 <h2 class="bibliography">Conference Articles</h2>
 <ol class="bibliography">
 <li>
@@ -536,61 +598,6 @@ Common tasks in system analysis and control include optimal control, peak estima
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="zheng2023robustsafety" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Robust Data-Driven Safe Control using Density Functions</div>
-          <!-- Author -->
-          <div class="author">Zheng, Jian, <a href="https://scholar.google.com/citations?user=FcJDJI8AAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Dai, Tianyu</a>, 
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2023
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2303.09004" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2303.09004" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/J-mzz/ddc-safety" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>This paper presents a tractable framework for data-driven synthesis of robustly safe control laws. Given noisy experimental data and some priors about the structure of the system, the goal is to synthesize a state feedback law such that the trajectories of the closed loop system are guaranteed to avoid an unsafe set even in the presence of unknown but bounded disturbances (process noise). The main result of the paper shows that for polynomial dynamics, this problem can be reduced to a tractable convex optimization by combining elements from polynomial optimization and the theorem of alternatives. This optimization provides both a rational control law and a density function safety certificate. These results are illustrated with numerical examples.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">zheng2023robustsafety</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Robust Data-Driven Safe Control using Density Functions}}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zheng, Jian and Dai, Tianyu and Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
-  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2303.09004}</span><span class="p">,</span>
-  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2303.09004}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{ddc}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/J-mzz/ddc-safety}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
         <div id="miller2023ddcpos" class="col-sm-8">
         
           <!-- Title -->
@@ -609,7 +616,7 @@ Common tasks in system analysis and control include optimal control, peak estima
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/https://arxiv.org/abs/2303.12242" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a href="http://arxiv.org/abs/2303.12242" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://arxiv.org/abs/2303.12242" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="https://github.com/Jarmill/data_driven_pos" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
@@ -630,7 +637,7 @@ Common tasks in system analysis and control include optimal control, peak estima
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2303.12242}</span><span class="p">,</span>
-  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2303.12242}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2303.12242}</span><span class="p">,</span>
   <span class="na">html</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2303.12242}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_pos}</span><span class="p">,</span>
   <span class="na">tag</span> <span class="p">=</span> <span class="s">{ddc}</span>

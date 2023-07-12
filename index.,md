@@ -153,38 +153,36 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
-                  <th scope="row">Jun 5, 2023</th>
+                  <th scope="row">Jul 12, 2023</th>
                   <td>
-                    Our paper <a href="https://arxiv.org/abs/2303.09004" target="_blank" rel="noopener noreferrer">
+                    <a class="news-title" href="/news/ann_37_cdc_accept/">4 papers were accepted to the 62nd IEEE CDC</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jul 11, 2023</th>
+                  <td>
+                    <a class="news-title" href="/news/ann_36_ifac_yaa/">I am a finalist for the Young Author Prize at IFAC WC 2022</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jun 6, 2023</th>
+                  <td>
+                    Our paper <a href="https://ieeexplore.ieee.org/document/10158326" target="_blank" rel="noopener noreferrer">
 Robust Data-Driven Safe Control using Density Functions</a> was accepted for publication in the <a href="http://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters (L-CSS)</a>.
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jun 3, 2023</th>
+                  <th scope="row">Jun 4, 2023</th>
                   <td>
                     Our paper <a href="https://ieeexplore.ieee.org/document/10149398" target="_blank" rel="noopener noreferrer">Bounding the Distance to Unsafe Sets with Convex Optimization</a> was accepted for publication in the <a href="https://www.ieeecss.org/publication/transactions-automatic-control" target="_blank" rel="noopener noreferrer">IEEE Transactions on Automatic Control</a>.
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">May 22, 2023</th>
+                  <th scope="row">May 23, 2023</th>
                   <td>
                     I will be presenting <a href="https://ieeexplore.ieee.org/abstract/document/9971732" target="_blank" rel="noopener noreferrer">“Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalities”</a> at the <a href="https://acc2023.a2c2.org/" target="_blank" rel="noopener noreferrer">American Control Conference</a> at 3:45pm on June 2, 2023 (FrC10  Regular Session, Aqua 309).
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">May 22, 2023</th>
-                  <td>
-                    I will be giving a seminar about <a href="assets/pdf/Robust_Counterpart_Seminar__UCSD.pdf">Data-Driven Safety Quantification</a> at the <a href="https://docs.google.com/spreadsheets/d/11uzIYHNBBifnlHDH8U9tDauCoopzknpos9GKDIFm7nA/edit#gid=0" target="_blank" rel="noopener noreferrer">Student seminar series on optimization, control &amp; learning</a> in UC San Diego on May 29, 2023.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">May 21, 2023</th>
-                  <td>
-                    I will be giving a seminar about Safety Quantification under Uncertainty at the <a href="https://georgiou.eng.uci.edu/seminars.html" target="_blank" rel="noopener noreferrer">Control Seminars at UC Irvine</a> on May 26, 2023.
  
                   </td>
                 </tr> 
@@ -299,7 +297,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
   <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
   <span class="na">note</span> <span class="p">=</span> <span class="s">{arXiv: 2110.14047}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2110.14047}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/10149398}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{distance_arxiv.pdf}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-15}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Automatic Control}</span><span class="p">,</span>
@@ -310,6 +308,66 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{Distance_CDC_Presentation.pdf}</span><span class="p">,</span>
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2110.14047}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">LCSS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="zheng2023robustsafety" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Robust Data-Driven Safe Control using Density Functions</div>
+          <!-- Author -->
+          <div class="author">Zheng, Jian, <a href="https://scholar.google.com/citations?user=FcJDJI8AAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener noreferrer">Dai, Tianyu</a>, 
+                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em></em> 2023
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2303.09004" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ieeexplore.ieee.org/document/10158326" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://github.com/J-mzz/ddc-safety" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This paper presents a tractable framework for data-driven synthesis of robustly safe control laws. Given noisy experimental data and some priors about the structure of the system, the goal is to synthesize a state feedback law such that the trajectories of the closed loop system are guaranteed to avoid an unsafe set even in the presence of unknown but bounded disturbances (process noise). The main result of the paper shows that for polynomial dynamics, this problem can be reduced to a tractable convex optimization by combining elements from polynomial optimization and the theorem of alternatives. This optimization provides both a rational control law and a density function safety certificate. These results are illustrated with numerical examples.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">zheng2023robustsafety</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Robust Data-Driven Safe Control using Density Functions}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zheng, Jian and Dai, Tianyu and Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/10158326}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/10158326}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{ddc}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/LCSYS.2023.3287801}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{7}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2611-2616}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{LCSS}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/J-mzz/ddc-safety}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
