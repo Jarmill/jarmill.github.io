@@ -153,6 +153,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Aug 7, 2023</th>
+                  <td>
+                    I have started a postdoctoral position at the <a href="https://control.ee.ethz.ch/" target="_blank" rel="noopener noreferrer">Automatic Control Lab (IfA)</a>, <a href="https://ethz.ch/en.html" target="_blank" rel="noopener noreferrer">ETH Zurich</a>, in the research group of <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Prof. Roy Smith</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Jul 12, 2023</th>
                   <td>
                     <a class="news-title" href="/news/ann_37_cdc_accept/">4 papers were accepted to the 62nd IEEE CDC</a> 
@@ -165,7 +172,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jun 6, 2023</th>
+                  <th scope="row">Jun 5, 2023</th>
                   <td>
                     Our paper <a href="https://ieeexplore.ieee.org/document/10158326" target="_blank" rel="noopener noreferrer">
 Robust Data-Driven Safe Control using Density Functions</a> was accepted for publication in the <a href="http://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters (L-CSS)</a>.
@@ -173,16 +180,9 @@ Robust Data-Driven Safe Control using Density Functions</a> was accepted for pub
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jun 4, 2023</th>
+                  <th scope="row">Jun 3, 2023</th>
                   <td>
                     Our paper <a href="https://ieeexplore.ieee.org/document/10149398" target="_blank" rel="noopener noreferrer">Bounding the Distance to Unsafe Sets with Convex Optimization</a> was accepted for publication in the <a href="https://www.ieeecss.org/publication/transactions-automatic-control" target="_blank" rel="noopener noreferrer">IEEE Transactions on Automatic Control</a>.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">May 23, 2023</th>
-                  <td>
-                    I will be presenting <a href="https://ieeexplore.ieee.org/abstract/document/9971732" target="_blank" rel="noopener noreferrer">“Data-Driven Gain Scheduling Control of Linear Parameter-Varying Systems using Quadratic Matrix Inequalities”</a> at the <a href="https://acc2023.a2c2.org/" target="_blank" rel="noopener noreferrer">American Control Conference</a> at 3:45pm on June 2, 2023 (FrC10  Regular Session, Aqua 309).
  
                   </td>
                 </tr> 
