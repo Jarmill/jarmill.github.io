@@ -63,6 +63,10 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   slides={CDC_peak_recovery.pdf},
   abstract={Peak Estimation aims to find the maximum value of a state function achieved by a dynamical system. This problem has been previously cast as a convex infinite-dimensional linear program on occupation measures, which can be approximately solved by a converging hierarchy of moment relaxations. In this letter, we present an algorithm to approximate optimal trajectories if the solutions to these relaxations satisfy rank constraints. We also extend peak estimation to maximin and safety analysis problems, providing a certificate that trajectories are bounded away from an unsafe set.}
   }
+  
+  
+  
+  
 
 @INPROCEEDINGS{miller2019rank,
   author={Miller, Jared and  Zheng, Yang and Roig-Solvas, Biel and Sznaier, Mario and Papachristodoulou, Antonis},
@@ -199,6 +203,20 @@ abstract={This paper proposes a method to find super-stabilizing controllers for
 consistent with a set of corrupted observations. The L-infinity bounded measurement noise introduces a bilinearity between the unknown plant parameters and noise terms. A super-stabilizing controller may be found by solving a feasibility problem involving a set of polynomial nonnegativity constraints in terms of the unknown plant parameters and noise terms. A sequence of sum-of-squares (SOS) programs in rising degree will yield a super-stabilizing controller if such a controller exists. Unfortunately, these SOS programs  exhibit very poor scaling as the degree increases. A theorem of alternatives is employed to yield equivalent, convergent (under mild conditions), and more computationally tractable SOS programs. }
 }
 
+@preprint{miller2023quantized,
+      title={{Data-Driven Superstabilization of Linear Systems under Quantization}}, 
+      author={Jared Miller and Jian Zheng and Mario Sznaier and Chris Hixenbaugh},
+	  arxiv={2309.13712},
+	  url = {https://arxiv.org/abs/2309.13712},
+	  html = {https://arxiv.org/abs/2309.13712},
+      year={2023},
+      abstract={This paper focuses on the stabilization and regulation of linear systems affected by quantization in state-transition data and actuated input. The observed data are composed of tuples of current state, input, and the next state's interval ranges based on sensor quantization. Using an established characterization of input-logarithmically-quantized stabilization based on robustness to sector-bounded uncertainty, we formulate a nonconservative infinite-dimensional linear program that enforces superstabilization of all possible consistent systems under assumed priors. We solve this problem by posing a pair of exponentially-scaling linear programs, and demonstrate the success of our method on example quantized systems.},
+bibtex_show={true},
+publisher={arXiv},
+tag={ddc},
+code={https://github.com/Jarmill/quantized_ddc}
+}
+
 @preprint{imtiaz2022saif,
   doi = {10.48550/ARXIV.2212.07495},
   url = {https://arxiv.org/abs/2212.07495},
@@ -266,7 +284,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
   author = {Miller, Jared and Dai, Tianyu and Sznaier, Mario},    
   title = {{Superstabilizing Control of Discrete-Time ARX Models under Error in Variables}},  
   publisher = {arXiv}, 
-  booktitle={22nd IFAC World Congress (upcoming)},
+  booktitle={22nd IFAC World Congress},
   year = {2023},   
   archivePrefix={arXiv},
   primaryClass={math.OC},
@@ -328,7 +346,7 @@ abstract={This work bounds extreme values of state functions for a class of inpu
       title={{Quantifying the Safety of Trajectories using Peak-Minimizing Control}}, 
       author={Jared Miller and Mario Sznaier},
       year={2023},
-      eprint={2303.11896},
+      arxiv={2303.11896},
       archivePrefix={arXiv},
 	  tag={peakddc},
       primaryClass={math.OC},      
@@ -357,11 +375,13 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 }
 }
 
-@preprint{miller2023chancepeak,
+@inproceedings{miller2023chancepeak,
     title={Peak Value-at-Risk Estimation for Stochastic Differential Equations using Occupation Measures},
     author={Jared Miller and Matteo Tacchi and Mario Sznaier and Ashkan Jasour},
     year={2023},
 	tag={peak},
+	abbr={CDC},
+	booktitle = {62nd IEEE Conference on Decision and Control (CDC) (upcoming)},
     eprint={2303.16064},
     archivePrefix={arXiv},
 	code={https://github.com/Jarmill/chance_peak},
@@ -372,16 +392,18 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 	abstract={This paper proposes an algorithm to upper-bound maximal quantile statistics of a state function over the course of a Stochastic Differential Equation (SDE) system execution. This chance-peak problem is posed as a nonconvex program aiming to maximize the Value-at-Risk (VaR) of a state function along SDE state distributions. The VaR problem is upper-bounded by an infinite-dimensional Second-Order Cone Program in occupation measures through the use of one-sided Cantelli or Vysochanskii-Petunin inequalities. These upper bounds on the true quantile statistics may be approximated from above by a sequence of Semidefinite Programs in increasing size using the moment-Sum-of-Squares hierarchy when all data is polynomial. Effectiveness of this approach is demonstrated on example stochastic polynomial dynamical systems.}
 }
 
-@preprint{miller2023delay,
+@inproceedings{miller2023delay,
       title={Peak Estimation of Time Delay Systems using Occupation Measures}, 
       author={Jared Miller and Milan Korda and Victor Magron and Mario Sznaier},
       year={2023},
 	  tag={peak},
+	  abbr={CDC},
 	  slides={Time_Delay_Presentation__NYU.pdf},
       eprint={2303.12863},
       archivePrefix={arXiv},
       primaryClass={math.OC},
 	  code={https://github.com/Jarmill/timedelay},
+	  booktitle = {62nd IEEE Conference on Decision and Control (CDC) (upcoming)},
 	  bibtex_show={true},
 	  abstract={This work proposes a method to compute the maximum value obtained by a state function along trajectories of a Delay Differential Equation (DDE). An example of this task is finding the maximum number of infected people in an epidemic model with a nonzero incubation period. The variables of this peak estimation problem include the stopping time and the original history (restricted to a class of admissible histories). The original nonconvex DDE peak estimation problem is approximated by an infinite-dimensional Linear Program (LP) in occupation measures, inspired by existing measure-based methods in peak estimation and optimal control. This LP is approximated from above by a sequence of Semidefinite Programs (SDPs) through the moment-Sum of Squares (SOS) hierarchy. Effectiveness of this scheme in providing peak estimates for DDEs is demonstrated with provided examples.},
 	  url={https://arxiv.org/abs/2303.12863},
@@ -389,13 +411,15 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 	  arxiv={2303.12863}
 }
 
-@preprint{miller2023ddcpos,
+@inproceedings{miller2023ddcpos,
       title={{Data-Driven Control of Positive Linear Systems using Linear Programming}}, 
       author={Jared Miller and Tianyu Dai and Mario Sznaier and Bahram Shafai},
       year={2023},
+	  abbr={CDC},
       eprint={2303.12242},
       archivePrefix={arXiv},
       primaryClass={math.OC},
+	  booktitle = {62nd IEEE Conference on Decision and Control (CDC) (upcoming)},
       bibtex_show={true},
 	  abstract={This paper presents a linear-programming based algorithm to perform data-driven stabilizing control of linear positive systems. A set of state-input-transition observations is collected up to magnitude-bounded noise. A state feedback controller and dual linear copositive Lyapunov function are created such that the set of all data-consistent plants is contained within the set of all stabilized systems. This containment is certified through the use of the Extended Farkas Lemma and solved via Linear Programming. Sign patterns and sparsity structure for the controller may be imposed using linear constraints. The complexity of this algorithm scales in a polynomial manner with the number of states and inputs. Effectiveness is demonstrated on example systems.},
 	  url={https://arxiv.org/abs/2303.12242},
