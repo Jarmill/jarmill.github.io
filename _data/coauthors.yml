@@ -5,6 +5,10 @@
 "Camps":
   - firstname: ["O", "O.", "Octavia"]
     url: http://robustsystems.coe.neu.edu/
+
+"Smith":
+  - firstname: ["R", "R.", "Roy", "Roy S."]
+    url: http://people.ee.ethz.ch/~rsmith/
    
 "Korda":
   - firstname: ["M", "M.", "Milan"]

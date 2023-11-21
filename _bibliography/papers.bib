@@ -203,6 +203,21 @@ abstract={This paper proposes a method to find super-stabilizing controllers for
 consistent with a set of corrupted observations. The L-infinity bounded measurement noise introduces a bilinearity between the unknown plant parameters and noise terms. A super-stabilizing controller may be found by solving a feasibility problem involving a set of polynomial nonnegativity constraints in terms of the unknown plant parameters and noise terms. A sequence of sum-of-squares (SOS) programs in rising degree will yield a super-stabilizing controller if such a controller exists. Unfortunately, these SOS programs  exhibit very poor scaling as the degree increases. A theorem of alternatives is employed to yield equivalent, convergent (under mild conditions), and more computationally tractable SOS programs. }
 }
 
+@preprint{miller2023rational,
+      title={{Peak Estimation of Rational Systems using Convex Optimization}}, 
+      author={Jared Miller and Roy S. Smith},	        
+      year={2023},      
+	  arxiv={2311.08321},
+	  url = {https://arxiv.org/abs/2311.08321},
+	  html = {https://arxiv.org/abs/2311.08321},
+      year={2023},
+      abstract={This paper presents algorithms that upper-bound the peak value of a state function along trajectories of a continuous-time system with rational dynamics. The finite-dimensional but nonconvex peak estimation problem is cast as a convex infinite-dimensional linear program in occupation measures. This infinite-dimensional program is then truncated into finite-dimensions using the moment-Sum-of-Squares (SOS) hierarchy of semidefinite programs. Prior work on treating rational dynamics using the moment-SOS approach involves clearing dynamics to common denominators or by adding lifting variables to handle reciprocal terms under new equality constraints. Our solution method uses a sum-of-rational method based on absolute continuity of measures. The Moment-SOS truncations of our program possess lower computational complexity and (empirically demonstrated) higher accuracy of upper bounds on example systems as compared to prior approaches.},
+bibtex_show={true},
+publisher={arXiv},
+tag={ddc},
+code={http://doi.org/10.5905/ethz-1007-711}
+}
+
 @preprint{miller2023quantized,
       title={{Data-Driven Superstabilization of Linear Systems under Quantization}}, 
       author={Jared Miller and Jian Zheng and Mario Sznaier and Chris Hixenbaugh},
