@@ -153,6 +153,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Dec 16, 2023</th>
+                  <td>
+                    I presented our research about <a href="/assets/pdf/Pos_CDC_2023.pdf">Data-Driven Control of Positive Systems,</a> <a href="/assets/pdf/Time_Delay_CDC_2023.pdf">Peak Estimation of Time-Delay Systems,</a> and <a href="/assets/pdf/Chance_Peak_CDC_2023.pdf">Risk Analysis of Stochastic Systems,</a>  at the <a href="https://cdc2023.ieeecss.org/" target="_blank" rel="noopener noreferrer">62nd IEEE Conference on Decision and Control</a> in Singapore.
+
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Nov 16, 2023</th>
                   <td>
                     I attended the <a href="https://homepages.laas.fr/henrion/pop23/" target="_blank" rel="noopener noreferrer">Future Trends in Polynomial Optimization</a> workshop at LAAS-CNRS, Toulouse, FR.
@@ -177,12 +185,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Jul 12, 2023</th>
                   <td>
                     <a class="news-title" href="/news/ann_37_cdc_accept/">4 papers were accepted to the 62nd IEEE CDC</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jul 11, 2023</th>
-                  <td>
-                    <a class="news-title" href="/news/ann_36_ifac_yaa/">I am a finalist for the Young Author Prize at IFAC WC 2022</a> 
                   </td>
                 </tr> 
               </table>
@@ -676,7 +678,7 @@ Common tasks in system analysis and control include optimal control, peak estima
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Jared F. Miller. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+        © Copyright 2024 Jared F. Miller. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
