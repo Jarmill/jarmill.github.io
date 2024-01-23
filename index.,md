@@ -153,6 +153,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Jan 23, 2024</th>
+                  <td>
+                    Our paper about <a href="https://arxiv.org/abs/2309.13712" target="_blank" rel="noopener noreferrer">Data-Driven Control under Quantization</a> (with J. Zheng, M. Sznaier, and C. Hixenbaugh) was accepted to the <a href="https://acc2024.a2c2.org/" target="_blank" rel="noopener noreferrer">2024 American Control Conference</a> in Toronto.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jan 16, 2024</th>
+                  <td>
+                    I will be attending the <a href="https://champery.control.ee.ethz.ch/" target="_blank" rel="noopener noreferrer">Champery Power Conference</a>, and will be presenting a poster about <a href="https://arxiv.org/abs/2303.16064" target="_blank" rel="noopener noreferrer">Risk Analysis of Stochastic Processes</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Dec 16, 2023</th>
                   <td>
                     I presented our research about <a href="/assets/pdf/Pos_CDC_2023.pdf">Data-Driven Control of Positive Systems,</a> <a href="/assets/pdf/Time_Delay_CDC_2023.pdf">Peak Estimation of Time-Delay Systems,</a> and <a href="/assets/pdf/Chance_Peak_CDC_2023.pdf">Risk Analysis of Stochastic Systems,</a>  at the <a href="https://cdc2023.ieeecss.org/" target="_blank" rel="noopener noreferrer">62nd IEEE Conference on Decision and Control</a> in Singapore.
@@ -172,19 +186,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <td>
                     I attended the <a href="https://www.kth.se/ernsi2023" target="_blank" rel="noopener noreferrer">European Research Network System Identification (ERNSI)</a> workshop in Stockholm, SE.
  
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Aug 7, 2023</th>
-                  <td>
-                    I have started a postdoctoral position at the <a href="https://control.ee.ethz.ch/" target="_blank" rel="noopener noreferrer">Automatic Control Lab (IfA)</a>, <a href="https://ethz.ch/en.html" target="_blank" rel="noopener noreferrer">ETH Zurich</a>, in the research group of <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Prof. Roy Smith</a>.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jul 12, 2023</th>
-                  <td>
-                    <a class="news-title" href="/news/ann_37_cdc_accept/">4 papers were accepted to the 62nd IEEE CDC</a> 
                   </td>
                 </tr> 
               </table>
@@ -219,6 +220,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://repository.library.northeastern.edu/files/neu:4f196v79r" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="/assets/pdf/Thesis_Final.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
             <a href="/assets/pdf/Safety_Poster__PhD_Expo.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
             <a href="/assets/pdf/Thesis_Presentation_Merged.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
@@ -242,6 +244,8 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PhD}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{Thesis_Final.pdf}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://repository.library.northeastern.edu/files/neu:4f196v79r}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://repository.library.northeastern.edu/files/neu:4f196v79r}</span><span class="p">,</span>
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{Thesis_Presentation_Merged.pdf}</span><span class="p">,</span>
   <span class="na">poster</span> <span class="p">=</span> <span class="s">{Safety_Poster__PhD_Expo.pdf}</span><span class="p">,</span>
   <span class="na">tag</span> <span class="p">=</span> <span class="s">{peakddc}</span>
