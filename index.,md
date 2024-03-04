@@ -14,7 +14,7 @@
     <meta name="author" content="Jared F. Miller" />
     <meta name="description" content="Convex Optimization and Nonlinear Systems.
 " />
-    <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern" />
+    <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern, eth" />
 
 
     <!-- Bootstrap & MDB -->
@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+    <!--<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />-->
 
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
@@ -35,6 +35,8 @@
     <link rel="canonical" href="https://jarmill.github.io">
 <!-- Custom Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
 <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
@@ -659,11 +661,11 @@ Common tasks in system analysis and control include optimal control, peak estima
           <!-- Social -->
           <div class="social">
             <div class="contact-icons">
-            <a href="mailto:%6D%69%6C%6C%65%72.%6A%61%72%65@%6E%6F%72%74%68%65%61%73%74%65%72%6E.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:%6A%61%72%6D%69%6C%6C%65%72@%63%6F%6E%74%72%6F%6C.%65%65.%65%74%68%7A.%63%68" title="email"><i class="fas fa-envelope"></i></a>
             <a href="https://scholar.google.com/citations?user=cyibVxgAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/jarmill" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/jared-f-miller" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-            <a href="http://robustsystems.coe.neu.edu/" title="Work" target="_blank" rel="noopener noreferrer"><i class="fas fa-briefcase"></i></a>
+            <a href="https://control.ee.ethz.ch/people/profile.jared-miller.html" title="Work" target="_blank" rel="noopener noreferrer"><i class="fas fa-briefcase"></i></a>
             
             </div>
 
