@@ -34,6 +34,10 @@
   - firstname: ["A", "A.", "Ashkan"]
     url: https://jasour.mit.edu/
    
+"Yin":
+  - firstname: ["M", "M.", "Mingzhou"]
+    url: https://people.ee.ethz.ch/~myin/index.html
+   
 "Roig-Solvas":
   - firstname: ["B", "B.", "Biel"]   
     url: https://scholar.google.com/citations?hl=en&user=pdZ2bBsAAAAJ
@@ -41,6 +45,10 @@
 "Henrion":
   - firstname: ["D", "D.", "Didier"]
     url: https://homepages.laas.fr/henrion/
+   
+"Abdalmoaty":
+  - firstname: ["M", "Mohamed"]
+    url: https://control.ee.ethz.ch/people/profile.mohamed-abdalmoaty.html
    
 "Wu":
   - firstname: ["C", "C.", "Chieh"]
