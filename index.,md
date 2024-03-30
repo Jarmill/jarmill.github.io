@@ -155,6 +155,28 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Mar 28, 2024</th>
+                  <td>
+                    I was interviewed in the <a href="https://ieeexplore.ieee.org/document/10479516" target="_blank" rel="noopener noreferrer">IEEE Control Systems Magazine Ph.D.s in Control column</a> about my thesis work in <a href="/projects/peak_project">peak estimation</a>.
+
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Mar 26, 2024</th>
+                  <td>
+                    Our paper about <a href="https://arxiv.org/abs/2311.08321" target="_blank" rel="noopener noreferrer">Low-Order System Identification using Sum-of-Rational Optimization</a> (with M. Abdalmoaty, M. Yin, R. S. Smith) was accepted to the <a href="https://conferences.ifac-control.org/sysid2024/" target="_blank" rel="noopener noreferrer">2024 IFAC Symposium on System Identification</a> in Boston.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Mar 15, 2024</th>
+                  <td>
+                    I will be visiting the <a href="https://l2s.centralesupelec.fr/en/" target="_blank" rel="noopener noreferrer">Laboratoire Signaux &amp; Systèmes (L2S)</a> in Paris-Saclay between April 11-12, and will be discussing research about risk estimation of stochastic processes.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Mar 1, 2024</th>
                   <td>
                     Our paper about <a href="https://arxiv.org/abs/2311.08321" target="_blank" rel="noopener noreferrer">Peak Estimation of Rational Dynamical Systems</a> (with R. S. Smith) was accepted to the <a href="https://ecc24.euca-ecc.org/" target="_blank" rel="noopener noreferrer">2024 European Control Conference</a> in Stockholm.
@@ -165,28 +187,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Feb 25, 2024</th>
                   <td>
                     I will be <a href="/assets/pdf/Slice_Volume_Presentation__MoPAT_Konstanz_.pdf">presenting</a> work about <a href="https://arxiv.org/abs/2403.04438" target="_blank" rel="noopener noreferrer">maximizing slice-volumes of semialgebraic sets</a> attending the <a href="https://www.uni-konstanz.de/zukunftskolleg/community/mopat-conference/" target="_blank" rel="noopener noreferrer">Moments and Polynomials: Applications and Theory</a> conference at the University of Konstanz from March 11-14.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Feb 14, 2024</th>
-                  <td>
-                    I will be visiting the <a href="https://www.ist.uni-stuttgart.de/" target="_blank" rel="noopener noreferrer">Institute for Systems Theory and Automatic Control (IST)</a> at the University of Stuttgart on <a href="https://www.ist.uni-stuttgart.de/events/Talk-of-Dr.-Jared-F.-Miller/" target="_blank" rel="noopener noreferrer">February 16</a> and will present results about data-driven safety quantification and errors-in-variables control.
-
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jan 23, 2024</th>
-                  <td>
-                    Our paper about <a href="https://arxiv.org/abs/2309.13712" target="_blank" rel="noopener noreferrer">Data-Driven Control under Quantization</a> (with J. Zheng, M. Sznaier, and C. Hixenbaugh) was accepted to the <a href="https://acc2024.a2c2.org/" target="_blank" rel="noopener noreferrer">2024 American Control Conference</a> in Toronto.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jan 16, 2024</th>
-                  <td>
-                    I will be attending the <a href="https://champery.control.ee.ethz.ch/" target="_blank" rel="noopener noreferrer">Champery Power Conference</a>, and will be presenting a poster about <a href="https://arxiv.org/abs/2303.16064" target="_blank" rel="noopener noreferrer">Risk Analysis of Stochastic Processes</a>.
  
                   </td>
                 </tr> 
@@ -338,7 +338,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em></em> 2023
+            <em>IEEE Control Systems Letters</em> 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -360,6 +360,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">title</span> <span class="p">=</span> <span class="s">{{Robust Data-Driven Safe Control using Density Functions}}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Zheng, Jian and Dai, Tianyu and Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Control Systems Letters}</span><span class="p">,</span>
   <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
   <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2303.09004}</span><span class="p">,</span>
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
