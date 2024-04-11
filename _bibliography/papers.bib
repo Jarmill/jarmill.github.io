@@ -1,5 +1,33 @@
 
 
+@preprint{miller2024timewindowrisk,
+      title={{Peak Time-Windowed Risk Estimation of Stochastic Processes}},
+      author={Jared Miller and Niklas Schmid and Matteo Tacchi and Didier Henrion and Roy S. Smith},
+	  bibtex_show={true},
+	  code={https://www.research-collection.ethz.ch/handle/20.500.11850/662948},
+      year={2024},
+      eprint={2404.06961},
+      archivePrefix={arXiv},
+url={https://arxiv.org/abs/2404.06961},
+href={https://arxiv.org/abs/2404.06961},
+abstract={This paper develops a method to upper-bound extreme-values of time-windowed risks for stochastic processes. Examples of such risks include the maximum average or 90% quantile of the current along a transmission line in any 5-minute window. This work casts the time-windowed risk analysis problem as an infinite-dimensional linear program in occupation measures. In particular, we employ the coherent risk measures of the mean and the expected shortfall (conditional value at risk) to define the maximal time-windowed risk along trajectories. The infinite-dimensional linear program must then be truncated into finite-dimensional optimization problems, such as by using the moment-sum of squares hierarchy of semidefinite programs. The infinite-dimensional linear program will have the same optimal value as the original nonconvex risk estimation task under compactness and regularity assumptions, and the sequence of semidefinite programs will converge to the true value under additional properties of algebraic characterization. The scheme is demonstrated for risk analysis of example stochastic processes.},
+      primaryClass={math.OC}
+}
+
+@preprint{henrion2024setdisconnected,
+      title={{Algebraic Proofs of Path Disconnectedness using Time-Dependent Barrier Functions}}, 
+      author={Didier Henrion and Jared Miller and Mohab Safey El Din},
+      year={2024},
+      eprint={2404.06985},
+	bibtex_show={true},  
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+url={https://arxiv.org/abs/2404.06985},
+href={https://arxiv.org/abs/2404.06985},
+code={https://github.com/jarmill/set_connected/},
+abstract={Two subsets of a given set are path-disconnected if they lie in different connected components of the larger set. Verification of path-disconnectedness is essential in proving the infeasibility of motion planning and trajectory optimization algorithms. We formulate path-disconnectedness as the infeasibility of a single-integrator control task to move between an initial set and a target set in a sufficiently long time horizon. This control-infeasibility task is certified through the generation of a time-dependent barrier function that separates the initial and final sets. The existence of a time-dependent barrier function is a necessary and sufficient condition for path-disconnectedness under compactness conditions. Numerically, the search for a polynomial barrier function is formulated using the moment-sum-of-squares hierarchy of semidefinite programs. The barrier function proves path-disconnectedness at a sufficiently large polynomial degree. The computational complexity of these semidefinite programs can be reduced by elimination of the control variables. Disconnectedness proofs are synthesized for example systems.}
+}
+
 @ARTICLE{miller2020ribosome,
   author={Miller, Jared and Al-Radhawi, Muhammad Ali and Sontag, Eduardo Daniel},
   journal={IEEE Control Systems Letters}, 
@@ -250,8 +278,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
     title={{Frequency-Domain Identification of Discrete-Time Systems using Sum-of-Rational Optimization}},
     author={Mohamed Abdalmoaty and Jared Miller and Mingzhou Yin and Roy S. Smith},
     year={2024},
-    eprint={2312.15722},
-	code={https://www.research-collection.ethz.ch/handle/20.500.11850/641430},
+    eprint={2312.15722},	code={https://www.research-collection.ethz.ch/handle/20.500.11850/641430},
 	arxiv={2312.15722},
 	abbr={SysID},
 	booktitle = {IFAC Symposium on System Identification (2024) (upcoming)},
