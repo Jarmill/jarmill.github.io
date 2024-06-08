@@ -28,6 +28,20 @@ code={https://github.com/jarmill/set_connected/},
 abstract={Two subsets of a given set are path-disconnected if they lie in different connected components of the larger set. Verification of path-disconnectedness is essential in proving the infeasibility of motion planning and trajectory optimization algorithms. We formulate path-disconnectedness as the infeasibility of a single-integrator control task to move between an initial set and a target set in a sufficiently long time horizon. This control-infeasibility task is certified through the generation of a time-dependent barrier function that separates the initial and final sets. The existence of a time-dependent barrier function is a necessary and sufficient condition for path-disconnectedness under compactness conditions. Numerically, the search for a polynomial barrier function is formulated using the moment-sum-of-squares hierarchy of semidefinite programs. The barrier function proves path-disconnectedness at a sufficiently large polynomial degree. The computational complexity of these semidefinite programs can be reduced by elimination of the control variables. Disconnectedness proofs are synthesized for example systems.}
 }
 
+@ARTICLE{miller2024quadstab,
+      title={Data-Driven Superstabilizing Control under Quadratically-Bounded Errors-in-Variables Noise}, 
+      author={Jared Miller and Tianyu Dai and Mario Sznaier},
+      year={2024},
+	  journal={IEEE Control Systems Letters}, 
+	    pages={1-1},
+	  abstract={The Error-in-Variables model of system identification/control involves nontrivial input and measurement corruption of observed data, resulting in generically nonconvex optimization problems. This paper performs full-state-feedback stabilizing control of all discrete-time linear systems that are consistent with observed data for which the input and measurement noise obey quadratic bounds. Instances of such quadratic bounds include elementwise norm bounds (at each time sample), energy bounds (across the entire signal), and chance constraints arising from (sub)gaussian noise. Superstabilizing controllers are generated through the solution of a sum-of-squares hierarchy of semidefinite programs. A theorem of alternatives is employed to eliminate the input and measurement noise process, thus improving tractability. Effectiveness of the scheme is generated on an example system in the chance-constrained set-membership setting where the input and state-measurement noise are i.i.d. normally distributed.},
+	  html={https://ieeexplore.ieee.org/document/10551376},
+	  url={https://ieeexplore.ieee.org/document/10551376},
+	  arxiv={https://arxiv.org/abs/2403.03624},
+	  code={https://github.com/jarmill/eiv_quad},      
+	  abbr={LCSS},      
+}
+
 @ARTICLE{miller2020ribosome,
   author={Miller, Jared and Al-Radhawi, Muhammad Ali and Sontag, Eduardo Daniel},
   journal={IEEE Control Systems Letters}, 
@@ -61,19 +75,6 @@ abstract={Two subsets of a given set are path-disconnected if they lie in differ
 	  bibtex_show={true},	  
 	  code={https://github.com/jarmill/slice_volume},
 	  slides={Slice_Volume_Presentation__MoPAT_Konstanz_.pdf}
-}
-
-@preprint{miller2024datadriven,
-      title={Data-Driven Superstabilizing Control under Quadratically-Bounded Errors-in-Variables Noise}, 
-      author={Jared Miller and Tianyu Dai and Mario Sznaier},
-      year={2024},
-      eprint={2403.03624},
-	  abstract={The Error-in-Variables model of system identification/control involves nontrivial input and measurement corruption of observed data, resulting in generically nonconvex optimization problems. This paper performs full-state-feedback stabilizing control of all discrete-time linear systems that are consistent with observed data for which the input and measurement noise obey quadratic bounds. Instances of such quadratic bounds include elementwise norm bounds (at each time sample), energy bounds (across the entire signal), and chance constraints arising from (sub)gaussian noise. Superstabilizing controllers are generated through the solution of a sum-of-squares hierarchy of semidefinite programs. A theorem of alternatives is employed to eliminate the input and measurement noise process, thus improving tractability. Effectiveness of the scheme is generated on an example system in the chance-constrained set-membership setting where the input and state-measurement noise are i.i.d. normally distributed.},
-	  html={https://arxiv.org/abs/2403.03624},
-	  url={https://arxiv.org/abs/2403.03624},
-	  code={https://github.com/jarmill/eiv_quad},
-      archivePrefix={arXiv},
-      primaryClass={math.OC}
 }
 
 @preprint{miller2024unsafe,
