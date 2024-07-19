@@ -155,9 +155,23 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Jul 18, 2024</th>
+                  <td>
+                    Our work on <a href="https://www.sciencedirect.com/science/article/pii/S0947358024001481" target="_blank" rel="noopener noreferrer">Peak Estimation of Rational Dynamical Systems</a> (with R. S. Smith) was published by the European Journal of Control.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jul 10, 2024</th>
+                  <td>
+                    I presented work about <a href="https://arxiv.org/abs/2309.13712" target="_blank" rel="noopener noreferrer">Data-Driven Control under Quantization</a> (with J. Zheng, M. Sznaier, and C. Hixenbaugh) at the <a href="https://acc2024.a2c2.org/" target="_blank" rel="noopener noreferrer">2024 American Control Conference</a> in Toronto.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Jun 13, 2024</th>
                   <td>
-                    Our work about <a href="https://ieeexplore.ieee.org/document/10554661" target="_blank" rel="noopener noreferrer">Data-Driven Safe Control of Discrete-Time Non-Linear Systems</a> (with Jian Zheng and Mario Sznaier) was published by the <a href="https://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters</a>
+                    Our work about <a href="https://ieeexplore.ieee.org/document/10554661" target="_blank" rel="noopener noreferrer">Data-Driven Safe Control of Discrete-Time Non-Linear Systems</a> (with Jian Zheng and Mario Sznaier) was published by the <a href="https://ieee-cssletters.dei.unipd.it/index.php" target="_blank" rel="noopener noreferrer">IEEE Control Systems Letters</a>.
  
                   </td>
                 </tr> 
@@ -171,23 +185,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                 <tr>
                   <th scope="row">Jun 5, 2024</th>
                   <td>
-                    I will be presenting work about <a href="https://arxiv.org/abs/2311.08321" target="_blank" rel="noopener noreferrer">Peak Estimation of Rational Dynamical Systems</a> (with R. S. Smith) at the to the <a href="https://ecc24.euca-ecc.org/" target="_blank" rel="noopener noreferrer">2024 European Control Conference</a> in Stockholm.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jun 1, 2024</th>
-                  <td>
-                    I will be discussing research about parameterized robust counterparts, frequency-domain system identification, and peak estimation of nonnegative systems at the <a href="https://mtns2024.eng.cam.ac.uk/" target="_blank" rel="noopener noreferrer">Mathematical Theory of Networks and Systems (MTNS)</a> conference in Cambridge, UK.
-
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Mar 28, 2024</th>
-                  <td>
-                    I was interviewed in the <a href="https://ieeexplore.ieee.org/document/10479516" target="_blank" rel="noopener noreferrer">IEEE Control Systems Magazine Ph.D.s in Control column</a> about my thesis work in <a href="/projects/peak_project">peak estimation</a>.
-
+                    I will be attending the <a href="https://www.mfo.de/occasion/2431/www_view" target="_blank" rel="noopener noreferrer">Polynomial Optimization for Nonlinear Dynamics: Theory, Algorithms, and Applications</a> workshop at the <a href="https://www.mfo.de/" target="_blank" rel="noopener noreferrer">Mathematisches Forschungsinstitut Oberwolfach</a> from July 28-August 2, 2024.
  
                   </td>
                 </tr> 
