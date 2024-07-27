@@ -34,6 +34,10 @@
   - firstname: ["A", "A.", "Ashkan"]
     url: https://jasour.mit.edu/
    
+"Schmid":
+  - firstname: ["N", "N.", "Niklas"]
+    url: https://www.niklasschmid.com/  
+   
 "Yin":
   - firstname: ["M", "M.", "Mingzhou"]
     url: https://people.ee.ethz.ch/~myin/index.html
