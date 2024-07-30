@@ -1,5 +1,17 @@
 
 
+
+
+@inproceedings{miller2024average,
+    title={{Peak Time-Windowed Mean Estimation using Convex Optimization}},
+    author={Jared Miller and Niklas Schmid and Matteo Tacchi and Didier Henrion and Roy S. Smith},
+    year={2024},
+	abbr={CDC},
+	abstract={This paper presents an algorithmic approach towards bounding the peak time-windowed average value attained by a state function  along trajectories of a dynamical system. An example includes the maximum average current flowing across a power line in any 5-minute window. The peak time-windowed mean estimation task may be posed as a finite-dimensional but nonconvex optimization problem in terms of an initial condition and stopping time. This problem can be lifted into an infinite-dimensional linear program in occupation measures, where no conservatism is introduced under compactness and dynamical regularity assumptions. The peak time-windowed mean estimation linear program is in turn truncated into a convergent sequence of semidefinite programs using the moment-Sum-of-Squares hierarchy. Effectiveness of bounding the time-windowed mean is demonstrated on example systems.},
+note={ 2024 Conference on Decision and Control (Upcoming)},
+code={https://www.research-collection.ethz.ch/handle/20.500.11850/662948},
+}
+
 @preprint{miller2024timewindowrisk,
       title={{Peak Time-Windowed Risk Estimation of Stochastic Processes}},
       author={Jared Miller and Niklas Schmid and Matteo Tacchi and Didier Henrion and Roy S. Smith},
@@ -308,6 +320,23 @@ publisher={Elsevier},
 tag={peak},
 code={http://doi.org/10.5905/ethz-1007-711}
 }
+
+@ARTICLE{zheng2024ddcdiscrete,
+  author={Zheng, Jian and Miller, Jared and Sznaier, Mario},
+  journal={IEEE Control Systems Letters}, 
+  title={{Data-Driven Safe Control of Discrete-Time Non-Linear Systems}},
+  year={2024},
+    volume={8},
+	abstract={This letter proposes a framework to perform verifiably safe control of all discrete-time non-linear systems that are compatible with collected data. Most safety-maintaining control synthesis algorithms (e.g., control barrier functions, density functions) are limited to obtaining theoretical guarantees of safety in continuous-time, even while their implementation on real systems is typically in discrete-time. We first present a sum-of-squares based program to prove the existence of an (acausal) control policy that can safely stabilize all possible data-consistent systems. Causal control policies may be extracted by online optimization, and we provide sufficient conditions for the extraction of this control policy in general scenarios. As a specific case, we introduce a method for tractable online controller recovery when convexity assumptions are imposed on the candidate Lyapunov function and safety region descriptor. Discrete-time safe stabilization is demonstrated on three example systems.},
+  number={},
+  pages={1553-1558},
+  keywords={Safety;Polynomials;Lyapunov methods;Trajectory;Vectors;Stability criteria;Asymptotic stability;Data-driven control;Discrete-time systems;Nonlinear Systems;Safety;Stability;Sum-of-Squares},
+html={https://ieeexplore.ieee.org/document/10554661},
+url={https://ieeexplore.ieee.org/document/10554661},
+bibtex_show={true},
+  doi={10.1109/LCSYS.2024.3412943},
+  abbr={LCSS}
+  }
 
 @inproceedings{miller2023quantized,
       title={{Data-Driven Superstabilization of Linear Systems under Quantization}}, 
