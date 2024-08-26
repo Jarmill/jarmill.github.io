@@ -1,5 +1,27 @@
 
 
+@ARTICLE{miller2024eiv,
+  author={Miller, Jared and Dai, Tianyu and Sznaier, Mario},
+  journal={IEEE Transactions on Automatic Control}, 
+  title={{Robust Data-Driven Control of Discrete-Time Linear Systems with Errors in Variables}}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  abbr={TAC},
+ abstract={This work presents a Sum-of-Squares (SOS) based framework to perform data-driven stabilization and robust control tasks on discrete-time linear systems where the full-state observations are corrupted by L-infinity bounded input, measurement, and process noise (error in variable setting). Certificates of full-state-feedback robust performance, superstabilization or quadratic stabilization of all plants in a consistency set are provided by solving a feasibility program formed by polynomial nonnegativity constraints. Under mild compactness and data-collection assumptions, SOS tightenings in rising degree will converge to recover the true worst-case optimal L-infinity  (extended) superstabilizing controllers. With some conservatism, quadratically stabilizing controllers with certified H2 performance bounds can also be found. The performance of this SOS method is improved through the application of a theorem of alternatives while retaining tightness, in which the unknown noise variables are eliminated from the consistency set description. This SOS feasibility method is extended to provide worst-case-optimal robust controllers under H2 control costs.},
+	  bibtex_show={true},
+	  code={https://github.com/jarmill/error_in_variables},
+  keywords={Noise;Symmetric matrices;Polynomials;Noise measurement;Linear matrix inequalities;Process control;Linear systems;Data-Driven Control;Robust Control;Optimization;Linear Matrix Inequality;Sum of Squares},
+	url={https://ieeexplore.ieee.org/document/10643715},
+	href={https://ieeexplore.ieee.org/document/10643715},
+	html={https://ieeexplore.ieee.org/document/10643715},
+	  selected={true},
+	  tag={ddc},
+	  slides={EIV_Presentation__Austin.pdf},
+	  bibtex_show={true},
+	  	  arxiv={2210.13430},
+  doi={10.1109/TAC.2024.3447809}}
 
 
 @inproceedings{miller2024average,
@@ -8,7 +30,7 @@
     year={2024},
 	abbr={CDC},
 	abstract={This paper presents an algorithmic approach towards bounding the peak time-windowed average value attained by a state function  along trajectories of a dynamical system. An example includes the maximum average current flowing across a power line in any 5-minute window. The peak time-windowed mean estimation task may be posed as a finite-dimensional but nonconvex optimization problem in terms of an initial condition and stopping time. This problem can be lifted into an infinite-dimensional linear program in occupation measures, where no conservatism is introduced under compactness and dynamical regularity assumptions. The peak time-windowed mean estimation linear program is in turn truncated into a convergent sequence of semidefinite programs using the moment-Sum-of-Squares hierarchy. Effectiveness of bounding the time-windowed mean is demonstrated on example systems.},
-note={ 2024 Conference on Decision and Control (Upcoming)},
+booktitle={IEEE 63rd Conference on Decision and Control (CDC)}, 
 code={https://www.research-collection.ethz.ch/handle/20.500.11850/662948},
 }
 
@@ -119,7 +141,6 @@ author = {Miller, Jared and Zheng, Yang and Sznaier, Mario and Papachristodoulou
 keywords = {Semidefinite programming, Chordal decomposition, Sum of squares, Approximation},
 abstract = {Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.},
 abbr={AUT},
-selected={true},
 arxiv={1911.12859},
 poster={IPAM_decomposed_poster.pdf},
 pdf={decomposed_arxiv.pdf},
@@ -294,6 +315,7 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
     eprint={2312.15722},	code={https://www.research-collection.ethz.ch/handle/20.500.11850/641430},
 	arxiv={2312.15722},
 	abbr={SysID},
+	slides={MTNS_2024_presentation_Sum_of_Rational_formulation.pdf},
 	booktitle = {IFAC Symposium on System Identification},
 	abstract={We propose a computationally tractable method for the identification of stable canonical discrete-time rational transfer function models, using frequency domain data. The problem is formulated as a global non-convex optimization problem whose objective function is the sum of weighted squared residuals at each observed frequency datapoint. Stability is enforced using a polynomial matrix inequality constraint. The problem is solved globally by a moment-sum-of-squares hierarchy of semidefinite programs through a framework for sum-of-rational-functions optimization. Convergence of the moment-sum-of-squares program is guaranteed as the bound on the degree of the sum-of-squares polynomials approaches infinity. The performance of the proposed method is demonstrated using numerical simulation examples.},
     archivePrefix={arXiv},
@@ -373,25 +395,6 @@ code={https://github.com/Jarmill/quantized_ddc}
 }
 
 
-  @preprint{miller2022eiv,
-      title={Data-Driven Stabilizing and Robust Control of Discrete-Time Linear Systems with Error in Variables}, 
-      author={Jared Miller and Tianyu Dai and Mario Sznaier},
-      year={2022},
-      eprint={2210.13430},
-	  arxiv={2210.13430},
-      archivePrefix={arXiv},
-	  tag={ddc},
-      primaryClass={math.OC},
-	  note={arXiv: 2210.13430},
-	  abstract={This work presents a sum-of-squares (SOS) based framework to perform data-driven stabilization and robust control tasks on discrete-time linear systems where the full-state observations are corrupted by L-infinity bounded measurement noise (error in variable setting). Certificates of state-feedback superstability or quadratic stability of all plants in a consistency set are provided by solving a feasibility program formed by polynomial nonnegativity constraints. Under mild compactness and data-collection assumptions, SOS tightenings in rising degree will converge to recover the true superstabilizing controller, with slight conservatism introduced for quadratic stabilizability. The performance of this SOS method is improved through the application of a theorem of alternatives while retaining tightness, in which the unknown noise variables are eliminated from the consistency set description. This SOS feasibility method is extended to provide worst-case-optimal robust controllers under H2 control costs. The consistency set description may be broadened to include cases where the data and process are affected by a combination of L-infinity bounded measurement, process, and input noise. Further generalizations include varying noise sets, non-uniform sampling, and switched systems stabilization.},
-	  bibtex_show={true},
-	  code={https://github.com/jarmill/error_in_variables},
-	  pdf={Noise_in_Variable__Journal_Arxiv.pdf},
-	  selected={true},
-	  slides={EIV_Presentation__Austin.pdf},
-	  bibtex_show={true}
-}
-
 @ARTICLE{zheng2023robustsafety,
     title={{Robust Data-Driven Safe Control using Density Functions}},
     author={Jian Zheng and Tianyu Dai and Jared Miller and Mario Sznaier},
@@ -409,7 +412,6 @@ code={https://github.com/Jarmill/quantized_ddc}
   number={},
   pages={2611-2616},
   abbr={LCSS},
-	selected={true},
 	bibtex_show={true},
 	abstract={This paper presents a tractable framework for data-driven synthesis of robustly safe control laws. Given noisy experimental data and some priors about the structure of the system, the goal is to synthesize a state feedback law such that the trajectories of the closed loop system are guaranteed to avoid an unsafe set even in the presence of unknown but bounded disturbances (process noise). The main result of the paper shows that for polynomial dynamics, this problem can be reduced to a tractable convex optimization by combining elements from polynomial optimization and the theorem of alternatives. This optimization provides both a rational control law and a density function safety certificate. These results are illustrated with numerical examples.},
 	code={https://github.com/J-mzz/ddc-safety}
@@ -605,6 +607,16 @@ bibtex_show={true},
 	  abstract={Peak estimation of hybrid systems aims to upper bound extreme values of a state function along trajectories, where this state function could be different in each subsystem. This finite-dimensional but nonconvex problem may be lifted into an infinite-dimensional linear program (LP) in occupation measures with an equal objective under mild finiteness/compactness and smoothness assumptions. This LP may in turn be approximated by a convergent sequence of upper bounds attained from solutions of Linear Matrix Inequalities (LMIs) using the Moment-Sum-of-Squares hierarchy. The peak estimation problem is extended to problems with uncertainty and safety settings, such as measuring the distance of closest approach between points along hybrid system trajectories and unsafe sets.}
 }
 
+@inproceedings{honarpisheh2024loewner,
+    title={{Low Order Systems in a Loewner Framework}},
+    author={Arya Honarpisheh and Rajiv Singh and Jared Miller and Mario Sznaier},
+booktitle = {IFAC Symposium on System Identification},
+    year={2024},
+	pdf={Identification_of_Low_Order_Systems_in_Loewner_Framework},
+	abstract={This paper considers the problem of non-parametric identification of low-order models from time-domain experimental data using a combination of Caratheodory Fejer and Loewner-based interpolation, followed by a Loewner matrix  Balanced Reduction (LBR) step. As we show in the paper, the Loewner matrix is an estimator for the trace norm of a system, playing a role similar to the one played by the Hankel matrix. However, utilizing Zolotarev numbers to establish decay rate bounds for singular values reveals that the decay of singular values in the Loewner matrix is considerably faster than that in the Hankel matrix. Thus, Loewner-based methods yield lower order systems, with the same error bound, than comparable ones based on Hankel matrices. The effectiveness of our method is demonstrated through a numerical example.},
+	abbr={SysID}
+}
+
 @preprint{miller2023robustcounterpart,
       title={Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts}, 
       author={Jared Miller and Mario Sznaier},
@@ -617,7 +629,7 @@ bibtex_show={true},
 	  archivePrefix={arXiv},
 	   tag={peakddc},
 	    bibtex_show={true},
-	  slides={SIAM_data_driven.pdf},
+	  slides={MTNS_Robust_Counterpart.pdf},
 	  code={https://github.com/Jarmill/data_driven_occ},	
 	  selected={true},  	  
       abstract={Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise.
