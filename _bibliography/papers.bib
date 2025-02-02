@@ -364,8 +364,8 @@ bibtex_show={true},
       title={{Data-Driven Superstabilization of Linear Systems under Quantization}}, 
       author={Jared Miller and Jian Zheng and Mario Sznaier and Chris Hixenbaugh},
 	  arxiv={2309.13712},
-	  url = {https://arxiv.org/abs/2309.13712},
-	  html = {https://arxiv.org/abs/2309.13712},
+	  url = {https://ieeexplore.ieee.org/document/1064455},
+	  html = {https://ieeexplore.ieee.org/document/1064455},
 	  booktitle={American Control Conference},
       year={2024},
 	  abbr={ACC},
@@ -536,19 +536,24 @@ doi={10.1109/CDC49753.2023.10383958},
 	abstract={This paper proposes an algorithm to upper-bound maximal quantile statistics of a state function over the course of a Stochastic Differential Equation (SDE) system execution. This chance-peak problem is posed as a nonconvex program aiming to maximize the Value-at-Risk (VaR) of a state function along SDE state distributions. The VaR problem is upper-bounded by an infinite-dimensional Second-Order Cone Program in occupation measures through the use of one-sided Cantelli or Vysochanskii-Petunin inequalities. These upper bounds on the true quantile statistics may be approximated from above by a sequence of Semidefinite Programs in increasing size using the moment-Sum-of-Squares hierarchy when all data is polynomial. Effectiveness of this approach is demonstrated on example stochastic polynomial dynamical systems.}
 }
 
-@preprint{miller2023chancepeak_long,
-    title={Peak Value-at-Risk Estimation of Stochastic Processes using Occupation Measures},
+
+
+@ARTICLE{miller2024chancepeak,
+journal={IEEE Transactions on Automatic Control}, 
+  title={{Convex Computation of Value-at-Risk Bounds for Stochastic Processes}}, 
     author={Jared Miller and Matteo Tacchi and Mario Sznaier and Ashkan Jasour},
-    year={2023},
+    year={2024},
+	abbr={TAC},
 	tag={peak},
     archivePrefix={arXiv},
 	code={https://github.com/Jarmill/chance_peak},
 	show_bibtex={true},
-	html={https://arxiv.org/abs/2303.16064},
-	url={https://arxiv.org/abs/2303.16064},
+	arxiv={https://arxiv.org/abs/2303.16064},
+	url={https://ieeexplore.ieee.org/document/10806813},
+	html={https://ieeexplore.ieee.org/document/10806813},
 slides={Chance_Peak__INFORMS.pdf},
 bibtex_show={true},
-    primaryClass={math.OC},
+      pages={1-16},
 	abstract={This paper formulates algorithms to upper-bound the maximum Value-at-Risk (VaR) of a state function along trajectories of stochastic processes. The VaR is upper bounded by two methods: minimax tail-bounds (Cantelli/Vysochanskij-Petunin) and Expected Shortfall/Conditional Value-at-Risk (ES). Tail-bounds lead to a infinite-dimensional Second Order Cone Program (SOCP) in occupation measures, while the ES approach creates a Linear Program (LP) in occupation measures. Under compactness and regularity conditions, there is no relaxation gap between the infinite-dimensional convex programs and their nonconvex optimal-stopping stochastic problems. Upper-bounds on the SOCP and LP are obtained by a sequence of semidefinite programs through the moment-Sum-of-Squares hierarchy. The VaR-upper-bounds are demonstrated on example continuous-time and discrete-time polynomial stochastic processes.}
 }
 
