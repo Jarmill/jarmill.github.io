@@ -138,8 +138,7 @@
 
           <div class="clearfix">
             <p>I am a Postdoctoral Researcher at the <a href="https://www.imng.uni-stuttgart.de/mst/" target="_blank" rel="noopener noreferrer">Chair of Mathematical Systems Theory</a>, <a href="https://ethz.ch/en.html" target="_blank" rel="noopener noreferrer">University of Stuttgart</a> under the direction of <a href="https://www.imng.uni-stuttgart.de/institute/team/Scherer-00006/" target="_blank" rel="noopener noreferrer">Prof. Carsten Scherer</a>. My thesis topic involved peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
-My thesis topic involved peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
-through the use of occupation measures (<a href="https://ieeexplore.ieee.org/document/10479516" target="_blank" rel="noopener noreferrer">interview</a>). Another branch of research involves data-driven control, including when the system is contaminated with a combination of input, measurement, and process noise (such as flying a drone with faulty motors and sensors on a windy day). I am also interested in renewable energy integration, and am therefore learning about power systems and power electronics.</p>
+Another branch of research involves data-driven control, including when the system is contaminated with a combination of input, measurement, and process noise (such as flying a drone with faulty motors and sensors on a windy day). I am also interested in optimization and renewable energy integration, and am therefore learning about power systems and power electronics.</p>
 
 <p>I received a Bachelors (EE) and a Masters (EE/CE) degree from Northeastern University in 2018, and a PhD (EE) degree from Northeastern University in 2023 (advised by <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Mario Sznaier</a>). I was previously a Postdoctoral Researcher at the <a href="https://control.ee.ethz.ch/" target="_blank" rel="noopener noreferrer">Automatic Control Lab</a>, <a href="https://ethz.ch/en.html" target="_blank" rel="noopener noreferrer">ETH Zurich</a>, in the research group of <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Prof. Roy S. Smith</a>.</p>
 
@@ -158,6 +157,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <h2><a href="news/">news</a></h2>
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
+                <tr>
+                  <th scope="row">Feb 25, 2025</th>
+                  <td>
+                    Our work about <a href="https://ieeexplore.ieee.org/abstract/document/10903551" target="_blank" rel="noopener noreferrer">analyzing input-affine dynamical systems using parameterized robust counterparts</a> was published by the <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9" target="_blank" rel="noopener noreferrer">IEEE Transactions on Automatic Control</a> (joint work with   Mario Sznaier).
+ 
+                  </td>
+                </tr> 
                 <tr>
                   <th scope="row">Feb 3, 2025</th>
                   <td>
@@ -183,13 +189,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Dec 20, 2024</th>
                   <td>
                     I presented work about <a href="https://ieeexplore.ieee.org/document/10551376" target="_blank" rel="noopener noreferrer">data-driven control under errors-in-variables noise</a> and <a href="https://arxiv.org/abs/2404.06961" target="_blank" rel="noopener noreferrer">time-windowed risk estimation</a> at the <a href="https://cdc2024.ieeecss.org/" target="_blank" rel="noopener noreferrer">2024 IEEE Conference on Decision and Control</a> in Milan, Italy.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Aug 24, 2024</th>
-                  <td>
-                    Our paper about <a href="https://ieeexplore.ieee.org/document/10643715" target="_blank" rel="noopener noreferrer">certified data-driven control under input, measurement, and process noise</a> was published by the <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9" target="_blank" rel="noopener noreferrer">IEEE Transactions on Automatic Control</a> (joint work with Tianyu Dai and Mario Sznaier).
  
                   </td>
                 </tr> 
@@ -267,6 +266,64 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
         <div class="col-sm-2 abbr"><abbr class="badge">TAC</abbr></div>
 
         <!-- Entry bib key -->
+        <div id="miller2025robustcounterpart" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Analysis of Input-Affine Dynamical Systems using Parameterized Robust Counterparts</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Transactions on Automatic Control</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/10903551" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
+            <a href="https://github.com/Jarmill/data_driven_occ" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/MTNS_Robust_Counterpart.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. A standard method to solve these problems is to lift them into infinite-dimensional convex linear programs. However, finite-dimensional truncations of these problems suffer a curse of dimensionality with respect to the size of the state and input. In the case where the dynamical system is input-affine and the input is restricted to a convex set, decomposition methods may be employed to eliminate the input and yield more tractable finite-dimensional truncations. Prior work on these eliminations include enforcing vertex constraints (switching), or employing facial decompositions in the case where the polytopic set is a scaled box. This work generalizes the box-facial technique towards the decompositions of arbitrary convex input-constraining sets using methods from robust optimization. The robustified programs are proven to have the same optimal value and an equivalent set of optimizers as the original program under mild compactness and regularity constraints. Specific attention is paid towards robust-counterpart decomposition of semidefinite representable sets when employing the Moment-Sum-of-Squares hierarchy for polynomial optimization. Efficacy is demonstrated under data-driven peak and distance estimation problems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">miller2025robustcounterpart</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Automatic Control}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Analysis of Input-Affine Dynamical Systems using Parameterized Robust Counterparts}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/abstract/document/10903551}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-16}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{TAC}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{MTNS_Robust_Counterpart.pdf}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Estimation;Symmetric matrices;Polynomials;Vectors;Uncertainty;Optimization;Trajectory;Optimal control;Safety;Dynamical systems;Nonlinear Systems;Robust;Safety;Data-Driven;Sum of Squares;Optimization}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TAC.2025.3545766}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TAC</abbr></div>
+
+        <!-- Entry bib key -->
         <div id="miller2024eiv" class="col-sm-8">
         
           <!-- Title -->
@@ -279,7 +336,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>IEEE Transactions on Automatic Control</em> 2025
+            <em>IEEE Transactions on Automatic Control</em> 2024
           </div>
         
           <!-- Links/Buttons -->
@@ -302,7 +359,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Dai, Tianyu and Sznaier, Mario}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Automatic Control}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{{Robust Data-Driven Control of Discrete-Time Linear Systems with Errors in Variables}}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{70}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{947-962}</span><span class="p">,</span>
@@ -502,63 +559,6 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li></ol>
-<h2 class="bibliography">Preprints</h2>
-<ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2023robustcounterpart" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>Preprint</em> 2023
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2112.14838" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/Jarmill/data_driven_occ" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/MTNS_Robust_Counterpart.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise.
-Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. Existing work poses these types of problems as infinite-dimensional linear programs in auxiliary functions with sum-of-squares tightenings. The bottleneck in most of these programs is the Lie derivative nonnegativity constraint posed over the time-state-control set. Decomposition techniques to improve tractability by eliminating the control variables include  vertex decompositions (switching), or  facial decompositions in the case where the polytopic set is a scaled box. This work extends the box-facial decomposition technique to allow for a robust-counterpart decomposition of semidefinite representable sets (e.g. polytopes, ellipsoids, and projections of spectahedra). These robust counterparts are proven to be equivalent to the original Lie constraint under mild compactness and regularity constraints. Efficacy is demonstrated under peak/distance/reachable set data-driven analysis problems and Region of Attraction maximizing control.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2023robustcounterpart</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2112.14838}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
-  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peakddc}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{MTNS_Robust_Counterpart.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
