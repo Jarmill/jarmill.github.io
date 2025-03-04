@@ -4,7 +4,7 @@
   author={Miller, Jared and Dai, Tianyu and Sznaier, Mario},
   journal={IEEE Transactions on Automatic Control}, 
   title={{Robust Data-Driven Control of Discrete-Time Linear Systems with Errors in Variables}}, 
-  year={2025},
+  year={2024},
   volume={70},
   number={2},
   pages={947-962},
@@ -626,25 +626,26 @@ booktitle = {IFAC Symposium on System Identification},
 	abbr={SysID}
 }
 
-@preprint{miller2023robustcounterpart,
-      title={Analysis and Control of Input-Affine Dynamical Systems using Infinite-Dimensional Robust Counterparts}, 
-      author={Jared Miller and Mario Sznaier},
-      year={2023},
-      eprint={2112.14838},
-	  url={https://arxiv.org/abs/2112.14838},
-	  html={https://arxiv.org/abs/2112.14838},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-	  archivePrefix={arXiv},
-	   tag={peakddc},
-	    bibtex_show={true},
+@ARTICLE{miller2025robustcounterpart,
+  author={Miller, Jared and Sznaier, Mario},
+  journal={IEEE Transactions on Automatic Control}, 
+  title={Analysis of Input-Affine Dynamical Systems using Parameterized Robust Counterparts}, 
+  year={2025},
+  volume={},
+  url={https://ieeexplore.ieee.org/abstract/document/10903551},
+  html={https://ieeexplore.ieee.org/abstract/document/10903551},
+  url={https://arxiv.org/abs/2112.14838},
+  number={},
+  pages={1-16},
+  bibtex_show={true},
+  selected={true},
+  abbr={TAC},
 	  slides={MTNS_Robust_Counterpart.pdf},
 	  code={https://github.com/Jarmill/data_driven_occ},	
 	  selected={true},  	  
-      abstract={Input-affine dynamical systems often arise in control and modeling scenarios, such as the data-driven case when state-derivative observations are recorded under bounded noise.
-Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. Existing work poses these types of problems as infinite-dimensional linear programs in auxiliary functions with sum-of-squares tightenings. The bottleneck in most of these programs is the Lie derivative nonnegativity constraint posed over the time-state-control set. Decomposition techniques to improve tractability by eliminating the control variables include  vertex decompositions (switching), or  facial decompositions in the case where the polytopic set is a scaled box. This work extends the box-facial decomposition technique to allow for a robust-counterpart decomposition of semidefinite representable sets (e.g. polytopes, ellipsoids, and projections of spectahedra). These robust counterparts are proven to be equivalent to the original Lie constraint under mild compactness and regularity constraints. Efficacy is demonstrated under peak/distance/reachable set data-driven analysis problems and Region of Attraction maximizing control.}
-}
-
+	  abstract={Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. A standard method to solve these problems is to lift them into infinite-dimensional convex linear programs. However, finite-dimensional truncations of these problems suffer a curse of dimensionality with respect to the size of the state and input. In the case where the dynamical system is input-affine and the input is restricted to a convex set, decomposition methods may be employed to eliminate the input and yield more tractable finite-dimensional truncations. Prior work on these eliminations include enforcing vertex constraints (switching), or employing facial decompositions in the case where the polytopic set is a scaled box. This work generalizes the box-facial technique towards the decompositions of arbitrary convex input-constraining sets using methods from robust optimization. The robustified programs are proven to have the same optimal value and an equivalent set of optimizers as the original program under mild compactness and regularity constraints. Specific attention is paid towards robust-counterpart decomposition of semidefinite representable sets when employing the Moment-Sum-of-Squares hierarchy for polynomial optimization. Efficacy is demonstrated under data-driven peak and distance estimation problems.},
+  keywords={Estimation;Symmetric matrices;Polynomials;Vectors;Uncertainty;Optimization;Trajectory;Optimal control;Safety;Dynamical systems;Nonlinear Systems;Robust;Safety;Data-Driven;Sum of Squares;Optimization},
+  doi={10.1109/TAC.2025.3545766}}
 
 @INPROCEEDINGS{miller2020decomposed,
   author={Miller, Jared and Zheng, Yang and Sznaier, Mario  and Papachristodoulou, Antonis},
