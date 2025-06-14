@@ -49,6 +49,28 @@ abstract={This paper develops a method to upper-bound extreme-values of time-win
       primaryClass={math.OC}
 }
 
+@preprint{miller2025lure,
+    author={Jared Miller},
+    title={{Incremental Gain Computation and Regulation of Discrete-time Positive Lur\'{e} Systems using Linear Programming}},
+    year={2025},
+    	  bibtex_show={true},
+url={https://arxiv.org/abs/2505.24386},
+arxiv={https://arxiv.org/abs/2505.24386},
+abstract={This work approaches the problem of computing incremental \ell_1 and \ell_\infty gains for discrete-time positive systems in \lure feedback with static memoryless nonlinearities, and regulating the \ell_\infty gain through the design of a state-feedback controller. Finite incremental gains provide a quantitative measure of robustness for trajectories, and will ensure that all pairs of trajectories will converge to a fixed point or will diverge together in the absence of an applied input. Upper-bounds on these incremental gains can be computed through linear programming. Computation and regulation of the \ell_1 and \ell_\infty incremental gains are verified by numerical examples.}
+}
+
+@preprint{meroni2025approximationstarshapedsetsusing,
+      title={Approximation of starshaped sets using polynomials}, 
+      author={Chiara Meroni and Jared Miller and Mauricio Velasco},
+      year={2025},
+      eprint={2505.24352},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2505.24352}, 
+arxiv={https://arxiv.org/abs/2505.24352},
+abstract={We introduce polystar bodies: compact starshaped sets whose gauge or radial functions are expressible by polynomials, enabling tractable computations, such as that of intersection bodies. We prove that polystar bodies are uniformly dense in starshaped sets and obtain asymptotically optimal approximation guarantees. We develop tools for the construction of polystar approximations and illustrate them via several computational examples, including numerical estimations of largest volume slices and widths.}
+}
+
 @preprint{henrion2024setdisconnected,
       title={{Algebraic Proofs of Path Disconnectedness using Time-Dependent Barrier Functions}}, 
       author={Didier Henrion and Jared Miller and Mohab Safey El Din},
@@ -99,6 +121,18 @@ abstract={Two subsets of a given set are path-disconnected if they lie in differ
   slides={ACC_Ribosome_3.pptx}
 }
 
+@preprint{miller2024sparsepolynomialmatrixoptimization,
+      title={Sparse Polynomial Matrix Optimization}, 
+      author={Jared Miller and Jie Wang and Feng Guo},
+      year={2024},
+      eprint={2411.15479},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2411.15479}, 
+arxiv={2411.15479},
+abstract={A polynomial matrix inequality is a formula asserting that a polynomial matrix is positive semidefinite. Polynomial matrix optimization concerns minimizing the smallest eigenvalue of a symmetric polynomial matrix subject to a tuple of polynomial matrix inequalities. This work explores the use of sparsity methods in reducing the complexity of sum-of-squares based methods in verifying polynomial matrix inequalities or solving polynomial matrix optimization. In the unconstrained setting, Newton polytopes can be employed to sparsify the monomial basis, resulting in smaller semidefinite programs. In the general setting, we show how to exploit different types of sparsity (term sparsity, correlative sparsity, matrix sparsity) encoded in polynomial matrices to derive sparse semidefinite programming relaxations for polynomial matrix optimization. For term sparsity, we show that the block structures of the term sparsity iterations with maximal chordal extensions converge to the one determined by PMI sign symmetries. For correlative sparsity, unlike the scalar case, we provide a counterexample showing that asymptotic convergence does not hold under the Archimedean condition and the running intersection property. By employing the theory of matrix-valued measures, we establish several results on detecting global optimality and retrieving optimal solutions under correlative sparsity. The effectiveness of sparsity methods on reducing computational complexity is demonstrated on various examples of polynomial matrix optimization.}
+}
+
 @preprint{miller2024maximizing,
       title={{Maximizing Slice-Volumes of Semialgebraic Sets using Sum-of-Squares Programming}}, 
       author={Jared Miller and Chiara Meroni and Matteo Tacchi and Mauricio Velasco},
@@ -112,6 +146,19 @@ abstract={Two subsets of a given set are path-disconnected if they lie in differ
 	  bibtex_show={true},	  
 	  code={https://github.com/jarmill/slice_volume},
 	  slides={Slice_Volume_Presentation__MoPAT_Konstanz_.pdf}
+}
+
+@inproceedings{miller2024structured,
+    title={Data-Driven Structured Robust Control of Linear Systems},
+    author={Jared Miller and Jaap Eising and Florian Dörfler and Roy S. Smith},
+    year={2025},
+url={https://arxiv.org/abs/2411.11542},
+  booktitle={2025 European Control Conference}, 
+code={https://www.research-collection.ethz.ch/handle/20.500.11850/702171},
+arxiv={2411.11542},
+abstract={Static structured control refers to the task of designing a state-feedback controller such that the control gain satisfies a subspace constraint. Structured control has applications in control of communication-inhibited dynamical systems, such as systems in networked environments. This work performs H_2-suboptimal regulation under a common structured state-feedback controller for a class of data-consistent plants. The certification of H_2-performance is attained through a combination of standard H_2 LMIs, convex sufficient conditions for structured control, and a matrix S-lemma for set-membership. The resulting convex optimization problems are linear matrix inequalities whose size scales independently of the number of data samples collected. Data-driven structured H_2-regulation control is demonstrated on example systems.},
+tag={ddc},
+abbr={ECC}
 }
 
 @preprint{miller2024unsafe,

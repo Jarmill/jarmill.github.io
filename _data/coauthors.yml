@@ -9,6 +9,14 @@
 "Smith":
   - firstname: ["R", "R.", "Roy", "Roy S."]
     url: http://people.ee.ethz.ch/~rsmith/
+
+"Eising":
+  - firstname: ["J", "Jaap"]
+    url: https://jaapeising.github.io/
+
+"Dörfler":
+  - firstname: ["F", "Florian"]
+    url: https://dorfler.ethz.ch/
    
 "Korda":
   - firstname: ["M", "M.", "Milan"]
