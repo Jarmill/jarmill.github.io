@@ -6,6 +6,21 @@
   - firstname: ["O", "O.", "Octavia"]
     url: http://robustsystems.coe.neu.edu/
 
+
+"Hug":
+  - firstname: ["G", "G.", "Gabriela"]
+    url: https://psl.ee.ethz.ch/people/Professor.html
+
+
+"He":
+  - firstname: ["X", "X.", "Xiuqiang"]
+    url: https://xiuq-he.github.io/
+
+"Desai":
+  - firstname: ["M", "M.", "Maitraya"]
+    url: https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html
+    
+
 "Smith":
   - firstname: ["R", "R.", "Roy", "Roy S."]
     url: http://people.ee.ethz.ch/~rsmith/
