@@ -13,6 +13,19 @@ Inverters operating under HAC can, therefore, be connected to other passive elem
 arxiv={2506.14469}
 }
 
+@preprint{miller2025bellman,
+      title={Convergence and Robustness Bounds for Distributed Asynchronous Shortest-Path}, 
+      author={Jared Miller and Mattia Bianchi and Florian Dörfler},
+      year={2025},
+      eprint={2507.07263},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+	  arxiv={2507.07263},
+	  abstract={This work analyzes convergence times and robustness bounds for asynchronous distributed shortest-path computation. We focus on the Adaptive Bellman--Ford algorithm, a self-stabilizing method in which each agent updates its shortest-path estimate based only on the estimates of its neighbors and forgetting its previous estimate. In the asynchronous framework considered in this paper, agents are allowed to idle or encounter race conditions during their execution of the Adaptive Bellman--Ford algorithm. We build on Lyapunov-based results that develop finite-time convergence and robustness bounds for the synchronous shortest-path setting, in order to produce finite-time convergence and robustness bounds for the asynchronous setting. We also explore robustness against interval-bounded noise processes and establish convergence and robustness guarantees for asynchronous most-probable-path algorithms.},
+      url={https://arxiv.org/abs/2507.07263}, 
+	  html={https://arxiv.org/abs/2507.07263}, code={https://www.research-collection.ethz.ch/handle/20.500.11850/705638}
+}
+
 @ARTICLE{miller2024eiv,
   author={Miller, Jared and Dai, Tianyu and Sznaier, Mario},
   journal={IEEE Transactions on Automatic Control}, 
@@ -167,6 +180,7 @@ abstract={A polynomial matrix inequality is a formula asserting that a polynomia
     year={2025},
 url={https://arxiv.org/abs/2411.11542},
   booktitle={2025 European Control Conference}, 
+  slides={Data_Driven_Structured_Control_Presentation__ECC.pdf},
 code={https://www.research-collection.ethz.ch/handle/20.500.11850/702171},
 arxiv={2411.11542},
 abstract={Static structured control refers to the task of designing a state-feedback controller such that the control gain satisfies a subspace constraint. Structured control has applications in control of communication-inhibited dynamical systems, such as systems in networked environments. This work performs H_2-suboptimal regulation under a common structured state-feedback controller for a class of data-consistent plants. The certification of H_2-performance is attained through a combination of standard H_2 LMIs, convex sufficient conditions for structured control, and a matrix S-lemma for set-membership. The resulting convex optimization problems are linear matrix inequalities whose size scales independently of the number of data samples collected. Data-driven structured H_2-regulation control is demonstrated on example systems.},
