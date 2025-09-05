@@ -155,6 +155,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Sep 5, 2025</th>
+                  <td>
+                    I was awarded a Best Poster Award (juried) at the <a href="https://www.swissclocksummit.com/" target="_blank" rel="noopener noreferrer">2025 Swiss CLOCK Summit</a> for <a href="/assets/pdf/OPP_Poster__CLOCK.pdf">Are Optimal Pulse Patterns Optimal?</a> (joint work with Petros Karamanakos and Tobias Geyer). This work will be presented at the <a href="https://cdc2025.ieeecss.org/" target="_blank" rel="noopener noreferrer">Conference on Decision and Control</a> in Rio de Janiero.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Sep 2, 2025</th>
+                  <td>
+                    Our paper about <a href="https://arxiv.org/abs/2303.11490" target="_blank" rel="noopener noreferrer">peak estimation of hybrid systems</a> was accepted for publication by <a href="https://www.sciencedirect.com/journal/automatica" target="_blank" rel="noopener noreferrer">Automatica</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Jul 13, 2025</th>
                   <td>
                     Our work about <a href="https://arxiv.org/abs/2507.07263" target="_blank" rel="noopener noreferrer">convergence and robustness analysis of distributed and asynchronous shortest-path algorithms</a> is now on ArXiv (joint work with Mattia Bianchi and Florian Dorfler).
@@ -172,20 +186,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Jun 17, 2025</th>
                   <td>
                     I will be presenting research about  <a href="https://arxiv.org/abs/2411.11542" target="_blank" rel="noopener noreferrer">data-driven structured control</a> on  <a href="https://ecc25.euca-ecc.org/" target="_blank" rel="noopener noreferrer">European Control Conference</a> on Wednesday, June 25, 2025 (joint work with Jaap Eising, Florian Dorfler, Roy S. Smith).
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jun 16, 2025</th>
-                  <td>
-                    I will be presenting discussing how to perform Second-Order Cone Programming in Measures at the <a href="https://euro2025leeds.uk/" target="_blank" rel="noopener noreferrer">EURO 2025</a> Operational Research Society meeting at the University of Leeds on June 23, 2025 (joint work with Jie Wang and Matteo Tacchi).
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Mar 10, 2025</th>
-                  <td>
-                    Our paper about <a href="https://arxiv.org/abs/2411.11542" target="_blank" rel="noopener noreferrer">data-driven structured control</a> was accepted for presentation in the <a href="https://ecc25.euca-ecc.org/" target="_blank" rel="noopener noreferrer">European Control Conference</a> (joint work with Jaap Eising, Florian Dorfler, Roy S. Smith).
  
                   </td>
                 </tr> 
