@@ -15,12 +15,34 @@
     url: https://psl.ee.ethz.ch/people/Professor.html
 
 
+"Karamanakos":
+  - firstname: ["P", "P.", "Petros"]
+    url: https://www.tuni.fi/en/people/petros-karamanakos
+    
+"Geyer":
+  - firstname: ["T", "T.", "Tobias"]
+    url: https://tobiasgeyer.org/
+
+
+"Scherer":
+  - firstname: ["C", "C.", "Carsten"]
+    url: https://www.imng.uni-stuttgart.de/institute/team/Scherer-00006/
+  
+
+"Jakob":
+  - firstname: ["F", "F.", "Fabian"]
+    url: https://www.ist.uni-stuttgart.de/institute/team/Jakob-00004/
+
+"Iannelli":
+  - firstname: ["A", "Andrea"]
+    url: https://andreaian.github.io/
+  
 "He":
   - firstname: ["X", "X.", "Xiuqiang"]
     url: https://xiuq-he.github.io/
 
 "Desai":
-  - firstname: ["M", "M.", "Maitraya"]
+  - firstname: ["M", "M.", "Maitraya", "Maitraya Avadhut"]
     url: https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html
     
 

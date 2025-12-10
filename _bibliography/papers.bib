@@ -2,9 +2,12 @@
       title={Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control}, 
       author={Jared Miller and Maitraya Avadhut Desai and Xiuqiang He and Roy S. Smith and Gabriela Hug},
       year={2025},
+tag={pe},
       eprint={2506.14469},
       archivePrefix={arXiv},
       primaryClass={eess.SY},
+	  bibtex_show={true},
+	  selected={true},
 code={https://doi.org/10.3929/ethz-b-000705638},
 abstract={Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
 We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
@@ -19,6 +22,7 @@ arxiv={2506.14469}
       year={2025},
       eprint={2507.07263},
       archivePrefix={arXiv},
+	  bibtex_show={true},
       primaryClass={math.OC},
 	  arxiv={2507.07263},
 	  abstract={This work analyzes convergence times and robustness bounds for asynchronous distributed shortest-path computation. We focus on the Adaptive Bellman--Ford algorithm, a self-stabilizing method in which each agent updates its shortest-path estimate based only on the estimates of its neighbors and forgetting its previous estimate. In the asynchronous framework considered in this paper, agents are allowed to idle or encounter race conditions during their execution of the Adaptive Bellman--Ford algorithm. We build on Lyapunov-based results that develop finite-time convergence and robustness bounds for the synchronous shortest-path setting, in order to produce finite-time convergence and robustness bounds for the asynchronous setting. We also explore robustness against interval-bounded noise processes and establish convergence and robustness guarantees for asynchronous most-probable-path algorithms.},
@@ -55,6 +59,7 @@ arxiv={2506.14469}
     author={Jared Miller and Niklas Schmid and Matteo Tacchi and Didier Henrion and Roy S. Smith},
     year={2024},
 	abbr={CDC},
+	bibtex_show={true},
 	abstract={This paper presents an algorithmic approach towards bounding the peak time-windowed average value attained by a state function  along trajectories of a dynamical system. An example includes the maximum average current flowing across a power line in any 5-minute window. The peak time-windowed mean estimation task may be posed as a finite-dimensional but nonconvex optimization problem in terms of an initial condition and stopping time. This problem can be lifted into an infinite-dimensional linear program in occupation measures, where no conservatism is introduced under compactness and dynamical regularity assumptions. The peak time-windowed mean estimation linear program is in turn truncated into a convergent sequence of semidefinite programs using the moment-Sum-of-Squares hierarchy. Effectiveness of bounding the time-windowed mean is demonstrated on example systems.},
 booktitle={IEEE 63rd Conference on Decision and Control (CDC)}, 
 slides={Time_Average_Peak__CDC_Presentation.pdf},
@@ -159,11 +164,24 @@ arxiv={2411.15479},
 abstract={A polynomial matrix inequality is a formula asserting that a polynomial matrix is positive semidefinite. Polynomial matrix optimization concerns minimizing the smallest eigenvalue of a symmetric polynomial matrix subject to a tuple of polynomial matrix inequalities. This work explores the use of sparsity methods in reducing the complexity of sum-of-squares based methods in verifying polynomial matrix inequalities or solving polynomial matrix optimization. In the unconstrained setting, Newton polytopes can be employed to sparsify the monomial basis, resulting in smaller semidefinite programs. In the general setting, we show how to exploit different types of sparsity (term sparsity, correlative sparsity, matrix sparsity) encoded in polynomial matrices to derive sparse semidefinite programming relaxations for polynomial matrix optimization. For term sparsity, we show that the block structures of the term sparsity iterations with maximal chordal extensions converge to the one determined by PMI sign symmetries. For correlative sparsity, unlike the scalar case, we provide a counterexample showing that asymptotic convergence does not hold under the Archimedean condition and the running intersection property. By employing the theory of matrix-valued measures, we establish several results on detecting global optimality and retrieving optimal solutions under correlative sparsity. The effectiveness of sparsity methods on reducing computational complexity is demonstrated on various examples of polynomial matrix optimization.}
 }
 
+@preprint{miller2025analysissynthesisswitchedoptimization,
+      title={{Analysis and Synthesis of Switched Optimization Algorithms}}, 
+      author={Jared Miller and Fabian Jakob and Carsten Scherer and Andrea Iannelli},
+      year={2025},
+      arxiv={2510.21490},
+tag={opt},
+      archivePrefix={arXiv},
+abstract={Deployment of optimization algorithms on networked systems face challenges associated with time delays and corruptions. One particular instance is the presence of time-varying delays arising from factors such as packet drops and irregular sampling. Fixed time delays can destabilize gradient descent algorithms, and this degradation is exacerbated by time-varying delays. This work concentrates on the analysis and creation of discrete-time optimization algorithms with certified exponential convergence rates that are robust against switched uncertainties between the optimizer and the gradient oracle. These optimization algorithms are implemented by a switch-scheduled output feedback controllers. Rate variation and sawtooth behavior (packet drops) in time-varying delays can be imposed through constraining switching sequences. Analysis is accomplished by bisection in the convergence rate to find Zames-Falb filter coefficents. Synthesis is performed by alternating between a filter coefficient search for a fixed controller, and a controller search for fixed multipliers.},
+      primaryClass={math.OC},
+      url={https://arxiv.org/abs/2510.21490},
+code={https://github.com/jarmill/timevaropt}
+}
+
 @preprint{miller2024maximizing,
       title={{Maximizing Slice-Volumes of Semialgebraic Sets using Sum-of-Squares Programming}}, 
       author={Jared Miller and Chiara Meroni and Matteo Tacchi and Mauricio Velasco},
       year={2024},
-      eprint={2403.04438},
+      arxiv={2403.04438},
       archivePrefix={arXiv},
       primaryClass={math.OC},
       url={https://arxiv.org/abs/2403.04438},
@@ -172,6 +190,40 @@ abstract={A polynomial matrix inequality is a formula asserting that a polynomia
 	  bibtex_show={true},	  
 	  code={https://github.com/jarmill/slice_volume},
 	  slides={Slice_Volume_Presentation__MoPAT_Konstanz_.pdf}
+}
+
+
+@preprint{miller2025boundingminimalcurrentharmonic,
+      title={{Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters}}, 
+      author={Jared Miller and Petros Karamanakos and Tobias Geyer},
+      year={2025},
+      arxiv={2512.08201},
+      archivePrefix={arXiv},
+	  bibtex_show={true},
+	  selected={true},
+tag={pe},
+      primaryClass={eess.SY},
+      url={https://arxiv.org/abs/2512.08201}, 
+	  code={https://github.com/jarmill/opp_pop},
+	  poster={OPP_Poster__CLOCK.pdf},
+abstract={Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigono metric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approachs.}
+}
+
+@inproceedings{miller2025optimalpulsepatternshybrid,
+      title={{Optimal Pulse Patterns through a Hybrid Optimal Control Perspective}}, 
+      author={Jared Miller and Petros Karamanakos},
+      year={2025},
+  booktitle={2025 IEEE Conference on Decision and Control}, 
+      eprint={2512.07585},
+      archivePrefix={arXiv},
+abbr={CDC},
+tag={pe},
+poster={OPP_Poster__CLOCK.pdf},
+      primaryClass={eess.SY},
+      url={https://arxiv.org/abs/2512.07585}, 
+abstract={Optimal pulse patterns (OPPs) are a modulation method in which the switching angles and levels of a switching signal are computed via an offline optimization procedure to minimize a performance metric, typically the harmonic distortions of the load current. Additional constraints can be incorporated into the optimization problem to achieve secondary objectives, such as the limitation of specific harmonics or the reduction of power converter losses. The resulting optimization problem, however, is highly nonconvex, featuring a trigonometric objective function and constraints as well as both real- and integer-valued optimization variables. This work casts the task of OPP synthesis for a multilevel converter as an optimal control problem of a hybrid system. This problem is in turn lifted into a convex but infinite-dimensional conic program of occupation measures using established methods in convex relaxations of optimal control. Lower bounds on the minimum achievable harmonic distortion are acquired by solving a sequence of semidefinite programs via the moment-sum-of-squares hierarchy, where each semidefinite program scales in a jointly linear manner with the numbers of permitted switching transitions and converter voltage levels.},
+	  code={https://github.com/jarmill/opp_pop}
+
 }
 
 @inproceedings{miller2024structured,
@@ -268,6 +320,9 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   abstract={Semidefinite programs (SDPs) often arise in relaxations of some NP-hard problems, and if the solution of the SDP obeys certain rank constraints, the relaxation will be tight. Decomposition methods based on chordal sparsity have already been applied to speed up the solution of sparse SDPs, but methods for dealing with rank constraints are underdeveloped. This paper leverages a minimum rank completion result to decompose the rank constraint on a single large matrix into multiple rank constraints on a set of smaller matrices. The re-weighted heuristic is used as a proxy for rank, and the specific form of the heuristic preserves the sparsity pattern between iterations. Implementations of rank-minimized SDPs through interior-point and first-order algorithms are discussed. The problem of subspace clustering is used to demonstrate the computational improvement of the proposed method.}
   }
 
+
+
+
 @INPROCEEDINGS{miller2020mimo,
   author={Miller, Jared and Singh, Rajiv and Sznaier, Mario},
   booktitle={59th IEEE Conference on Decision and Control (CDC)}, 
@@ -304,7 +359,6 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   abstract={Peak estimation bounds extreme values of a function of state along trajectories of a dynamical system. This paper focuses on extending peak estimation to continuous and discrete settings with time-independent and time-dependent uncertainty. Techniques from optimal control are used to incorporate uncertainty into an existing occupation measure-based peak estimation framework, which includes special consideration for handling switching uncertainties. The resulting infinite-dimensional linear programs can be solved approximately with Linear Matrix Inequalities arising from the moment-SOS hierarchy.},
   pdf={peak_uncertain_arxiv.pdf},
   code={https://github.com/jarmill/peak/},
-  selected={true},
   bibtex_show={true}
   }
   
@@ -714,12 +768,11 @@ booktitle = {IFAC Symposium on System Identification},
   url={https://arxiv.org/abs/2112.14838},
   number={},
   pages={1-16},
-  bibtex_show={true},
-  selected={true},
+  bibtex_show={true},  
   abbr={TAC},
 	  slides={MTNS_Robust_Counterpart.pdf},
 	  code={https://github.com/Jarmill/data_driven_occ},	
-	  selected={true},  	  
+	  selected={false},  	  
 	  abstract={Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. A standard method to solve these problems is to lift them into infinite-dimensional convex linear programs. However, finite-dimensional truncations of these problems suffer a curse of dimensionality with respect to the size of the state and input. In the case where the dynamical system is input-affine and the input is restricted to a convex set, decomposition methods may be employed to eliminate the input and yield more tractable finite-dimensional truncations. Prior work on these eliminations include enforcing vertex constraints (switching), or employing facial decompositions in the case where the polytopic set is a scaled box. This work generalizes the box-facial technique towards the decompositions of arbitrary convex input-constraining sets using methods from robust optimization. The robustified programs are proven to have the same optimal value and an equivalent set of optimizers as the original program under mild compactness and regularity constraints. Specific attention is paid towards robust-counterpart decomposition of semidefinite representable sets when employing the Moment-Sum-of-Squares hierarchy for polynomial optimization. Efficacy is demonstrated under data-driven peak and distance estimation problems.},
   keywords={Estimation;Symmetric matrices;Polynomials;Vectors;Uncertainty;Optimization;Trajectory;Optimal control;Safety;Dynamical systems;Nonlinear Systems;Robust;Safety;Data-Driven;Sum of Squares;Optimization},
   doi={10.1109/TAC.2025.3545766}}
