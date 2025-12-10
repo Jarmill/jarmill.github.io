@@ -155,37 +155,37 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
-                  <th scope="row">Sep 5, 2025</th>
+                  <th scope="row">Dec 10, 2025</th>
+                  <td>
+                    I will be discussing how to  <a href="https://arxiv.org/abs/2512.07585" target="_blank" rel="noopener noreferrer">bound the maximal energy efficiency of an electric drive system</a> at the   <a href="https://cdc2025.ieeecss.org/" target="_blank" rel="noopener noreferrer">IEEE Conference on Decision and Control</a> on Friday, December 12, 2025 (joint work with Petros Karamanakos).
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Sep 4, 2025</th>
                   <td>
                     I was awarded a Best Poster Award (juried) at the <a href="https://www.swissclocksummit.com/" target="_blank" rel="noopener noreferrer">2025 Swiss CLOCK Summit</a> for <a href="/assets/pdf/OPP_Poster__CLOCK.pdf">Are Optimal Pulse Patterns Optimal?</a> (joint work with Petros Karamanakos and Tobias Geyer). This work will be presented at the <a href="https://cdc2025.ieeecss.org/" target="_blank" rel="noopener noreferrer">Conference on Decision and Control</a> in Rio de Janiero.
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Sep 2, 2025</th>
+                  <th scope="row">Sep 1, 2025</th>
                   <td>
                     Our paper about <a href="https://arxiv.org/abs/2303.11490" target="_blank" rel="noopener noreferrer">peak estimation of hybrid systems</a> was accepted for publication by <a href="https://www.sciencedirect.com/journal/automatica" target="_blank" rel="noopener noreferrer">Automatica</a>.
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jul 13, 2025</th>
+                  <th scope="row">Jul 12, 2025</th>
                   <td>
                     Our work about <a href="https://arxiv.org/abs/2507.07263" target="_blank" rel="noopener noreferrer">convergence and robustness analysis of distributed and asynchronous shortest-path algorithms</a> is now on ArXiv (joint work with Mattia Bianchi and Florian Dorfler).
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Jun 19, 2025</th>
+                  <th scope="row">Jun 18, 2025</th>
                   <td>
                     Our paper about <a href="https://arxiv.org/abs/2506.14469" target="_blank" rel="noopener noreferrer">network-independent passivity conditions for grid-forming control</a> is now on ArXiv (joint work with Maitraya Desai, Xiuqiang He, Roy S. Smith, Gabriela Hug).
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jun 17, 2025</th>
-                  <td>
-                    I will be presenting research about  <a href="https://arxiv.org/abs/2411.11542" target="_blank" rel="noopener noreferrer">data-driven structured control</a> on  <a href="https://ecc25.euca-ecc.org/" target="_blank" rel="noopener noreferrer">European Control Conference</a> on Wednesday, June 25, 2025 (joint work with Jaap Eising, Florian Dorfler, Roy S. Smith).
  
                   </td>
                 </tr> 
@@ -214,7 +214,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 60th IEEE Conference on Decision and Control (CDC)</em> 2023
+            <em>Preprint</em> 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -257,64 +257,6 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
 </li></ol>
 <h2 class="bibliography">Journal Articles</h2>
 <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">TAC</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="miller2025robustcounterpart" class="col-sm-8">
-        
-          <!-- Title -->
-          <div class="title">Analysis of Input-Affine Dynamical Systems using Parameterized Robust Counterparts</div>
-          <!-- Author -->
-          <div class="author">
-                  <em>Miller, Jared</em>, and <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>
-                  
-          </div>
-
-          <!-- Journal/Book title and date -->
-          <div class="periodical">
-            <em>IEEE Transactions on Automatic Control</em> 2025
-          </div>
-        
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://ieeexplore.ieee.org/abstract/document/10903551" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="https://github.com/Jarmill/data_driven_occ" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/MTNS_Robust_Counterpart.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Common tasks in system analysis and control include optimal control, peak estimation, reachable set estimation, and maximum control invariant set estimation. A standard method to solve these problems is to lift them into infinite-dimensional convex linear programs. However, finite-dimensional truncations of these problems suffer a curse of dimensionality with respect to the size of the state and input. In the case where the dynamical system is input-affine and the input is restricted to a convex set, decomposition methods may be employed to eliminate the input and yield more tractable finite-dimensional truncations. Prior work on these eliminations include enforcing vertex constraints (switching), or employing facial decompositions in the case where the polytopic set is a scaled box. This work generalizes the box-facial technique towards the decompositions of arbitrary convex input-constraining sets using methods from robust optimization. The robustified programs are proven to have the same optimal value and an equivalent set of optimizers as the original program under mild compactness and regularity constraints. Specific attention is paid towards robust-counterpart decomposition of semidefinite representable sets when employing the Moment-Sum-of-Squares hierarchy for polynomial optimization. Efficacy is demonstrated under data-driven peak and distance estimation problems.</p>
-          </div>
-<!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">miller2025robustcounterpart</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Sznaier, Mario}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Automatic Control}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Analysis of Input-Affine Dynamical Systems using Parameterized Robust Counterparts}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2112.14838}</span><span class="p">,</span>
-  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/abstract/document/10903551}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-16}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{TAC}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{MTNS_Robust_Counterpart.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
-  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Estimation;Symmetric matrices;Polynomials;Vectors;Uncertainty;Optimization;Trajectory;Optimal control;Safety;Dynamical systems;Nonlinear Systems;Robust;Safety;Data-Driven;Sum of Squares;Optimization}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TAC.2025.3545766}</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -502,67 +444,118 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
       </div>
 </li>
 </ol>
-<h2 class="bibliography">Conference Articles</h2>
-<ol class="bibliography"><li>
+<h2 class="bibliography">Preprints</h2>
+<ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CDC</abbr></div>
+        <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="miller2021uncertain" class="col-sm-8">
+        <div id="miller2025boundingminimalcurrentharmonic" class="col-sm-8">
         
           <!-- Title -->
-          <div class="title">Peak Estimation for Uncertain and Switched Systems</div>
+          <div class="title">Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters</div>
           <!-- Author -->
           <div class="author">
-                  <em>Miller, Jared</em>, <a href="https://homepages.laas.fr/henrion/" target="_blank" rel="noopener noreferrer">Henrion, Didier</a>, <a href="http://robustsystems.coe.neu.edu/" target="_blank" rel="noopener noreferrer">Sznaier, Mario</a>, and <a href="https://homepages.laas.fr/mkorda/" target="_blank" rel="noopener noreferrer">Korda, Milan</a>
+                  <em>Miller, Jared</em>, <a href="https://www.tuni.fi/en/people/petros-karamanakos" target="_blank" rel="noopener noreferrer">Karamanakos, Petros</a>, and <a href="https://tobiasgeyer.org/" target="_blank" rel="noopener noreferrer">Geyer, Tobias</a>
                   
           </div>
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>In 60th IEEE Conference on Decision and Control (CDC)</em> 2021
+            <em>Preprint</em> 2025
           </div>
         
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2512.08201" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://ieeexplore.ieee.org/document/9683778" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
-            <a href="/assets/pdf/peak_uncertain_arxiv.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="https://github.com/jarmill/peak/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="/assets/pdf/CDC_uncertain.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="https://github.com/jarmill/opp_pop" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/OPP_Poster__CLOCK.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Peak estimation bounds extreme values of a function of state along trajectories of a dynamical system. This paper focuses on extending peak estimation to continuous and discrete settings with time-independent and time-dependent uncertainty. Techniques from optimal control are used to incorporate uncertainty into an existing occupation measure-based peak estimation framework, which includes special consideration for handling switching uncertainties. The resulting infinite-dimensional linear programs can be solved approximately with Linear Matrix Inequalities arising from the moment-SOS hierarchy.</p>
+            <p>Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigono metric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approachs.</p>
           </div>
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">miller2021uncertain</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Henrion, Didier and Sznaier, Mario and Korda, Milan}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{60th IEEE Conference on Decision and Control (CDC)}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Peak Estimation for Uncertain and Switched Systems}}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
-  <span class="na">tag</span> <span class="p">=</span> <span class="s">{peak}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3222-3228}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/CDC45484.2021.9683778}</span><span class="p">,</span>
-  <span class="na">slides</span> <span class="p">=</span> <span class="s">{CDC_uncertain.pdf}</span><span class="p">,</span>
-  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{CDC}</span><span class="p">,</span>
-  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/9683778}</span><span class="p">,</span>
-  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/9683778}</span><span class="p">,</span>
-  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{peak_uncertain_arxiv.pdf}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025boundingminimalcurrentharmonic</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Karamanakos, Petros and Geyer, Tobias}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2512.08201}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2512.08201}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/opp_pop}</span><span class="p">,</span>
+  <span class="na">poster</span> <span class="p">=</span> <span class="s">{OPP_Poster__CLOCK.pdf}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025networkindependentincrementalpassivityconditions" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html" target="_blank" rel="noopener noreferrer">Desai, Maitraya Avadhut</a>, <a href="https://xiuq-he.github.io/" target="_blank" rel="noopener noreferrer">He, Xiuqiang</a>, <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>, and <a href="https://psl.ee.ethz.ch/people/Professor.html" target="_blank" rel="noopener noreferrer">Hug, Gabriela</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2506.14469" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.3929/ethz-b-000705638" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
+We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
+Inverters operating under HAC can, therefore, be connected to other passive elements (e.g. transmission lines) with an immediate guarantee of global transient stability regardless of the network topology or parameters. Passivity of Hybrid Angle Control is also preserved under small-signal (linearized) analyses, in contrast to conventional proportional droop laws that are passivity-short at low frequencies. Passivity and interconnected-stability properties are demonstrated through an example case study.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025networkindependentincrementalpassivityconditions</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Desai, Maitraya Avadhut and He, Xiuqiang and Smith, Roy S. and Hug, Gabriela}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2506.14469}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://doi.org/10.3929/ethz-b-000705638}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2506.14469}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2506.14469}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
           </div>
 
           <!-- Social -->

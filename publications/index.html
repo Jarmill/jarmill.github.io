@@ -222,10 +222,10 @@
   <span class="na">number</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1-16}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">abbr</span> <span class="p">=</span> <span class="s">{TAC}</span><span class="p">,</span>
   <span class="na">slides</span> <span class="p">=</span> <span class="s">{MTNS_Robust_Counterpart.pdf}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/Jarmill/data_driven_occ}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{false}</span><span class="p">,</span>
   <span class="na">keywords</span> <span class="p">=</span> <span class="s">{Estimation;Symmetric matrices;Polynomials;Vectors;Uncertainty;Optimization;Trajectory;Optimal control;Safety;Dynamical systems;Nonlinear Systems;Robust;Safety;Data-Driven;Sum of Squares;Optimization}</span><span class="p">,</span>
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TAC.2025.3545766}</span>
 <span class="p">}</span></code></pre></figure>
@@ -235,7 +235,43 @@
 </li>
 </ol>
 <h2 class="bibliography">Conference Articles</h2>
-<ol class="bibliography"><li>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CDC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025optimalpulsepatternshybrid" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Optimal Pulse Patterns through a Hybrid Optimal Control Perspective</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, and <a href="https://www.tuni.fi/en/people/petros-karamanakos" target="_blank" rel="noopener noreferrer">Karamanakos, Petros</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2025 IEEE Conference on Decision and Control</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://github.com/jarmill/opp_pop" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/OPP_Poster__CLOCK.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Optimal pulse patterns (OPPs) are a modulation method in which the switching angles and levels of a switching signal are computed via an offline optimization procedure to minimize a performance metric, typically the harmonic distortions of the load current. Additional constraints can be incorporated into the optimization problem to achieve secondary objectives, such as the limitation of specific harmonics or the reduction of power converter losses. The resulting optimization problem, however, is highly nonconvex, featuring a trigonometric objective function and constraints as well as both real- and integer-valued optimization variables. This work casts the task of OPP synthesis for a multilevel converter as an optimal control problem of a hybrid system. This problem is in turn lifted into a convex but infinite-dimensional conic program of occupation measures using established methods in convex relaxations of optimal control. Lower bounds on the minimum achievable harmonic distortion are acquired by solving a sequence of semidefinite programs via the moment-sum-of-squares hierarchy, where each semidefinite program scales in a jointly linear manner with the numbers of permitted switching transitions and converter voltage levels.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">ECC</abbr></div>
@@ -270,9 +306,65 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
 <h2 class="bibliography">Preprints</h2>
 <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025networkindependentincrementalpassivityconditions" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html" target="_blank" rel="noopener noreferrer">Desai, Maitraya Avadhut</a>, <a href="https://xiuq-he.github.io/" target="_blank" rel="noopener noreferrer">He, Xiuqiang</a>, <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>, and <a href="https://psl.ee.ethz.ch/people/Professor.html" target="_blank" rel="noopener noreferrer">Hug, Gabriela</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2506.14469" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.3929/ethz-b-000705638" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
+We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
+Inverters operating under HAC can, therefore, be connected to other passive elements (e.g. transmission lines) with an immediate guarantee of global transient stability regardless of the network topology or parameters. Passivity of Hybrid Angle Control is also preserved under small-signal (linearized) analyses, in contrast to conventional proportional droop laws that are passivity-short at low frequencies. Passivity and interconnected-stability properties are demonstrated through an example case study.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025networkindependentincrementalpassivityconditions</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Desai, Maitraya Avadhut and He, Xiuqiang and Smith, Roy S. and Hug, Gabriela}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2506.14469}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://doi.org/10.3929/ethz-b-000705638}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2506.14469}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2506.14469}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -298,6 +390,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="http://arxiv.org/abs/2507.07263" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://arxiv.org/abs/2507.07263" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/705638" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
@@ -305,6 +398,22 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>This work analyzes convergence times and robustness bounds for asynchronous distributed shortest-path computation. We focus on the Adaptive Bellman–Ford algorithm, a self-stabilizing method in which each agent updates its shortest-path estimate based only on the estimates of its neighbors and forgetting its previous estimate. In the asynchronous framework considered in this paper, agents are allowed to idle or encounter race conditions during their execution of the Adaptive Bellman–Ford algorithm. We build on Lyapunov-based results that develop finite-time convergence and robustness bounds for the synchronous shortest-path setting, in order to produce finite-time convergence and robustness bounds for the asynchronous setting. We also explore robustness against interval-bounded noise processes and establish convergence and robustness guarantees for asynchronous most-probable-path algorithms.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025bellman</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Convergence and Robustness Bounds for Distributed Asynchronous Shortest-Path}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Bianchi, Mattia and Dörfler, Florian}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2507.07263}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2507.07263}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2507.07263}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2507.07263}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://www.research-collection.ethz.ch/handle/20.500.11850/705638}</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -395,13 +504,13 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="miller2025networkindependentincrementalpassivityconditions" class="col-sm-8">
+        <div id="miller2025analysissynthesisswitchedoptimization" class="col-sm-8">
         
           <!-- Title -->
-          <div class="title">Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control</div>
+          <div class="title">Analysis and Synthesis of Switched Optimization Algorithms</div>
           <!-- Author -->
           <div class="author">
-                  <em>Miller, Jared</em>, Desai, Maitraya Avadhut, <a href="https://xiuq-he.github.io/" target="_blank" rel="noopener noreferrer">He, Xiuqiang</a>, <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>, and <a href="https://psl.ee.ethz.ch/people/Professor.html" target="_blank" rel="noopener noreferrer">Hug, Gabriela</a>
+                  <em>Miller, Jared</em>, <a href="https://www.ist.uni-stuttgart.de/institute/team/Jakob-00004/" target="_blank" rel="noopener noreferrer">Jakob, Fabian</a>, <a href="https://www.imng.uni-stuttgart.de/institute/team/Scherer-00006/" target="_blank" rel="noopener noreferrer">Scherer, Carsten</a>, and <a href="https://andreaian.github.io/" target="_blank" rel="noopener noreferrer">Iannelli, Andrea</a>
                   
           </div>
 
@@ -413,15 +522,67 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2506.14469" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
-            <a href="https://doi.org/10.3929/ethz-b-000705638" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="http://arxiv.org/abs/2510.21490" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a href="https://github.com/jarmill/timevaropt" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
-We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
-Inverters operating under HAC can, therefore, be connected to other passive elements (e.g. transmission lines) with an immediate guarantee of global transient stability regardless of the network topology or parameters. Passivity of Hybrid Angle Control is also preserved under small-signal (linearized) analyses, in contrast to conventional proportional droop laws that are passivity-short at low frequencies. Passivity and interconnected-stability properties are demonstrated through an example case study.</p>
+            <p>Deployment of optimization algorithms on networked systems face challenges associated with time delays and corruptions. One particular instance is the presence of time-varying delays arising from factors such as packet drops and irregular sampling. Fixed time delays can destabilize gradient descent algorithms, and this degradation is exacerbated by time-varying delays. This work concentrates on the analysis and creation of discrete-time optimization algorithms with certified exponential convergence rates that are robust against switched uncertainties between the optimizer and the gradient oracle. These optimization algorithms are implemented by a switch-scheduled output feedback controllers. Rate variation and sawtooth behavior (packet drops) in time-varying delays can be imposed through constraining switching sequences. Analysis is accomplished by bisection in the convergence rate to find Zames-Falb filter coefficents. Synthesis is performed by alternating between a filter coefficient search for a fixed controller, and a controller search for fixed multipliers.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025boundingminimalcurrentharmonic" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://www.tuni.fi/en/people/petros-karamanakos" target="_blank" rel="noopener noreferrer">Karamanakos, Petros</a>, and <a href="https://tobiasgeyer.org/" target="_blank" rel="noopener noreferrer">Geyer, Tobias</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2512.08201" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://github.com/jarmill/opp_pop" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/OPP_Poster__CLOCK.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigono metric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approachs.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025boundingminimalcurrentharmonic</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Karamanakos, Petros and Geyer, Tobias}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2512.08201}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2512.08201}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/opp_pop}</span><span class="p">,</span>
+  <span class="na">poster</span> <span class="p">=</span> <span class="s">{OPP_Poster__CLOCK.pdf}</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -727,6 +888,7 @@ Inverters operating under HAC can, therefore, be connected to other passive elem
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/662948" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
             <a href="/assets/pdf/Time_Average_Peak__CDC_Presentation.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
           </div>
@@ -734,6 +896,19 @@ Inverters operating under HAC can, therefore, be connected to other passive elem
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>This paper presents an algorithmic approach towards bounding the peak time-windowed average value attained by a state function  along trajectories of a dynamical system. An example includes the maximum average current flowing across a power line in any 5-minute window. The peak time-windowed mean estimation task may be posed as a finite-dimensional but nonconvex optimization problem in terms of an initial condition and stopping time. This problem can be lifted into an infinite-dimensional linear program in occupation measures, where no conservatism is introduced under compactness and dynamical regularity assumptions. The peak time-windowed mean estimation linear program is in turn truncated into a convergent sequence of semidefinite programs using the moment-Sum-of-Squares hierarchy. Effectiveness of bounding the time-windowed mean is demonstrated on example systems.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">miller2024average</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Peak Time-Windowed Mean Estimation using Convex Optimization}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Schmid, Niklas and Tacchi, Matteo and Henrion, Didier and Smith, Roy S.}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{CDC}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IEEE 63rd Conference on Decision and Control (CDC)}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{Time_Average_Peak__CDC_Presentation.pdf}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://www.research-collection.ethz.ch/handle/20.500.11850/662948}</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -1022,6 +1197,7 @@ Inverters operating under HAC can, therefore, be connected to other passive elem
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2403.04438" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://arxiv.org/abs/2403.04438" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">HTML</a>
             <a href="https://github.com/jarmill/slice_volume" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
@@ -1038,7 +1214,7 @@ Inverters operating under HAC can, therefore, be connected to other passive elem
   <span class="na">title</span> <span class="p">=</span> <span class="s">{{Maximizing Slice-Volumes of Semialgebraic Sets using Sum-of-Squares Programming}}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Meroni, Chiara and Tacchi, Matteo and Velasco, Mauricio}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2403.04438}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2403.04438}</span><span class="p">,</span>
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{math.OC}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2403.04438}</span><span class="p">,</span>
@@ -2092,7 +2268,6 @@ consistent with a set of corrupted observations. The L-infinity bounded measurem
   <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/9683778}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{peak_uncertain_arxiv.pdf}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/peak/}</span><span class="p">,</span>
-  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span>
 <span class="p">}</span></code></pre></figure>
           </div>
