@@ -6,14 +6,29 @@ tag={pe},
       eprint={2506.14469},
       archivePrefix={arXiv},
       primaryClass={eess.SY},
-	  bibtex_show={true},
-	  selected={true},
+	  bibtex_show={true},	  
 code={https://doi.org/10.3929/ethz-b-000705638},
 abstract={Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
 We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
 Inverters operating under HAC can, therefore, be connected to other passive elements (e.g. transmission lines) with an immediate guarantee of global transient stability regardless of the network topology or parameters. Passivity of Hybrid Angle Control is also preserved under small-signal (linearized) analyses, in contrast to conventional proportional droop laws that are passivity-short at low frequencies. Passivity and interconnected-stability properties are demonstrated through an example case study.},
       url={https://arxiv.org/abs/2506.14469}, 
 arxiv={2506.14469}
+}
+
+
+@preprint{miller2026structureanalysissynthesisfirstorder,
+      title={Structure, Analysis, and Synthesis of First-Order Algorithms}, 
+      author={Jared Miller and Carsten Scherer and Fabian Jakob and Andrea Iannelli},
+      year={2026},
+      arxiv={2603.24795},
+	  selected={true},
+	  pdf={structure_optimization.pdf},
+	  slides={structure_algorithms_slides_KTH.pdf},
+      archivePrefix={arXiv},
+	  abstract={Optimization algorithms can be interpreted through the lens of dynamical systems as the interconnection of linear systems and a set of subgradient nonlinearities. This dynamical systems formulation allows for the analysis and synthesis of optimization algorithms by solving robust control problems. In this work, we use the celebrated internal model principle in control theory to structurally factorize convergent composite optimization algorithms into suitable network-dependent internal models and core subcontrollers. As the key benefit, we reveal that this permits us to synthesize optimization algorithms even if information is transmitted over networks featuring dynamical phenomena such as time delays, channel memory, or crosstalk. Design of these algorithms is achieved under bisection in the exponential convergence rate either through a nonconvex local search or by alternation of convex semidefinite programs. We demonstrate factorization of existing optimization algorithms and the automated synthesis of new optimization algorithms in the networked setting.},
+      primaryClass={math.OC}, code={https://github.com/Jarmill/constrained_opt},
+      url={https://arxiv.org/abs/2603.24795},
+	  bibtex_show={true},
 }
 
 @preprint{miller2025bellman,
@@ -152,10 +167,11 @@ abstract={Two subsets of a given set are path-disconnected if they lie in differ
   slides={ACC_Ribosome_3.pptx}
 }
 
-@preprint{miller2024sparsepolynomialmatrixoptimization,
+@article{miller2024sparsepolynomialmatrixoptimization,
       title={Sparse Polynomial Matrix Optimization}, 
       author={Jared Miller and Jie Wang and Feng Guo},
-      year={2024},
+      year={2026},
+	  abbr={SIOPT},
       eprint={2411.15479},
       archivePrefix={arXiv},
       primaryClass={math.OC},
@@ -201,6 +217,7 @@ code={https://github.com/jarmill/timevaropt}
       archivePrefix={arXiv},
 	  bibtex_show={true},
 	  selected={true},
+	  slides={opp_fau_erlangen.pdf},
 tag={pe},
       primaryClass={eess.SY},
       url={https://arxiv.org/abs/2512.08201}, 
@@ -240,16 +257,18 @@ tag={ddc},
 abbr={ECC}
 }
 
-@preprint{miller2024unsafe,
+@article{miller2026unsafe,
       title={{Unsafe Probabilities and Risk Contours for Stochastic Processes using Convex Optimization}}, 
+	  journal = {Automatica},
       author={Jared Miller and Matteo Tacchi and Didier Henrion and Mario Sznaier},
-      year={2024},
+      year={2026},
       eprint={2401.00815},
       archivePrefix={arXiv},
 	  arxiv={2401.00815},
 	  tag={peak},
 	  bibtex_show={true},
-	  code={https://github.com/jarmill/prob_unsafe/},
+	 
+abbr={AUT}, 	 code={https://github.com/jarmill/prob_unsafe/},
 	  abstract={This paper proposes an algorithm to calculate the maximal probability of unsafety with respect to trajectories of a stochastic process and a hazard set. The unsafe probability estimation problem is cast as a primal-dual pair of infinite-dimensional linear programs in occupation measures and continuous functions. This convex relaxation is nonconservative (to the true probability of unsafety) under compactness and regularity conditions in dynamics. The continuous-function linear program is linked to existing probability-certifying barrier certificates of safety. Risk contours for initial conditions of the stochastic process may be generated by suitably modifying the objective of the continuous-function program, forming an interpretable and visual representation of stochastic safety for test initial conditions. All infinite-dimensional linear programs are truncated to finite dimension by the Moment-Sum-of-Squares hierarchy of semidefinite programs. Unsafe-probability estimation and risk contours are generated for example stochastic processes.},
       primaryClass={math.OC},
       note={\href{https://arxiv.org/abs/2401.00815}{[link]}},
@@ -384,8 +403,7 @@ abbr={TAC},
 	  code={https://github.com/Jarmill/distance},
 	  bibtex_show={true},
 	  slides={Distance_CDC_Presentation.pdf},
-	  arxiv={2110.14047},
-	  selected={true}
+	  arxiv={2110.14047}	 
 }
 
 @inproceedings{miller2022distance_short,
@@ -509,12 +527,13 @@ tag={ddc},
 code={https://github.com/Jarmill/quantized_ddc}
 }
 
-@preprint{imtiaz2022saif,
+@article{imtiaz2022saif,
   doi = {10.48550/ARXIV.2212.07495},
   url = {https://arxiv.org/abs/2212.07495},
   arxiv={2212.07495},
   note={arXiv: 2212.07495},
   archivePrefix={arXiv},
+  abbr={TMLR},
   primaryClass={cs.CV},
   abstract={Adversarial attacks hamper the decision-making ability of neural networks by perturbing the input signal. The addition of calculated small distortion to images, for instance, can deceive a well-trained image classification network. In this work, we propose a novel attack technique called Sparse Adversarial and Interpretable Attack Framework (SAIF). Specifically, we design imperceptible attacks that contain low-magnitude perturbations at a small number of pixels and leverage these sparse attacks to reveal the vulnerability of classifiers. We use the Frank-Wolfe (conditional gradient) algorithm to simultaneously optimize the attack perturbations for bounded magnitude and sparsity with O(1/sqrt(T)) convergence. Empirical results show that SAIF computes highly imperceptible and interpretable adversarial examples, and outperforms state-of-the-art sparse attack methods on the ImageNet dataset.},
   author = {Imtiaz, Tooba and Kohler, Morgan and Miller, Jared and Wang, Zifeng and Sznaier, Mario and Camps, Octavia and Dy, Jennifer},
@@ -523,7 +542,7 @@ code={https://github.com/Jarmill/quantized_ddc}
   title = {SAIF: Sparse Adversarial and Interpretable Attack Framework},
   bibtex_show={true},
   publisher = {arXiv},
-  year = {2022},
+  year = {2025},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 
@@ -729,17 +748,21 @@ bibtex_show={true},
 }
 
 
-@article{miller2023hybrid,
-      title={{Peak Estimation of Hybrid Systems with Convex Optimization}}, 
+@article{miller2026hybrid,      
       author={Jared Miller and Mario Sznaier},
-      year={2025},
+      title = {Peak estimation of hybrid systems with convex optimization},
+journal = {Automatica},
+volume = {183},
+pages = {112641},
       eprint={2303.11490},
 	  journal={Automatica}, 
       archivePrefix={arXiv},
-	  url={https://arxiv.org/abs/2303.11490},
+	  url={https://www.sciencedirect.com/science/article/pii/S0005109825005370},
 	  html={https://arxiv.org/abs/2303.11490},
 	  arxiv={2303.11490},
 	  tag={peak},
+	  doi = {https://doi.org/10.1016/j.automatica.2025.112641},
+url = {https://www.sciencedirect.com/science/article/pii/S0005109825005370},
 	  abbr={AUT},
       primaryClass={math.OC},
       code={https://github.com/Jarmill/hybrid_peak_est},
