@@ -21,9 +21,10 @@ arxiv={2506.14469}
       author={Jared Miller and Carsten Scherer and Fabian Jakob and Andrea Iannelli},
       year={2026},
       arxiv={2603.24795},
+	  tag={opt},
 	  selected={true},
 	  pdf={structure_optimization.pdf},
-	  slides={structure_algorithms_slides_KTH.pdf},
+	  slides={Presentation__Structure__Analysis__and_Synthesis_of_Optimization_Algorithms__Oxford.pdf},
       archivePrefix={arXiv},
 	  abstract={Optimization algorithms can be interpreted through the lens of dynamical systems as the interconnection of linear systems and a set of subgradient nonlinearities. This dynamical systems formulation allows for the analysis and synthesis of optimization algorithms by solving robust control problems. In this work, we use the celebrated internal model principle in control theory to structurally factorize convergent composite optimization algorithms into suitable network-dependent internal models and core subcontrollers. As the key benefit, we reveal that this permits us to synthesize optimization algorithms even if information is transmitted over networks featuring dynamical phenomena such as time delays, channel memory, or crosstalk. Design of these algorithms is achieved under bisection in the exponential convergence rate either through a nonconvex local search or by alternation of convex semidefinite programs. We demonstrate factorization of existing optimization algorithms and the automated synthesis of new optimization algorithms in the networked setting.},
       primaryClass={math.OC}, code={https://github.com/Jarmill/constrained_opt},
@@ -255,11 +256,10 @@ abbr={CDC},
 tag={pe},
 poster={OPP_Poster__CLOCK.pdf},
       primaryClass={eess.SY},
-	  url={https://ieeexplore.ieee.org/document/11312506}
+	  url={https://ieeexplore.ieee.org/document/11312506},
       arxiv={https://arxiv.org/abs/2512.07585}, 
 abstract={Optimal pulse patterns (OPPs) are a modulation method in which the switching angles and levels of a switching signal are computed via an offline optimization procedure to minimize a performance metric, typically the harmonic distortions of the load current. Additional constraints can be incorporated into the optimization problem to achieve secondary objectives, such as the limitation of specific harmonics or the reduction of power converter losses. The resulting optimization problem, however, is highly nonconvex, featuring a trigonometric objective function and constraints as well as both real- and integer-valued optimization variables. This work casts the task of OPP synthesis for a multilevel converter as an optimal control problem of a hybrid system. This problem is in turn lifted into a convex but infinite-dimensional conic program of occupation measures using established methods in convex relaxations of optimal control. Lower bounds on the minimum achievable harmonic distortion are acquired by solving a sequence of semidefinite programs via the moment-sum-of-squares hierarchy, where each semidefinite program scales in a jointly linear manner with the numbers of permitted switching transitions and converter voltage levels.},
 	  code={https://github.com/jarmill/opp_pop}
-
 }
 
 @inproceedings{miller2024structured,

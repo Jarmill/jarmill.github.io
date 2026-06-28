@@ -4,7 +4,7 @@ title: Peak Estimation
 description: Quantify the safety of trajectories using occupation measure techniques
 img:
 importance: 1
-category: active
+category: inactive
 ---
 
 Peak estimation is the practice of finding the maximum value of a state function over trajectories of a dynamical system. Instances of peak estimation include finding the  speed of a car, the height of an aircraft, the voltage in a power line, etc. Peak estimation can be applied towards safety quantification, such as by measuring the safety of a trajectory by its distance of closest approach to an unsafe set. This project extends the occupation measure framework developed for optimal control and peak estimation. The Moment-Sum-of-Squares hierarchy is employed to obtain convergent bounds to the true peak value when all system data is polynomial.

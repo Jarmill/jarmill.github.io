@@ -5,7 +5,7 @@ description: Find controllers for all plants that are consistent with the observ
 img:
 importance: 2 
 tag: ddc
-category: active
+category: inactive
 ---
 
 Data-Driven Control (DDC) is a methodology that formulates controllers directly from observations without requiring a system identification step. Our work in {% cite miller2022lpvqmi %} extended the Quadratic Matrix Inequality (QMI) framework towards data-driven gain-scheduled control
