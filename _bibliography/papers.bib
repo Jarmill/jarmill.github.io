@@ -81,6 +81,18 @@ slides={Time_Average_Peak__CDC_Presentation.pdf},
 code={https://www.research-collection.ethz.ch/handle/20.500.11850/662948},
 }
 
+@preprint{behrunani2025plugplaydistributedcontrol,
+      title={Plug and Play Distributed Control of Clustered Energy Hub Networks}, 
+      author={Varsha Behrunani and Cara Koepele and Jared Miller and Ahmed Aboudonia and Philipp Heer and Roy S. Smith and John Lygeros},
+      year={2025},
+      eprint={2504.06179},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY},
+      html={https://arxiv.org/abs/2504.06179},
+	  abstract={The transition to renewable energy is driving the rise of distributed multi-energy systems, in which individual energy hubs and prosumers (e.g., homes, industrial campuses) generate, store, and trade energy. Economic Model Predictive Control (MPC) schemes are widely used to optimize operation of energy hubs by efficiently dispatching resources and minimizing costs while ensuring operational constraints are met. Peer-to-peer (P2P) energy trading among hubs enhances network efficiency and reduces costs but also increases computational and privacy challenges, especially as the network scales. Additionally, current distributed control techniques require global recomputation whenever the network topology changes, limiting scalability. To address these challenges, we propose a clustering-based P2P trading framework that enables plug-and-play operation, allowing energy hubs to seamlessly join or leave without requiring network-wide controller updates. The impact is restricted to the hubs within the affected cluster. The energy trading problem is formulated as a bi-level bargaining game, where inter-cluster trading commitments are determined at the cluster level, while energy dispatch and cost-sharing among hubs within a cluster are refined at the hub level. Both levels are solved in a distributed manner using ADMM, ensuring computational feasibility and privacy preservation. Moreover, we develop plug-and-play procedures to handle dynamic topology changes at both the hub and cluster levels, minimizing disruptions across the network. Simulation results demonstrate that the proposed bi-level framework reduces operational costs, and enables scalable energy management under plug-and-play operation.},	  
+	  arxiv={2504.06179}
+}
+
 @preprint{miller2024timewindowrisk,
       title={{Peak Time-Windowed Risk Estimation of Stochastic Processes}},
       author={Jared Miller and Niklas Schmid and Matteo Tacchi and Didier Henrion and Roy S. Smith},
@@ -102,7 +114,7 @@ abstract={This paper develops a method to upper-bound extreme-values of time-win
     	  bibtex_show={true},
 url={https://arxiv.org/abs/2505.24386},
 arxiv={https://arxiv.org/abs/2505.24386},
-abstract={This work approaches the problem of computing incremental \ell_1 and \ell_\infty gains for discrete-time positive systems in \lure feedback with static memoryless nonlinearities, and regulating the \ell_\infty gain through the design of a state-feedback controller. Finite incremental gains provide a quantitative measure of robustness for trajectories, and will ensure that all pairs of trajectories will converge to a fixed point or will diverge together in the absence of an applied input. Upper-bounds on these incremental gains can be computed through linear programming. Computation and regulation of the \ell_1 and \ell_\infty incremental gains are verified by numerical examples.}
+abstract={This work approaches the problem of computing incremental L1 and $L-\infty$ gains for discrete-time positive systems in \lure feedback with static memoryless nonlinearities, and regulating the $L-\infty$ gain through the design of a state-feedback controller. Finite incremental gains provide a quantitative measure of robustness for trajectories, and will ensure that all pairs of trajectories will converge to a fixed point or will diverge together in the absence of an applied input. Upper-bounds on these incremental gains can be computed through linear programming. Computation and regulation of the L1 and $L-\infty$ incremental gains are verified by numerical examples.}
 }
 
 @preprint{meroni2025approximationstarshapedsetsusing,

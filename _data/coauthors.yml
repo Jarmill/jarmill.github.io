@@ -14,6 +14,10 @@
   - firstname: ["G", "G.", "Gabriela"]
     url: https://psl.ee.ethz.ch/people/Professor.html
 
+"Aboudonia":
+  - firstname: ["A", "Ahmed"]
+    url: https://naira.mechse.illinois.edu/sciencex_teams/aboudonia-ahmed-osama-hamed/
+
 
 "Karamanakos":
   - firstname: ["P", "P.", "Petros"]
@@ -52,7 +56,22 @@
 "Desai":
   - firstname: ["M", "M.", "Maitraya", "Maitraya Avadhut"]
     url: https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html
-    
+ 
+"Heer":
+  - firstname: ["P", "Philipp"]
+    url: https://www.empa.ch/web/hep
+
+"Behrunani":
+  - firstname: ["V", "Varsha"]
+    url: https://scholar.google.com/citations?user=UKKLdqAAAAAJ&hl=de
+ 
+"Koepele":
+  - firstname: ["C", "Cara"]
+    url: https://control.ee.ethz.ch/people/profile.cara-koepele.html  
+ 
+"Lygeros":
+  - firstname: ["J", "J.", "John"]
+    url: https://control.ee.ethz.ch/people/profile.john-lygeros.html
 
 "Smith":
   - firstname: ["R", "R.", "Roy", "Roy S."]
