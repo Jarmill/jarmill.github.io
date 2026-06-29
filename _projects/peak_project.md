@@ -18,13 +18,13 @@ An extension of this includes quantifying the safety of trajectories by finding 
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/flow_barrier.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/flow_barrier.png" title="flow barrier" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/flow_safe_verify.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/flow_safe_verify.png" title="flow safe" class="img-fluid rounded z-depth-1" %}
     </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/distance_flow_clean.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/distance_flow_clean.png" title="flow safe" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
