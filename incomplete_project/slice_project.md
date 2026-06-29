@@ -10,6 +10,8 @@ category: inactive
 
 <h1> To come </h1>
 
+<h1> still here?</h1>
+
 <div class="publications">
 	<h1>Relevant Publications:</h1>
 	{% bibliography -f papers -q @*[tag=slice]* %}
