@@ -67,7 +67,7 @@ Choosing a specific pulse pattern occurs as part of a nested control loop, whose
 
 <h2>Optimal Pulse Patterns</h2>
 
-Optimal Pulse Patterns solve an optimization problem to choose a pulse pattern.
+Optimal Pulse Patterns solve an optimization problem to choose switching angles and levels.
 Constraints imposed on this optimization problem include harmonics specifications, power losses, bounded number of switches, and symmetry considerations. The optimization problem is highly nonconvex, featuring binary switching and nonlinear harmonics constraints. This research provides lower-bounds on the Total Demand Distortion obtained by any pulse pattern that is feasible for the constraints. A lower Total Demand Distortion is associated with closer fidelity to the desired sinusoidal reference, and increased efficiency because less energy is lost to wasted heat in undesired harmonics. Existing patterns (upper bounds) can then be checked against the computed lower-bounds to gauge for optimality.
 
 
