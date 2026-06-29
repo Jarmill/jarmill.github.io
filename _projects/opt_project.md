@@ -9,7 +9,7 @@ category: active
 ---
 
 Many problems in control, engineering, management, and machine learning 
-can be cast as an optimization problem: find a point that minimizes an 
+can be cast as an optimization problem: minimizing an 
 objective function subject to constraints. An optimization algorithm is an iterative procedure 
 that returns a sequence of candidate points. The algorithm is convergent
  if this sequence converges to a local optimum when starting at any 
