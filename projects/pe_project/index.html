@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>        
+    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jared F. Miller | Power Electronics</title>
+    <meta name="author" content="Jared F. Miller" />
+    <meta name="description" content="Safely control electric motor systems by suppressing undesirable harmonics" />
+    <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern, eth" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <!--<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />-->
+
+    <!-- Styles -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://jarmill.github.io">
+<!-- Custom Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+
+    <!-- Dark Mode -->
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="https://jarmill.github.io/"><span class="font-weight-bold">Jared</span> F. Miller</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <!--<li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>-->
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Power Electronics</h1>
+            <p class="post-description">Safely control electric motor systems by suppressing undesirable harmonics</p>
+          </header>
+
+          <article>
+            <h2>Electric Drive Systems</h2>
+
+<p>Electric drives systems convert electrical energy into mechanical motion, or harvest electrical energy from motion. 
+These systems are one of the main keys to the renewable energy transition.</p>
+
+<div class="row">
+	<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/electric-car.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/electric-car.jpg" title="electric car">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/electric-car.webp"  title="electric car"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/electric-car.jpg"  title="electric car"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+	<figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/wind_turbine.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/wind_turbine.jpg" title="wind turbine">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/wind_turbine.webp"  title="wind turbine"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/wind_turbine.jpg"  title="wind turbine"  />
+-->
+  </picture>
+
+</figure>
+        
+    </div>
+	<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/metallic-factory-machine-small.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/metallic-factory-machine-small.jpg" title="factory">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/metallic-factory-machine-small.webp"  title="factory"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/metallic-factory-machine-small.jpg"  title="factory"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Electric drives are found in the wheels of electric vehicles, wind turbines, and milling machines.
+</div>
+
+<p>Possible control objectives in the motor include speed, angle, magnetic flux, and torque. Failure to properly control the motor could cause heating in the motor, low power quality, undesirable harmonics, and possibly mechanical breakage.</p>
+
+<p>A common component in electrical drive systems is an inverter. An inverter is a power electronic device that converts between DC and AC power. The inverter is controlled by toggling electrical or electromechanical switches. The voltage output on the AC side can therefore take on a finite number of levels.</p>
+
+<div class="row">
+	<div class="col-sm mt-2 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/inverter_diagram.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/inverter_diagram.png" title="inverter diagram">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/inverter_diagram.webp"  title="inverter diagram"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/inverter_diagram.png"  title="inverter diagram"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+	<div class="col-sm mt-2 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/abb-acs5000-dc-drives_crop.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/abb-acs5000-dc-drives_crop.png" title="flow safe">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/abb-acs5000-dc-drives_crop.webp"  title="flow safe"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/abb-acs5000-dc-drives_crop.png"  title="flow safe"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   A circuit diagram of a 3-level inverter. Right: The ABB ACS5000 DC medium voltage drive.
+</div>
+
+<p>The task of inverter control is to choose a switching sequence such that the motor current/flux/angle trajectory closely tracks a desired trajectory. As an example, a sinusoidal current reference must be tracked using a nonsmooth and finite-level switched voltage input. Exactly following this reference will yield a smooth and predictable rotational motion.
+Methods to choose switching sequences include comparator-based  modulation (e.g. carrier, space vector), optimal pulse patterns, and selective harmonics elimination.</p>
+
+<div class="row">
+	<div class="col-sm mt-1 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/increasing_seq.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/increasing_seq" title="better switching frequency">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/increasing_seq.webp"  title="better switching frequency"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/increasing_seq"  title="better switching frequency"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Raising the switching frequency yields better fidelity to a reference sinusoidal current (k: number of allowed pulses per period).
+</div>
+
+<p>Choosing a specific pulse pattern occurs as part of a nested control loop, whose components could involve trajectory generation and model predictive control.</p>
+
+<h2>Optimal Pulse Patterns</h2>
+
+<p>Optimal Pulse Patterns solve an optimization problem to choose switching angles and levels.
+Constraints imposed on this optimization problem include harmonics specifications, power losses, bounded number of switches, and symmetry considerations. The optimization problem is highly nonconvex, featuring binary switching and nonlinear harmonics constraints. This research provides lower-bounds on the Total Demand Distortion obtained by any pulse pattern that is feasible for the constraints. A lower Total Demand Distortion is associated with closer fidelity to the desired sinusoidal reference, and increased efficiency because less energy is lost to wasted heat in undesired harmonics. Existing patterns (upper bounds) can then be checked against the computed lower-bounds to gauge for optimality.</p>
+
+<p>We model the Optimal Pulse Pattern problem as a path-planning optimal control problem in a hybrid system (continuous and discrete dynamics).
+the continuous dynamics are the electrical dynamics of the circuit elements (e.g. motor resistance and inductance, grid-side filters).
+ The discrete jumps are the toggling of switches, in which the output voltage level in the inverter changes. The control problem is to choose a periodic path in a transition graph (levels), and the times to execute these jumps (switching angles).</p>
+
+<div class="row">
+	<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/pulse_anatomy.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/pulse_anatomy" title="flow barrier">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/pulse_anatomy.webp"  title="flow barrier"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/pulse_anatomy"  title="flow barrier"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/traversed_4.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/traversed_4" title="flow safe">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/traversed_4.webp"  title="flow safe"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/traversed_4"  title="flow safe"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+	<div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/dwell_4.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/dwell_4" title="flow safe">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/dwell_4.webp"  title="flow safe"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/dwell_4"  title="flow safe"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+   Left: A pulse pattern with 4 switching angles. Center: A transition graph, with the black path highlighting the voltage sequence used. Right: an occupancy table storing the time spent in each mode.
+</div>
+
+<p>We lower-bound the optimal control cost of the hybrid system optimal control problem by using existing convex relaxation methods in control theory (value functions/moment-sum-of-squares). By increasing the computational requirements (larger and larger semidefinite programs), tighter and tighter lower-bounds to the true minimal Total Demand Distortion are obtained.</p>
+
+<p>The below figure plots a pattern with 24 pulses/period, quarter-wave symmetry, and a voltage sine fundamental  harmonic of 0.8.    The TDD of the synthesized pattern is 2.65%, and has a suboptimality at most 2.2799 × 10 <sup>-4</sup>  above the minimal TDD pattern.</p>
+
+<div class="row">
+	<div class="col-sm mt-1 mt-md-0">
+        <figure>
+
+  <picture>
+   <!--  -->
+	 <source class="img-fluid rounded z-depth-1" srcset="/assets/img/kappa_08_05_k24_fixed.webp"></source> 
+
+    <!-- Fallback to the original file -->
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/kappa_08_05_k24_fixed" title="5 level">
+	
+	   <!--  
+	<img class="img-fluid rounded z-depth-1" src="/assets/img/kappa_08_05_k24_fixed.webp"  title="5 level"  />
+
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/kappa_08_05_k24_fixed"  title="5 level"  />
+-->
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+
+   
+   Top: voltage reference (black) and synthesized pattern (blue). Middle: the current in the resistive-inductive motor with R/L ratio 0.5, red dots highlight the switching angles. Bottom: difference between the reference load current and the motor load current as driven by the pattern.
+   
+
+   
+</div>
+
+<p>A pattern can be approximately recovered from the semidefinite program solutions if the matrices satisfy low-rank properties. The numerically recovered pattern may be infeasible for the harmonics constraints, and can then be fed into a local optimizer to generate a feasible pulse pattern.</p>
+
+<div class="publications">
+	<h1>Relevant Publications:</h1>
+	<h2 class="bibliography">Conference Articles</h2>
+<ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CDC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025optimalpulsepatternshybrid" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Optimal Pulse Patterns through a Hybrid Optimal Control Perspective</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, and <a href="https://www.tuni.fi/en/people/petros-karamanakos" target="_blank" rel="noopener noreferrer">Karamanakos, Petros</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2025 IEEE Conference on Decision and Control</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/https://arxiv.org/abs/2512.07585" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a href="https://github.com/jarmill/opp_pop" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/OPP_Poster__CLOCK.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Optimal pulse patterns (OPPs) are a modulation method in which the switching angles and levels of a switching signal are computed via an offline optimization procedure to minimize a performance metric, typically the harmonic distortions of the load current. Additional constraints can be incorporated into the optimization problem to achieve secondary objectives, such as the limitation of specific harmonics or the reduction of power converter losses. The resulting optimization problem, however, is highly nonconvex, featuring a trigonometric objective function and constraints as well as both real- and integer-valued optimization variables. This work casts the task of OPP synthesis for a multilevel converter as an optimal control problem of a hybrid system. This problem is in turn lifted into a convex but infinite-dimensional conic program of occupation measures using established methods in convex relaxations of optimal control. Lower bounds on the minimum achievable harmonic distortion are acquired by solving a sequence of semidefinite programs via the moment-sum-of-squares hierarchy, where each semidefinite program scales in a jointly linear manner with the numbers of permitted switching transitions and converter voltage levels.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+<h2 class="bibliography">Preprints</h2>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025boundingminimalcurrentharmonic" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://www.tuni.fi/en/people/petros-karamanakos" target="_blank" rel="noopener noreferrer">Karamanakos, Petros</a>, and <a href="https://tobiasgeyer.org/" target="_blank" rel="noopener noreferrer">Geyer, Tobias</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2512.08201" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://github.com/jarmill/opp_pop" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="/assets/pdf/OPP_Poster__CLOCK.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+            <a href="/assets/pdf/opp_fau_erlangen.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigono metric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approachs.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025boundingminimalcurrentharmonic</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Bounding the Minimal Current Harmonic Distortion in Optimal Modulation of Single-Phase Power Converters}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Karamanakos, Petros and Geyer, Tobias}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2512.08201}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">slides</span> <span class="p">=</span> <span class="s">{opp_fau_erlangen.pdf}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2512.08201}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/jarmill/opp_pop}</span><span class="p">,</span>
+  <span class="na">poster</span> <span class="p">=</span> <span class="s">{OPP_Poster__CLOCK.pdf}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="miller2025networkindependentincrementalpassivityconditions" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Miller, Jared</em>, <a href="https://psl.ee.ethz.ch/people/person-detail.Mjk2NTAz.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html" target="_blank" rel="noopener noreferrer">Desai, Maitraya Avadhut</a>, <a href="https://xiuq-he.github.io/" target="_blank" rel="noopener noreferrer">He, Xiuqiang</a>, <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>, and <a href="https://psl.ee.ethz.ch/people/Professor.html" target="_blank" rel="noopener noreferrer">Hug, Gabriela</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Preprint</em> 2025
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2506.14469" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.3929/ethz-b-000705638" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Code</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Grid-forming inverters control the power transfer between the AC and DC sides of an electrical grid while maintaining the frequency and voltage of the AC side. This paper focuses on ensuring large-signal stability of an electrical grid with inverter-interfaced renewable sources. 
+We prove that the Hybrid-Angle Control (HAC) scheme for grid-forming inverters can exhibit incremental passivity properties between current and voltage at both the AC and DC ports. This incremental passivity can be certified through decentralized conditions.
+Inverters operating under HAC can, therefore, be connected to other passive elements (e.g. transmission lines) with an immediate guarantee of global transient stability regardless of the network topology or parameters. Passivity of Hybrid Angle Control is also preserved under small-signal (linearized) analyses, in contrast to conventional proportional droop laws that are passivity-short at low frequencies. Passivity and interconnected-stability properties are demonstrated through an example case study.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@preprint</span><span class="p">{</span><span class="nl">miller2025networkindependentincrementalpassivityconditions</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Network-Independent Incremental Passivity Conditions for Grid-Forming Inverter Control}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Miller, Jared and Desai, Maitraya Avadhut and He, Xiuqiang and Smith, Roy S. and Hug, Gabriela}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">tag</span> <span class="p">=</span> <span class="s">{pe}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2506.14469}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{eess.SY}</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://doi.org/10.3929/ethz-b-000705638}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://arxiv.org/abs/2506.14469}</span><span class="p">,</span>
+  <span class="na">arxiv</span> <span class="p">=</span> <span class="s">{2506.14469}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+  </div>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2026 Jared F. Miller. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Mansory & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+
+    
+  </body>
+</html>
+

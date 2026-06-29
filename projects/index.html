@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jared F. Miller | projects</title>
     <meta name="author" content="Jared F. Miller" />
-    <meta name="description" content="A collection of projects" />
+    <meta name="description" content="My research directions" />
     <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern, eth" />
 
 
@@ -108,7 +108,7 @@
 
           <header class="post-header">
             <h1 class="post-title">projects</h1>
-            <p class="post-description">A collection of projects</p>
+            <p class="post-description">My research directions</p>
           </header>
 
           <article>
@@ -116,6 +116,36 @@
 <div class="projects">
   <!-- Display categorized projects -->
   <h2 class="category">active</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/opt_project/">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Optimization Algorithms</h2>
+            <p class="card-text">Characterize and design and  convergent optimization algorithms over dynamical networks (time delays)</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/pe_project/">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Power Electronics</h2>
+            <p class="card-text">Safely control electric motor systems by suppressing undesirable harmonics</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <h2 class="category">inactive</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
     <!-- _includes/projects.html -->
@@ -133,28 +163,24 @@
     </div>
     <!-- _includes/projects.html -->
     <div class="grid-item">
-      <a href="/projects/ddc_project/">
+      <a href="/projects/ribosome_project/">
         <div class="card hoverable">
           <div class="card-body">
-            <h2 class="card-title text-lowercase">Data-Driven Control</h2>
-            <p class="card-text">Find controllers for all plants that are consistent with the observed data.</p>
+            <h2 class="card-title text-lowercase">Ribosome Competition</h2>
+            <p class="card-text">Reduce competition for ribosomes in RNA translation by splitting pools (orthogonal ribosomes)</p>
             <div class="row ml-1 mr-1 p-0">
             </div>
           </div>
         </div>
       </a>
     </div>
-  </div>
-  <h2 class="category">inactive</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
     <!-- _includes/projects.html -->
     <div class="grid-item">
-      <a href="/projects/ribosome_project/">
+      <a href="/projects/ddc_project/">
         <div class="card hoverable">
           <div class="card-body">
-            <h2 class="card-title text-lowercase">Ribosome Competition</h2>
-            <p class="card-text">Reduce competition for ribosomes in RNA translation by splitting pools (orthogonal ribosomes)</p>
+            <h2 class="card-title text-lowercase">Data-Driven Control</h2>
+            <p class="card-text">Find controllers for all plants that are consistent with the observed data.</p>
             <div class="row ml-1 mr-1 p-0">
             </div>
           </div>
@@ -245,7 +271,6 @@
     };
   </script>
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
     
   </body>
