@@ -201,16 +201,23 @@ arxiv={2411.15479},
 abstract={A polynomial matrix inequality is a formula asserting that a polynomial matrix is positive semidefinite. Polynomial matrix optimization concerns minimizing the smallest eigenvalue of a symmetric polynomial matrix subject to a tuple of polynomial matrix inequalities. This work explores the use of sparsity methods in reducing the complexity of sum-of-squares based methods in verifying polynomial matrix inequalities or solving polynomial matrix optimization. In the unconstrained setting, Newton polytopes can be employed to sparsify the monomial basis, resulting in smaller semidefinite programs. In the general setting, we show how to exploit different types of sparsity (term sparsity, correlative sparsity, matrix sparsity) encoded in polynomial matrices to derive sparse semidefinite programming relaxations for polynomial matrix optimization. For term sparsity, we show that the block structures of the term sparsity iterations with maximal chordal extensions converge to the one determined by PMI sign symmetries. For correlative sparsity, unlike the scalar case, we provide a counterexample showing that asymptotic convergence does not hold under the Archimedean condition and the running intersection property. By employing the theory of matrix-valued measures, we establish several results on detecting global optimality and retrieving optimal solutions under correlative sparsity. The effectiveness of sparsity methods on reducing computational complexity is demonstrated on various examples of polynomial matrix optimization.}
 }
 
-@preprint{miller2025analysissynthesisswitchedoptimization,
+@article{miller2025analysissynthesisswitchedoptimization,
       title={{Analysis and Synthesis of Switched Optimization Algorithms}}, 
       author={Jared Miller and Fabian Jakob and Carsten Scherer and Andrea Iannelli},
-      year={2025},
+      year={2026},
       arxiv={2510.21490},
 tag={opt},
       archivePrefix={arXiv},
-abstract={Deployment of optimization algorithms on networked systems face challenges associated with time delays and corruptions. One particular instance is the presence of time-varying delays arising from factors such as packet drops and irregular sampling. Fixed time delays can destabilize gradient descent algorithms, and this degradation is exacerbated by time-varying delays. This work concentrates on the analysis and creation of discrete-time optimization algorithms with certified exponential convergence rates that are robust against switched uncertainties between the optimizer and the gradient oracle. These optimization algorithms are implemented by a switch-scheduled output feedback controllers. Rate variation and sawtooth behavior (packet drops) in time-varying delays can be imposed through constraining switching sequences. Analysis is accomplished by bisection in the convergence rate to find Zames-Falb filter coefficents. Synthesis is performed by alternating between a filter coefficient search for a fixed controller, and a controller search for fixed multipliers.},
-      primaryClass={math.OC},
-      url={https://arxiv.org/abs/2510.21490},
+	  volume = {62},
+pages = {101788},
+year = {2026},
+issn = {1751-570X},
+abbr = {NA:HS},
+doi = {https://doi.org/10.1016/j.nahs.2026.101788},
+url = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
+html = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
+abstract={The deployment of optimization algorithms over communication networks face challenges associated with time delays and corruptions. Fixed time delays can destabilize popular gradient-based algorithms, and this degradation is exacerbated by time-varying delays that may arise from packet drops. This work concentrates on the analysis and synthesis of discrete-time optimization algorithms with certified exponential convergence rates that are robust against switched network dynamics between the optimizer and the gradient oracle. Analysis is accomplished by solving linear matrix inequalities under bisection in the exponential convergence rate and searching over Zames–Falb filter coefficients that can certify convergence. Synthesis is performed by alternating between a search over filter coefficient for a fixed controller, and a search over controllers for a fixed filter. Effectiveness is demonstrated by the synthesis of convergent optimization algorithms over networks with time-varying delays, and networks with unstable channel dynamics..},
+      primaryClass={math.OC},      
 code={https://github.com/jarmill/timevaropt}
 }
 

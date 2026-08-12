@@ -66,7 +66,7 @@ Our investigation targets the following questions:
 2. What is an upper-bound of the convergence rate of a given algorithm?
 3. How can we principally design optimization algorithms without requiring hand-tuning?
 
-
+Our <a href="https://opt-syn.github.io/">opt-syn</a> software performs these principled analysis  and design procedures.
 
 <h2> Structure </h2>
 We first provide conditions for an optimization algorithm to converge,  by forming a link from convergence to the control-theoretic concepts of Regulation Theory and the Internal Model Principle. 
