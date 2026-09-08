@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Convex Optimization, Nonlinear Systems, Control Theory
+subtitle: Optimization, Control, Power Electronics
 profile:
   align: right
   image: prof_pic.jpg
@@ -13,12 +13,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Researcher at the <a href="https://www.imng.uni-stuttgart.de/mst/">Chair of Mathematical Systems Theory</a>, <a href="https://ethz.ch/en.html">University of Stuttgart</a> under the direction of <a href="https://www.imng.uni-stuttgart.de/institute/team/Scherer-00006/">Prof. Carsten Scherer</a>. My thesis topic involved peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
-Another branch of research involves data-driven control, including when the system is contaminated with a combination of input, measurement, and process noise (such as flying a drone with faulty motors and sensors on a windy day). I am also interested in optimization and renewable energy integration, and am therefore learning about power systems and power electronics.
+I am a Postdoctoral Researcher at the <a href="https://www.imng.uni-stuttgart.de/mst/">Chair of Mathematical Systems Theory</a>, <a href="https://ethz.ch/en.html">University of Stuttgart</a> under the direction of <a href="https://www.imng.uni-stuttgart.de/institute/team/Scherer-00006/">Prof. Carsten Scherer</a>. My main research interests include the analysis and design of optimization algorithms, and the efficient control of electric motors.
+My thesis topic involved peak estimation and safety analysis (e.g. speed of a car, height of an aircraft, distance to an obstacle) 
 
-I received a Bachelors (EE) and a Masters (EE/CE) degree from Northeastern University in 2018, and a PhD (EE) degree from Northeastern University in 2023 (advised by <a href="http://robustsystems.coe.neu.edu/">Mario Sznaier</a>). I was previously a Postdoctoral Researcher at the <a href="https://control.ee.ethz.ch/">Automatic Control Lab</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>, in the research group of <a href="http://people.ee.ethz.ch/~rsmith/">Prof. Roy S. Smith</a>. 
-
-I have always been interested in applied mathematics, and was introduced to control theory and sparsity during my co-op at ASML (Veldhoven, NL) in 2016. I learned about convex optimization as part of Mario Sznaier's course <a href="/assets/pdf/syll_sparsity_2021.pdf">Big Data, Sparsity, and Control</a> in 2017, for which I later became a teaching assistant.
+I received a Bachelors (EE) and a Masters (EE/CE) degree from Northeastern University in 2018, and a PhD (EE) degree from Northeastern University in 2023 (advised by <a href="http://robustsystems.coe.neu.edu/">Mario Sznaier</a>). I was previously a Postdoctoral Researcher at the <a href="https://control.ee.ethz.ch/">Automatic Control Lab</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>, in the research group of <a href="http://people.ee.ethz.ch/~rsmith/">Prof. Roy S. Smith</a>.  
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

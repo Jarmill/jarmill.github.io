@@ -108,14 +108,22 @@ abstract={This paper develops a method to upper-bound extreme-values of time-win
       primaryClass={math.OC}
 }
 
-@preprint{miller2025lure,
+@article{miller2025lure,
     author={Jared Miller},
-    title={{Incremental Gain Computation and Regulation of Discrete-time Positive Lur\'{e} Systems using Linear Programming}},
-    year={2025},
+    title={{Incremental Peak-to-Peak Gain Computation and Regulation of Discrete-Time Positive Lur\'{e} Systems
+using Linear Programming
+}},
+    year={2026},
+    abbr={AUT},
+    code={https://github.com/Jarmill/pos_lure_lp},
     	  bibtex_show={true},
 url={https://arxiv.org/abs/2505.24386},
 arxiv={https://arxiv.org/abs/2505.24386},
-abstract={This work approaches the problem of computing incremental L1 and $L-\infty$ gains for discrete-time positive systems in \lure feedback with static memoryless nonlinearities, and regulating the $L-\infty$ gain through the design of a state-feedback controller. Finite incremental gains provide a quantitative measure of robustness for trajectories, and will ensure that all pairs of trajectories will converge to a fixed point or will diverge together in the absence of an applied input. Upper-bounds on these incremental gains can be computed through linear programming. Computation and regulation of the L1 and $L-\infty$ incremental gains are verified by numerical examples.}
+abstract={Incremental gains provide a quantitative measure of robustness for trajectories of a dynamical system. Finite incremental gains ensure that all pairs of trajectories will together converge to a fixed point or will diverge together in the absence of an applied input. This work approaches the problem of computing
+the incremental peak-to-peak gains for positive linear systems in Lur´e feedback with static memoryless
+nonlinearities, and regulating the incremental ℓ∞ gain through the design of a state-feedback controller.
+Upper-bounds on these incremental gains can be computed through linear programming. Computation
+and state-feedback regulation of the ℓ∞ incremental gain is verified by numerical examples.}
 }
 
 @preprint{meroni2025approximationstarshapedsetsusing,
@@ -667,7 +675,7 @@ abstract={This work bounds extreme values of state functions for a class of inpu
 }
 
 @article{miller2023crash,
-      title={{Quantifying the Safety of Trajectories using Peak-Minimizing Control}}, 
+      title={{Quantifying the Safety of Trajectories by the Data Corruption Needed to Crash}}, 
       author={Jared Miller and Mario Sznaier},
       year={2026},
       arxiv={2303.11896},
@@ -677,10 +685,10 @@ abstract={This work bounds extreme values of state functions for a class of inpu
 	  tag={peakddc},
       primaryClass={math.OC},      
 	  bibtex_show={true},
-	  url={https://arxiv.org/abs/2303.11896},
+	  url={https://epubs.siam.org/doi/10.1137/24M166262X},
 	  html={https://arxiv.org/abs/2303.11896},
 	  code={https://github.com/Jarmill/crash-safety},
-	  abstract={This work quantifies the safety of trajectories of a dynamical system by the perturbation intensity required to render a system unsafe (crash into the unsafe set). Computation of this measure of safety is posed as a peak-minimizing optimal control problem. Convergent lower bounds on the minimal peak value of controller effort are computed using polynomial optimization and the moment-Sum-of-Squares hierarchy. The crash-safety framework is extended towards data-driven safety analysis by measuring safety as the maximum amount of data corruption required to crash into the unsafe set.}
+	  abstract={This work quantifies the safety of trajectories of a dynamical system by the perturbation intensity required to render a system unsafe (crash into the unsafe set). In the data-driven setting, this perturbation intensity can be interpreted as the minimal data corruption required for a data-consistent model to crash. Computation of this measure of safety is posed as a peak-minimizing optimal control problem. Convergent lower bounds on the minimal peak value of controller effort are computed using polynomial optimization and the moment-Sum-of-Squares hierarchy.}
 }
 
 @phdthesis{miller2023thesis,

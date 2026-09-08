@@ -227,7 +227,7 @@ scholar:
   query: "@*"
   
     # type_order: [misc, preprint, techreport, inproceedings, article, thesis, inbook, book]
-  type_order: [thesis, book, inbook, article, unpubarticle, inproceedings, unpubproceedings, techreport, preprint, misc]
+  type_order: [book, inbook, article, thesis, unpubarticle, inproceedings, unpubproceedings, techreport, preprint, misc]
   # sort_by: type, year
   # group_by: type, year
   # order: ascending
