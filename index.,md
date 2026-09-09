@@ -155,6 +155,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
+                  <th scope="row">Sep 9, 2026</th>
+                  <td>
+                    Our paper about <a href="https://arxiv.org/abs/2507.07263" target="_blank" rel="noopener noreferrer">convergence bounds for asynchronous and distributed shortest path algorithms</a> (with Mattia Bianchi and Florian Dörfler) has been accepted for publication in the <a href="https://ieeecss.org/publication/transactions-control-network-systems" target="_blank" rel="noopener noreferrer">Transactions on Control of Network Systems</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
                   <th scope="row">Sep 6, 2026</th>
                   <td>
                     Our work on <a href="https://arxiv.org/abs/2505.24386" target="_blank" rel="noopener noreferrer">incremental gains of positive Luré systems</a> has been accepted for publication in <a href="https://www.sciencedirect.com/journal/automatica" target="_blank" rel="noopener noreferrer">Automatica</a> (technical note).
@@ -179,13 +186,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
                   <th scope="row">Jun 25, 2026</th>
                   <td>
                     Our paper about <a href="https://ieeexplore.ieee.org/document/11570040" target="_blank" rel="noopener noreferrer">data-driven control of switched linear positive systems</a> (with Tianyu Dai, Mario Sznaier, and Bahram Shafai) has been accepted and  published by the <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9" target="_blank" rel="noopener noreferrer">IEEE Transactions on Automatic Control</a>.
- 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Jun 10, 2026</th>
-                  <td>
-                    I presented findings about <a href="/pdf/Presentation__Structure__Analysis__and_Synthesis_of_Optimization_Algorithms__Oxford.pdf">structures and design of optimization algorithms</a> at the <a href="https://www.siam.org/conferences-events/siam-conferences/op26/" target="_blank" rel="noopener noreferrer">SIAM Conference on Optimization</a> conference in Edinburgh and at the Oxford Control Group seminar series.
  
                   </td>
                 </tr> 
