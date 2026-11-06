@@ -59,7 +59,7 @@
  
 "Heer":
   - firstname: ["P", "Philipp"]
-    url: https://www.empa.ch/web/hep
+    url: https://www.empa.ch/web/s313/ehub-group
 
 "Behrunani":
   - firstname: ["V", "Varsha"]
@@ -75,7 +75,7 @@
 
 "Smith":
   - firstname: ["R", "R.", "Roy", "Roy S."]
-    url: http://people.ee.ethz.ch/~rsmith/
+    url: https://control.ee.ethz.ch/people/profile.roy-smith.html
 
 "Eising":
   - firstname: ["J", "Jaap"]
@@ -107,7 +107,7 @@
 
 "Jasour":
   - firstname: ["A", "A.", "Ashkan"]
-    url: https://jasour.mit.edu/
+    url: https://www.ajasour.com/
    
 "Schmid":
   - firstname: ["N", "N.", "Niklas"]
@@ -180,7 +180,7 @@
 
 "Bonnet":
   - firstname: ["Vincent"]
-    url: http://jovana.throne.rs/
+    url: https://www.laas.fr/fr/annuaire/398
     
 "Jovanovic":
   - firstname: ["Kosta"]    

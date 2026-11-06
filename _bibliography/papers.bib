@@ -16,6 +16,7 @@ arxiv={2506.14469}
 }
 
 
+
 @preprint{miller2026structureanalysissynthesisfirstorder,
       title={Structure, Analysis, and Synthesis of First-Order Algorithms}, 
       author={Jared Miller and Carsten Scherer and Fabian Jakob and Andrea Iannelli},
@@ -24,10 +25,10 @@ arxiv={2506.14469}
 	  tag={opt},
 	  selected={true},
 	  pdf={structure_optimization.pdf},
-	  slides={Presentation__Structure__Analysis__and_Synthesis_of_Optimization_Algorithms__Oxford.pdf},
+	  slides={Presentation__Structure__Analysis__and_Synthesis_of_Optimization_Algorithms__Oxford_.pdf},
       archivePrefix={arXiv},
 	  abstract={Optimization algorithms can be interpreted through the lens of dynamical systems as the interconnection of linear systems and a set of subgradient nonlinearities. This dynamical systems formulation allows for the analysis and synthesis of optimization algorithms by solving robust control problems. In this work, we use the celebrated internal model principle in control theory to structurally factorize convergent composite optimization algorithms into suitable network-dependent internal models and core subcontrollers. As the key benefit, we reveal that this permits us to synthesize optimization algorithms even if information is transmitted over networks featuring dynamical phenomena such as time delays, channel memory, or crosstalk. Design of these algorithms is achieved under bisection in the exponential convergence rate either through a nonconvex local search or by alternation of convex semidefinite programs. We demonstrate factorization of existing optimization algorithms and the automated synthesis of new optimization algorithms in the networked setting.},
-      primaryClass={math.OC}, code={https://github.com/Jarmill/constrained_opt},
+      primaryClass={math.OC}, code={https://github.com/jarmill/composite_opt},
       url={https://arxiv.org/abs/2603.24795},
 	  bibtex_show={true},
 }
@@ -116,19 +117,27 @@ abstract={This paper develops a method to upper-bound extreme-values of time-win
     title={{Incremental Peak-to-Peak Gain Computation and Regulation of Discrete-Time Positive Lur\'{e} Systems
 using Linear Programming
 }},
+volume = {196},
+pages = {113345},
+issn = {0005-1098},
+doi = {https://doi.org/10.1016/j.automatica.2026.113345},
+url = {https://www.sciencedirect.com/science/article/pii/S0005109826005261},
     year={2026},
 	journal={Automatica},
     abbr={AUT},
     code={https://github.com/Jarmill/pos_lure_lp},
     	  bibtex_show={true},
 url={https://arxiv.org/abs/2505.24386},
-arxiv={https://arxiv.org/abs/2505.24386},
+arxiv={2505.24386},
 abstract={Incremental gains provide a quantitative measure of robustness for trajectories of a dynamical system. Finite incremental gains ensure that all pairs of trajectories will together converge to a fixed point or will diverge together in the absence of an applied input. This work approaches the problem of computing
 the incremental peak-to-peak gains for positive linear systems in Lur´e feedback with static memoryless
 nonlinearities, and regulating the incremental ℓ∞ gain through the design of a state-feedback controller.
 Upper-bounds on these incremental gains can be computed through linear programming. Computation
 and state-feedback regulation of the ℓ∞ incremental gain is verified by numerical examples.}
 }
+
+
+
 
 @article{meroni2025approximationstarshapedsetsusing,
       title={Approximation of starshaped sets using polynomials}, 
@@ -171,24 +180,31 @@ abstract={Two subsets of a given set are path-disconnected if they lie in differ
 	  abstract={The Error-in-Variables model of system identification/control involves nontrivial input and measurement corruption of observed data, resulting in generically nonconvex optimization problems. This paper performs full-state-feedback stabilizing control of all discrete-time linear systems that are consistent with observed data for which the input and measurement noise obey quadratic bounds. Instances of such quadratic bounds include elementwise norm bounds (at each time sample), energy bounds (across the entire signal), and chance constraints arising from (sub)gaussian noise. Superstabilizing controllers are generated through the solution of a sum-of-squares hierarchy of semidefinite programs. A theorem of alternatives is employed to eliminate the input and measurement noise process, thus improving tractability. Effectiveness of the scheme is generated on an example system in the chance-constrained set-membership setting where the input and state-measurement noise are i.i.d. normally distributed.},
 	  html={https://ieeexplore.ieee.org/document/10551376},
 	  url={https://ieeexplore.ieee.org/document/10551376},
-	  arxiv={https://arxiv.org/abs/2403.03624},
+	  arxiv={2403.03624},
 	  code={https://github.com/jarmill/eiv_quad},      
 	  abbr={LCSS},      
 }
+ 
 
-@inproceedings{miller2026she,
-year={2026},
-title={{Symmetry-Reduced Algebraic Selective Harmonic Elimination for Cascaded H-Bridge Converters with
-Unequal DC Source Levels}},
-author={Jared Miller and Nicol\'as Estay  and Petros Karamanakos and Alejandro Angulo},
-slides={Presentation__Unequal_SHE__ECCE.pdf},
+
+@inproceedings{miller2026sheunequal,
+  author={Miller, Jared and Estay, Nicolás and Karamanakos, Petros and Angulo, Alejandro},
+  slides={Presentation__Unequal_SHE__ECCE.pdf},
 pdf={SHE_Unequal__ECCE.pdf},
 code={https://github.com/jarmill/she_unequal},
 tag={pe},
-booktitle={Energy Conversion Congress \& Expo: Europe, 2026}, 
-abstract={Low-order current harmonics are undesirable in power converter and electric drive systems because they are difficult to filter out effectively. Selective harmonic elimination (SHE) is a modulation-based method commonly employed to suppress specific harmonic components. Computing the switching time instants (commonly expressed as switching angles) of SHE pulse patterns, however, remains challenging because it requires solving a nonlinear system of equations. This paper proposes a symmetry-reduced formulation based on partition-compatible elementary symmetric polynomials that improves computational tractability and enables the computation of all solutions of the resulting polynomial system. The proposed framework is developed for cascaded H-bridge converters with unequal dc cell voltages, thereby addressing a more general setting than the equal-voltage case commonly considered in the literature. Numerical results verify the effectiveness of the method in eliminating the targeted harmonics.},
-abbr={ECCE}
-}
+abbr={ECCE},
+  booktitle={2026 Energy Conversion Congress & Expo Europe (ECCE Europe)}, 
+  title={Symmetry-Reduced Algebraic Selective Harmonic Elimination for Cascaded H-Bridge Converters with Unequal DC Source Levels}, 
+  year={2026},
+  volume={},
+  number={},
+  abstract={Low-order current harmonics are undesirable in power converter and electric drive systems because they are difficult to filter out effectively. Selective harmonic elimination (SHE) is a modulation-based method commonly employed to suppress specific harmonic components. Computing the switching time instants (commonly expressed as switching angles) of SHE pulse patterns, however, remains challenging because it requires solving a nonlinear system of equations. This paper proposes a symmetry-reduced formulation based on partition-compatible elementary symmetric polynomials that improves computational tractability and enables the computation of all solutions of the resulting polynomial system. The proposed framework is developed for cascaded H-bridge converters with unequal dc cell voltages, thereby addressing a more general setting than the equal-voltage case commonly considered in the literature. Numerical results verify the effectiveness of the method in eliminating the targeted harmonics.},
+  pages={1-6},
+  keywords={Voltage;Switches;Equations;Cells (biology);Polynomials;Printing;Converters;Tagging;Current;Indexes;Multilevel converters;selective harmonics elimination (SHE);algebraic methods;symmetry},
+  doi={10.1109/ECCEEurope67962.2026.11738028}}
+
+
 
 @ARTICLE{miller2020ribosome,
   author={Miller, Jared and Al-Radhawi, Muhammad Ali and Sontag, Eduardo Daniel},
@@ -224,7 +240,7 @@ abbr={ECCE}
 	  code={https://github.com/wangjie212/TSSOS},
 	  url={https://epubs.siam.org/doi/full/10.1137/24M1719761},
 	  html={https://epubs.siam.org/doi/full/10.1137/24M1719761},
-      arxiv={https://arxiv.org/abs/2411.15479}, 
+      arxiv={2411.15479}, 
 arxiv={2411.15479},
 abstract={A polynomial matrix inequality is a formula asserting that a polynomial matrix is positive semidefinite. Polynomial matrix optimization concerns minimizing the smallest eigenvalue of a symmetric polynomial matrix subject to a tuple of polynomial matrix inequalities. This work explores the use of sparsity methods in reducing the complexity of sum-of-squares based methods in verifying polynomial matrix inequalities or solving polynomial matrix optimization. In the unconstrained setting, Newton polytopes can be employed to sparsify the monomial basis, resulting in smaller semidefinite programs. In the general setting, we show how to exploit different types of sparsity (term sparsity, correlative sparsity, matrix sparsity) encoded in polynomial matrices to derive sparse semidefinite programming relaxations for polynomial matrix optimization. For term sparsity, we show that the block structures of the term sparsity iterations with maximal chordal extensions converge to the one determined by PMI sign symmetries. For correlative sparsity, unlike the scalar case, we provide a counterexample showing that asymptotic convergence does not hold under the Archimedean condition and the running intersection property. By employing the theory of matrix-valued measures, we establish several results on detecting global optimality and retrieving optimal solutions under correlative sparsity. The effectiveness of sparsity methods on reducing computational complexity is demonstrated on various examples of polynomial matrix optimization.}
 }
@@ -238,15 +254,15 @@ volume = {62},
 pages = {101788},
 year = {2026},
 issn = {1751-570X},
-doi = {https://doi.org/10.1016/j.nahs.2026.101788},
+arxiv={2510.21490},
+slides={Switched_Opt_IFAC_NAHS.pdf},
 url = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
 abbr = {NA:HS},
 doi = {https://doi.org/10.1016/j.nahs.2026.101788},
-url = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
 html = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
 abstract={The deployment of optimization algorithms over communication networks face challenges associated with time delays and corruptions. Fixed time delays can destabilize popular gradient-based algorithms, and this degradation is exacerbated by time-varying delays that may arise from packet drops. This work concentrates on the analysis and synthesis of discrete-time optimization algorithms with certified exponential convergence rates that are robust against switched network dynamics between the optimizer and the gradient oracle. Analysis is accomplished by solving linear matrix inequalities under bisection in the exponential convergence rate and searching over Zames–Falb filter coefficients that can certify convergence. Synthesis is performed by alternating between a search over filter coefficient for a fixed controller, and a search over controllers for a fixed filter. Effectiveness is demonstrated by the synthesis of convergent optimization algorithms over networks with time-varying delays, and networks with unstable channel dynamics..},
       primaryClass={math.OC},      
-code={https://github.com/jarmill/timevaropt}
+code={https://github.com/jarmill/time_var_opt}
 }
 
 @preprint{miller2024maximizing,
@@ -295,7 +311,7 @@ tag={pe},
 poster={OPP_Poster__CLOCK.pdf},
       primaryClass={eess.SY},
 	  url={https://ieeexplore.ieee.org/document/11312506},
-      arxiv={https://arxiv.org/abs/2512.07585}, 
+      arxiv={2512.07585}, 
 abstract={Optimal pulse patterns (OPPs) are a modulation method in which the switching angles and levels of a switching signal are computed via an offline optimization procedure to minimize a performance metric, typically the harmonic distortions of the load current. Additional constraints can be incorporated into the optimization problem to achieve secondary objectives, such as the limitation of specific harmonics or the reduction of power converter losses. The resulting optimization problem, however, is highly nonconvex, featuring a trigonometric objective function and constraints as well as both real- and integer-valued optimization variables. This work casts the task of OPP synthesis for a multilevel converter as an optimal control problem of a hybrid system. This problem is in turn lifted into a convex but infinite-dimensional conic program of occupation measures using established methods in convex relaxations of optimal control. Lower bounds on the minimum achievable harmonic distortion are acquired by solving a sequence of semidefinite programs via the moment-sum-of-squares hierarchy, where each semidefinite program scales in a jointly linear manner with the numbers of permitted switching transitions and converter voltage levels.},
 	  code={https://github.com/jarmill/opp_pop}
 }
@@ -330,7 +346,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S0005109826001238},
 abbr={AUT}, 	 code={https://github.com/jarmill/prob_unsafe/},
 	  abstract={This paper proposes an algorithm to calculate the maximal probability of unsafety with respect to trajectories of a stochastic process and a hazard set. The unsafe probability estimation problem is cast as a primal-dual pair of infinite-dimensional linear programs in occupation measures and continuous functions. This convex relaxation is nonconservative (to the true probability of unsafety) under compactness and regularity conditions in dynamics. The continuous-function linear program is linked to existing probability-certifying barrier certificates of safety. Risk contours for initial conditions of the stochastic process may be generated by suitably modifying the objective of the continuous-function program, forming an interpretable and visual representation of stochastic safety for test initial conditions. All infinite-dimensional linear programs are truncated to finite dimension by the Moment-Sum-of-Squares hierarchy of semidefinite programs. Unsafe-probability estimation and risk contours are generated for example stochastic processes.},
       primaryClass={math.OC},
-      arxiv={https://arxiv.org/abs/2401.00815},
+      arxiv={https://arxiv.org/abs/00815},
 	  doi={https://doi.org/10.1016/j.automatica.2026.112939}
 }
 
@@ -762,7 +778,7 @@ journal={IEEE Transactions on Automatic Control},
     archivePrefix={arXiv},
 	code={https://github.com/Jarmill/chance_peak},
 	show_bibtex={true},
-	arxiv={https://arxiv.org/abs/2303.16064},
+	arxiv={2303.16064},
 	url={https://ieeexplore.ieee.org/document/10806813},
 	html={https://ieeexplore.ieee.org/document/10806813},
 slides={Chance_Peak__INFORMS.pdf},
@@ -851,15 +867,24 @@ url = {https://www.sciencedirect.com/science/article/pii/S0005109825005370},
 	  abstract={Peak estimation of hybrid systems aims to upper bound extreme values of a state function along trajectories, where this state function could be different in each subsystem. This finite-dimensional but nonconvex problem may be lifted into an infinite-dimensional linear program (LP) in occupation measures with an equal objective under mild finiteness/compactness and smoothness assumptions. This LP may in turn be approximated by a convergent sequence of upper bounds attained from solutions of Linear Matrix Inequalities (LMIs) using the Moment-Sum-of-Squares hierarchy. The peak estimation problem is extended to problems with uncertainty and safety settings, such as measuring the distance of closest approach between points along hybrid system trajectories and unsafe sets.}
 }
 
+ 
 @inproceedings{honarpisheh2024loewner,
-    title={{Low Order Systems in a Loewner Framework}},
-    author={Arya Honarpisheh and Rajiv Singh and Jared Miller and Mario Sznaier},
-booktitle = {IFAC Symposium on System Identification},
-    year={2024},
-	pdf={Identification_of_Low_Order_Systems_in_Loewner_Framework},
-	abstract={This paper considers the problem of non-parametric identification of low-order models from time-domain experimental data using a combination of Caratheodory Fejer and Loewner-based interpolation, followed by a Loewner matrix  Balanced Reduction (LBR) step. As we show in the paper, the Loewner matrix is an estimator for the trace norm of a system, playing a role similar to the one played by the Hankel matrix. However, utilizing Zolotarev numbers to establish decay rate bounds for singular values reveals that the decay of singular values in the Loewner matrix is considerably faster than that in the Hankel matrix. Thus, Loewner-based methods yield lower order systems, with the same error bound, than comparable ones based on Hankel matrices. The effectiveness of our method is demonstrated through a numerical example.},
-	abbr={SysID}
+title = {Identification of Low Order Systems in a Loewner Framework},
+journal = {IFAC-PapersOnLine},
+volume = {58},
+number = {15},
+pages = {199-204},
+year = {2024},
+note = {20th IFAC Symposium on System Identification SYSID 2024},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2024.08.528},
+url = {https://www.sciencedirect.com/science/article/pii/S2405896324013089},
+author = {Arya Honarpisheh and Rajiv Singh and Jared Miller and Mario Sznaier},
+abbr={SysID},
+keywords = {Low-rank Approximation, Loewner Matrix, Hankel Matrix, Balanced Reduction, Subspace Methods, Linear Systems},
+abstract = {This paper considers the problem of non-parametric identification of low-order models from time-domain experimental data using a combination of Caratheodory Fejer and Loewner-based interpolation, followed by a Loewner matrix Balanced Reduction (LBR) step. As we show in the paper, the Loewner matrix is an estimator for the trace norm of a system, playing a role similar to the one played by the Hankel matrix. However, utilizing Zolotarev numbers to establish decay rate bounds for singular values reveals that the decay of singular values in the Loewner matrix is considerably faster than that in the Hankel matrix. Thus, Loewner-based methods yield lower order systems, with the same error bound, than comparable ones based on Hankel matrices. The effectiveness of our method is demonstrated through a numerical example.}
 }
+
 
 @ARTICLE{miller2025robustcounterpart,
   author={Miller, Jared and Sznaier, Mario},

@@ -14,7 +14,7 @@ This thesis was defended on April 3, 2023. Information about the thesis is avail
 
 
 Our first step to perform this quantification involved measuring the constraint violation using maximin optimization, yielding a safety margin (with safety verified if this margin is negative) {% cite miller2020recovery %}. Peak estimation may also occur for dynamics with compact-valued time-dependent or time-independent uncertainty (including switching) {% cite miller2021uncertain %}.
-An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set {% cite miller2021distance %}.
+An extension of this includes quantifying the safety of trajectories by finding the distance of closest approach to an unsafe set {% cite miller2023distance %}.
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
@@ -49,7 +49,7 @@ Extensions of the peak/distance estimation framework include adding (bounded) un
     Left plot: a distance estimate under an uncertainty process. Center plot: the closest approach with respect to L1 distance. Right plot: closest approach betwen a point on the translating shape (pink square) and the unsafe set.
 </div>
 
-Peak estimation can be used in a data-driven framework to formulate safety quantification of unknown systems. When the dynamics are input-affine and the corruption is semidefinite-representable (e.g., box-bounded), infinite-dimensional robust counterparts may be applied to drastically reduce the size of PSD matrices {% cite miller2023robustcounterpart %}. This robust counterpart framework can be applied to peak estimation, reachable set estimation, distance estimation, and to the peak-minimizing control problem that finds minimum possible data corruption needed to crash into the unsafe set  {% cite miller2023crash %}.
+Peak estimation can be used in a data-driven framework to formulate safety quantification of unknown systems. When the dynamics are input-affine and the corruption is semidefinite-representable (e.g., box-bounded), infinite-dimensional robust counterparts may be applied to drastically reduce the size of PSD matrices {% cite miller2025robustcounterpart %}. This robust counterpart framework can be applied to peak estimation, reachable set estimation, distance estimation, and to the peak-minimizing control problem that finds minimum possible data corruption needed to crash into the unsafe set  {% cite miller2023crash %}.
 
 <div class="row">
 	<div class="col-sm mt-3 mt-md-0">
@@ -67,7 +67,7 @@ Peak estimation can be used in a data-driven framework to formulate safety quant
 </div>
 
 
-Peak and Distance Estimation may be applied to dynamical systems that do not follow Ordinary Differential Equations. Peak estimation may be applied to hybrid systems by modifying hybrid Optimal Control Programs {% cite miller2023hybrid %}. Stochastic Differential Equations (SDEs) can also be analyzed by finding the peak Value-at-Risk (epsilon-quantile) of the state function {% cite miller2023chancepeak %}.
+Peak and Distance Estimation may be applied to dynamical systems that do not follow Ordinary Differential Equations. Peak estimation may be applied to hybrid systems by modifying hybrid Optimal Control Programs {% cite miller2026hybrid %}. Stochastic Differential Equations (SDEs) can also be analyzed by finding the peak Value-at-Risk (epsilon-quantile) of the state function {% cite miller2023chancepeak %}.
 
 
 <div class="row">
