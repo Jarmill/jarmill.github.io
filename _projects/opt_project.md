@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Optimization Algorithms
-description: Characterize and design and  convergent optimization algorithms over dynamical networks (time delays)
+description: Characterize and design convergent optimization algorithms over dynamical networks (e.g., time delays)
 img:
 importance: 1
 tag: opt

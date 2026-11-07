@@ -6,6 +6,14 @@
   - firstname: ["O", "O.", "Octavia"]
     url: http://robustsystems.coe.neu.edu/
 
+"Fochesato":
+  - firstname: ["M", "Marta"]
+    url: https://scholar.google.com/citations?user=1BggjLwAAAAJ&hl=de
+
+"Sutter":
+  - firstname: ["T", "Tobias"]
+    url: https://sites.google.com/view/suttert/
+
 "Bianchi":
   - firstname: ["M", "M.", "Mattia"]
     url: https://ee.ethz.ch/the-department/people-a-z/person-detail.MzE5Mzk2.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html
@@ -189,3 +197,18 @@
 "Mohammed":
   - firstname: ["Samer"]
     url: https://scholar.google.fr/citations?user=tRq58eYAAAAJ&hl=fr
+    
+    
+"Borri":
+  - firstname: ["A", "Alessandro"]
+    url: https://www.alessandroborri.eu/
+    
+    
+"Paglialonga":
+  - firstname: ["A", "Alessia"]
+    url: https://www.deib.polimi.it/eng/people/details/298834
+    
+    
+"Dabbene":
+  - firstname: ["F", "Fabrizio"]
+    url: http://www.cnr.it/people/fabrizio.dabbene

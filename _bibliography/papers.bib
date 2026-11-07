@@ -157,7 +157,7 @@ abstract={We introduce polystar bodies: compact starshaped sets whose gauge or r
 
 @preprint{henrion2024setdisconnected,
       title={{Algebraic Proofs of Path Disconnectedness using Time-Dependent Barrier Functions}}, 
-      author={Didier Henrion and Jared Miller and Mohab Safey El Din},
+      author={Didier Henrion and Jared Miller and Safey El Din, Mohab},
       year={2024},
       eprint={2404.06985},
 	bibtex_show={true},  
@@ -194,7 +194,7 @@ pdf={SHE_Unequal__ECCE.pdf},
 code={https://github.com/jarmill/she_unequal},
 tag={pe},
 abbr={ECCE},
-  booktitle={2026 Energy Conversion Congress & Expo Europe (ECCE Europe)}, 
+  booktitle={Energy Conversion Congress & Expo Europe (ECCE Europe)}, 
   title={Symmetry-Reduced Algebraic Selective Harmonic Elimination for Cascaded H-Bridge Converters with Unequal DC Source Levels}, 
   year={2026},
   volume={},
@@ -245,6 +245,36 @@ arxiv={2411.15479},
 abstract={A polynomial matrix inequality is a formula asserting that a polynomial matrix is positive semidefinite. Polynomial matrix optimization concerns minimizing the smallest eigenvalue of a symmetric polynomial matrix subject to a tuple of polynomial matrix inequalities. This work explores the use of sparsity methods in reducing the complexity of sum-of-squares based methods in verifying polynomial matrix inequalities or solving polynomial matrix optimization. In the unconstrained setting, Newton polytopes can be employed to sparsify the monomial basis, resulting in smaller semidefinite programs. In the general setting, we show how to exploit different types of sparsity (term sparsity, correlative sparsity, matrix sparsity) encoded in polynomial matrices to derive sparse semidefinite programming relaxations for polynomial matrix optimization. For term sparsity, we show that the block structures of the term sparsity iterations with maximal chordal extensions converge to the one determined by PMI sign symmetries. For correlative sparsity, unlike the scalar case, we provide a counterexample showing that asymptotic convergence does not hold under the Archimedean condition and the running intersection property. By employing the theory of matrix-valued measures, we establish several results on detecting global optimality and retrieving optimal solutions under correlative sparsity. The effectiveness of sparsity methods on reducing computational complexity is demonstrated on various examples of polynomial matrix optimization.}
 }
 
+
+@inproceedings{depaola2025counterfactuals,
+title = {Robust control-driven counterfactual generation for uncertain systems},
+journal = {11th IFAC Symposium on Robust Control Design ROCOND 2025},
+volume = {59},
+number = {16},
+pages = {116-121},
+year = {2025},
+abbr={ROCOND},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2025.10.089},
+abstract={This work is devoted to the discussion of a robust approach for counterfactual generation in a control framework. Counterfactual is a concept from the field of logic, which in last years has been adopted in the context of artificial intelligence to describe the minimum changes in the input variables required to vary the outcome of a classification algorithm. In general, this framework for counterfactuals shows some limitations inherently due to the fact the most of the machine learning models leverage black box approaches, overlooking the physics of the underlying system. In this work we discuss a control system approach to derive counterfactuals that are informed by the knowledge about the system dynamics, in the very general case of a system affected by model parameter uncertainties.},
+url = {https://www.sciencedirect.com/science/article/pii/S2405896325014764},
+author = {Pierluigi Francesco {De Paola} and Jared Miller and Alessandro Borri and Alessia Paglialonga and Fabrizio Dabbene},
+keywords = {optimization, optimal control, occupation measures, counterfactuals, diabetes control},
+note={\href{https://www.sciencedirect.com/science/article/pii/S2405896325014764}{[link]}}
+}
+
+@preprint{schmid2026joint,
+  title={Joint Chance Constrained Safe-Optimal Control},
+  author={Schmid, Niklas and Miller, Jared and Zeller, Tristan and Fochesato, Marta and Sutter, Tobias and Lygeros, John},
+  journal={arXiv preprint arXiv:2606.30829},
+  url={https://arxiv.org/abs/2606.30829},
+  arxiv={2606.30829},
+  abstract={We consider the finite-time optimal control of stochastic systems subject to a probabilistic constraint on the trajectories' safety. Such formulations are known as joint chance constrained optimal control problems. The common practice is to jointly minimise the expected cost of all trajectories, safe and unsafe. This leads to policies which invite constraint violations to exploit low-cost unsafe trajectories. When constraints represent states of critical failure, such behaviour is undesirable. We demonstrate that this behaviour can be overcome by only minimizing the expected cost of safe trajectories. The underlying rationale follows a practical intuition: In many applications, the cost incurred by unsafe trajectories is irrelevant (e.g., the battery usage of a crashed quadcopter), and one is usually interested in minimizing the cost of trajectories that are safe. We show that this problem can be cast as a constrained Markov Decision Process over an augmented state space. This allows solving it via dynamic programming. We derive bounds on the policies' safety under errors resulting from gridding approximations when the system's state space is continuous. Finally, we empirically compare dynamic programming as well as reinforcement learning solutions on a simulated 2D unicycle system in cluttered reach-avoid environments.},
+  code={https://github.com/NiklasSchmidResearch/JCC_Safe_Optimal},
+  show_bibtex={true},
+  year={2026}
+}
+
 @article{miller2025analysissynthesisswitchedoptimization,
          author={Jared Miller and Fabian Jakob and Carsten Scherer and Andrea Iannelli},
       year={2026},
@@ -255,6 +285,7 @@ pages = {101788},
 year = {2026},
 issn = {1751-570X},
 arxiv={2510.21490},
+tag={opt},
 slides={Switched_Opt_IFAC_NAHS.pdf},
 url = {https://www.sciencedirect.com/science/article/pii/S1751570X26001147},
 abbr = {NA:HS},
@@ -296,7 +327,7 @@ tag={pe},
       url={https://arxiv.org/abs/2512.08201}, 
 	  code={https://github.com/jarmill/opp_pop},
 	  poster={OPP_Poster__CLOCK.pdf},
-abstract={Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigono metric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approachs.}
+abstract={Optimal pulse patterns (OPPs) are a modulation technique in which a switching signal is computed offline through an optimization process that accounts for selected performance criteria, such as current harmonic distortion. The optimization determines both the switching angles (i.e., switching times) and the pattern structure (i.e., the sequence of voltage levels). This optimization task is a challenging mixed-integer nonconvex problem, involving integer-valued voltage levels and trigonometric nonlinearities in both the objective and the constraints. We address this challenge by reinterpreting OPP design as a periodic mode-selecting optimal control problem of a hybrid system, where selecting angles and levels corresponds to choosing jump times in a transition graph. This time-domain formulation enables the direct use of convex-relaxation techniques from optimal control, producing a hierarchy of semidefinite programs that lower-bound the minimal achievable harmonic distortion and scale subquadratically with the number of converter levels and switching angles. Numerical results demonstrate the effectiveness of the proposed approaches.}
 }
 
 @inproceedings{miller2025optimalpulsepatternshybrid,
@@ -605,14 +636,15 @@ code={https://github.com/Jarmill/quantized_ddc}
 
 @article{imtiaz2022saif,
   doi = {10.48550/ARXIV.2212.07495},
-  url = {https://arxiv.org/abs/2212.07495},
+  url = {https://openreview.net/forum?id=YZL29eJ5j1},
   arxiv={2212.07495},
+  journal={Transactions on Machine Learning Research},
   note={arXiv: 2212.07495},
   archivePrefix={arXiv},
   abbr={TMLR},
   primaryClass={cs.CV},
   abstract={Adversarial attacks hamper the decision-making ability of neural networks by perturbing the input signal. The addition of calculated small distortion to images, for instance, can deceive a well-trained image classification network. In this work, we propose a novel attack technique called Sparse Adversarial and Interpretable Attack Framework (SAIF). Specifically, we design imperceptible attacks that contain low-magnitude perturbations at a small number of pixels and leverage these sparse attacks to reveal the vulnerability of classifiers. We use the Frank-Wolfe (conditional gradient) algorithm to simultaneously optimize the attack perturbations for bounded magnitude and sparsity with O(1/sqrt(T)) convergence. Empirical results show that SAIF computes highly imperceptible and interpretable adversarial examples, and outperforms state-of-the-art sparse attack methods on the ImageNet dataset.},
-  author = {Imtiaz, Tooba and Kohler, Morgan and Miller, Jared and Wang, Zifeng and Sznaier, Mario and Camps, Octavia and Dy, Jennifer},
+  author = {Imtiaz, Tooba and Kohler, Morgan and Miller, Jared and Wang, Zifeng and Eskandar, Masih and Sznaier, Mario and Camps, Octavia and Dy, Jennifer},
   keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
   pdf={SAIF_arxiv.pdf},
   title = {SAIF: Sparse Adversarial and Interpretable Attack Framework},

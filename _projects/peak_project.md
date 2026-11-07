@@ -46,7 +46,7 @@ Extensions of the peak/distance estimation framework include adding (bounded) un
     </div>
 </div>
 <div class="caption">
-    Left plot: a distance estimate under an uncertainty process. Center plot: the closest approach with respect to L1 distance. Right plot: closest approach betwen a point on the translating shape (pink square) and the unsafe set.
+    Left plot: a distance estimate under an uncertainty process. Center plot: the closest approach with respect to L1 distance. Right plot: closest approach between a point on the translating shape (pink square) and the unsafe set.
 </div>
 
 Peak estimation can be used in a data-driven framework to formulate safety quantification of unknown systems. When the dynamics are input-affine and the corruption is semidefinite-representable (e.g., box-bounded), infinite-dimensional robust counterparts may be applied to drastically reduce the size of PSD matrices {% cite miller2025robustcounterpart %}. This robust counterpart framework can be applied to peak estimation, reachable set estimation, distance estimation, and to the peak-minimizing control problem that finds minimum possible data corruption needed to crash into the unsafe set  {% cite miller2023crash %}.
