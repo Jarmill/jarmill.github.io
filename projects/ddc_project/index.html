@@ -13,7 +13,7 @@
     <title>Jared F. Miller | Data-Driven Control</title>
     <meta name="author" content="Jared F. Miller" />
     <meta name="description" content="Find controllers for all plants that are consistent with the observed data." />
-    <meta name="keywords" content="convex, optimization, dynamical, nonlinear, phd, northeastern, eth" />
+    <meta name="keywords" content="power electronics, convex, optimization, dynamical, nonlinear, stuttgart" />
 
 
     <!-- Bootstrap & MDB -->
@@ -87,6 +87,9 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">teaching</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <div class="toggle-container">
@@ -142,9 +145,9 @@ of Linear Parameter-Varying (LPV) systems.</p>
     Stabilizing control of an LPV system given data observations. The left side highlights stabilization of the ground-truth in red, and the blue trajectories are other systems in the data consistency set. The right side samples additional parameter sequences and demonstrates stabilization.
 </div>
 
-<p>The introduction of input and measurement noise is called the Error-in-Variables (EIV) setting, and adds a bilinearity that results in NP-hard system identification and control problems. We developed a polynomial-optimization based framework to perform stabilizing and robust control of all consistent plants in the EIV setting when all noise processes are L-infinity norm bounded (missing reference). The moment-Sum-of-Squares (SOS) hierarchy is used to find a superstabilizing or quadratically stabilizing controller, where each nonnegativity constraint is posed over the set of unknown plants and unknown noise processes. We a used theorem of alternatives is used to eliminate the unknown noise variables and improve computational scalability. This SOS-based framework may be extended towards the control of autoregressive models with input-output data <a class="citation" href="#miller2022eivarx">(Miller et al., 2023)</a>.</p>
+<p>The introduction of input and measurement noise is called the Error-in-Variables (EIV) setting, and adds a bilinearity that results in NP-hard system identification and control problems. We developed a polynomial-optimization based framework to perform stabilizing and robust control of all consistent plants in the EIV setting when all noise processes are L-infinity norm bounded <a class="citation" href="#miller2024eiv">(Miller et al., 2024)</a>. The moment-Sum-of-Squares (SOS) hierarchy is used to find a superstabilizing or quadratically stabilizing controller, where each nonnegativity constraint is posed over the set of unknown plants and unknown noise processes. We used theorem of alternatives to eliminate the unknown noise variables and improve computational scalability. This SOS-based framework may be extended towards the control of autoregressive models with input-output data <a class="citation" href="#miller2022eivarx">(Miller et al., 2023)</a>.</p>
 
-<p>Data-Driven techniques may also be applied to peak estimation. The data-consistency set in (missing reference) is modeled as a parameter-affine differential inclusion for a semidefinite-representable-bounded uncertainty process.</p>
+<p>Data-Driven techniques may also be applied to peak estimation. The data-consistency set in <a class="citation" href="#miller2025robustcounterpart">(Miller &amp; Sznaier, 2025)</a> is modeled as a parameter-affine differential inclusion for a semidefinite-representable-bounded uncertainty process.</p>
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -489,7 +492,7 @@ of Linear Parameter-Varying (LPV) systems.</p>
 
           <!-- Journal/Book title and date -->
           <div class="periodical">
-            <em>IEEE Control Systems Letters</em> 2023
+            Northeastern University 2023
           </div>
         
           <!-- Links/Buttons -->
@@ -544,7 +547,7 @@ A finite-dimensional but nonconvex peak estimation problem can be converted into
           <div class="title">Data-Driven Structured Robust Control of Linear Systems</div>
           <!-- Author -->
           <div class="author">
-                  <em>Miller, Jared</em>, <a href="https://jaapeising.github.io/" target="_blank" rel="noopener noreferrer">Eising, Jaap</a>, <a href="https://dorfler.ethz.ch/" target="_blank" rel="noopener noreferrer">Dörfler, Florian</a>, and <a href="http://people.ee.ethz.ch/~rsmith/" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>
+                  <em>Miller, Jared</em>, <a href="https://jaapeising.github.io/" target="_blank" rel="noopener noreferrer">Eising, Jaap</a>, <a href="https://dorfler.ethz.ch/" target="_blank" rel="noopener noreferrer">Dörfler, Florian</a>, and <a href="https://control.ee.ethz.ch/people/profile.roy-smith.html" target="_blank" rel="noopener noreferrer">Smith, Roy S.</a>
                   
           </div>
 
